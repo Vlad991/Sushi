@@ -1,0 +1,27 @@
+container
+    header
+        header__logo
+            logo
+                logo__img
+                logo__title
+                logo__subtitle
+        header__menu
+            menu
+                menu__item
+                    menu__link
+        header__contact
+            contact
+    navigation
+        navigation__menu
+            menu
+                menu__item
+                    menu__link link-search
+        navigation__enter
+            enter
+                login
+                    login__img
+                    login__title
+                basket
+                    basket__img
+                    basket__amount
+

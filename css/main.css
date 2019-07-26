@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'PF Din Text Comp Pro Bold';
+    src: url("../font/pfdintextcomppro-bold.ttf");
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro Regular';
+    src: url("../font/pfdintextcomppro-regular.ttf");
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro Medium';
+    src: url("../font/PF Din Text Comp Pro Medium.ttf");
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    color: #000;
+    font-size:100%;
+    vertical-align:baseline;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*.........................Main styles...........................................*/
+
+/*..........Header...............*/
+
+.container {
+    margin: 0 0;
+}
+
+.container__fixed {
+    width: 1361px;
+    margin: 0 auto;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background: #F3F4F6;
+    padding: 38px 0;
+}
+
+.header__logo {}
+
+.logo {
+    width: 330px;
+}
+
+.logo__img {}
+
+.logo__title {
+    width: 220px;
+    font-family: sans-serif;
+    padding: 12px 0;
+}
+
+.logo__heading {
+    /* font-family: "PF Din Text Comp Pro Bold"; */
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.logo__subheading {
+    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+}
+
+.header__menu {}
+
+.menu {
+    width: 514px;
+    height: 100%;
+}
+
+.menu__item {}
+
+.menu__link {
+    display: block;
+    height: 100%;
+    line-height: 81px;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.header__contact {
+    margin-left: 105px;
+}
+
+.contact {
+    width: 411px;
+}
+
+.contact::before {
+    display: block;
+    content: "Ежедневно с 11:00 до 23:00";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 16px 0 3px 185px;
+}
+
+.contact__item {
+    font-size: 24px;
+    margin-left: 3px;
+    letter-spacing: 0.7px;
+}
+
+.navigation {
+    position: fixed;
+    left: 40px;
+    height: 62px;
+    border-bottom: #000 1px solid;
+}
+
+.navigation__menu {}
+
+.link-search {}
+
+.menu_nav {
+    /* height: 62px; */
+    /* border-bottom: #000 1px solid; */
+}
+
+.menu__link_nav {
+    line-height: 62px;
+    letter-spacing: 0.5px;
+}
+
+.menu__item_nav {
+    margin-left: 34px;
+}
+
+.menu__link_burgers {
+    width: 158px;
+}
+
+.menu__item_nav:first-child {
+    margin-left: 0;
+}
+
+.navigation__enter {}
+
+.enter {}
+
+.login {}
+
+.login__img {}
+
+.login__title {}
+
+.basket {}
+
+.basket__img {}
+
+.basket__amount {}
