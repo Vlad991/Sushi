@@ -94,6 +94,13 @@ container
                         download__app-store
                         download__play-market
 
+    container__contacts
+        contacts
+            container__fixed
+                contacts__header
+                contacts__communication-points
+                    communication-points
+                        comunication-points__item
 
 
 

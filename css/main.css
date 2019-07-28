@@ -46,7 +46,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .container {
     margin: 0 0;
-    min-height: 2000px;
     position: relative;
 }
 
@@ -283,7 +282,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .new-password-sended {
     background: #DFF0D8;
     height: 45px;
-    /* display: none; */
+    display: none;
 }
 
 .new-password-sended__message {
@@ -318,7 +317,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /*......................Authorization......................*/
 
-.container__authorization {
+.container__authorization {height: 500px;}
+
+.container__wrap {
     position: absolute;
     left: 38.4%;
     top: 331px;
@@ -456,6 +457,145 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .authorization__continue-button {
     margin-top: 32px;
+}
+
+/*..................................Footer..................................................*/
+
+.container__footer {
+    /* display: none; */
+}
+
+.footer {
+    background: #1D1D1D;
+    height: 218px;
+    padding: 41px 0;
+}
+
+.footer__main {}
+
+.main {
+}
+
+.main__item {
+    display: inline-block;
+    width: 265px;
+    margin-left: 62px;
+    vertical-align: top;
+}
+
+.main__item_first {
+    margin-left: 0;
+}
+
+.main__logo {
+    margin: 34px 0 0;
+}
+
+.logo_footer {}
+
+.logo__heading_footer {
+    color: #fff;
+    font-size: 26px;
+    font-family: "Opne Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.logo__title_footer {
+    margin-left: 29px;
+    padding: 11px 0 0;
+}
+
+.logo__subheading_footer {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    font-style: italic;
+}
+
+.item-section {
+}
+
+.item-section__heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.item-section__link-list {
+    margin: 23px 0 0;
+}
+
+.link-list {}
+
+.link-list__item {
+    line-height: 30px;
+}
+
+.link-list__link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer__sprite {
+    margin: 24px 0;
+}
+
+.sprite {}
+
+.sprite__item {
+    margin-left: 15px;
+}
+
+.sprite__item:first-child {
+    margin-left: 0;
+}
+
+.sprite__link {
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.sprite__link_vk {
+    background: url(../img/footer/vk.svg) no-repeat center;
+}
+
+.sprite__link_fb {
+    background: url(../img/footer/fb.svg) no-repeat center;
+}
+
+.sprite__link_od {
+    background: url(../img/footer/od.svg) no-repeat center;
+}
+
+.sprite__link_inst {
+    background: url(../img/footer/inst.svg) no-repeat center;
+}
+
+.footer__download {
+    margin-right: 84px;
+}
+
+.download {}
+
+.download__title {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.download__app-store {
+    margin-left: 30px;
+}
+
+.download__play-market {
+    margin-left: 16px;
 }
 
 

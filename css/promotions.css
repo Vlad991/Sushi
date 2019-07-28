@@ -1,6 +1,8 @@
 .container__promotions {}
 
-.promotions {}
+.promotions {
+    min-height: 1381px;
+}
 
 .promotions__header {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
