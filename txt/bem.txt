@@ -57,6 +57,43 @@ container
                         email__input field
                     authorization__continue-button button
 
+    container__promotions
+        promotions
+          container__fixed
+            promotions__header
+            promotions__slider
+                slider
+                    slide
+                        slide__heading
+                        slide__article
+                            slide__article-title
+                            slide__text
+
+    container__footer
+        footer
+            container__fixed
+                footer__main main
+                    main__item
+                        logo
+                            logo__img
+                            logo__title
+                            logo__subtitle
+                    main__item
+                        item-section
+                            item-section__heading
+                            item-section__link-list
+                                link-list
+                                    link-list__item
+                                        link-list__link
+                footer__sprite layout
+                    sprite
+                        sprite__item
+                            sprite__link
+                    download
+                        download__title
+                        download__app-store
+                        download__play-market
+
 
 
 

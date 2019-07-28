@@ -1,0 +1,72 @@
+.container__promotions {}
+
+.promotions {}
+
+.promotions__header {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 67px 0 26px;
+}
+
+.promotions__slider {}
+
+.slider {
+    flex-wrap: wrap;
+}
+
+.slide {
+    display: block;
+    width: 430px;
+    height: 560px;
+    box-sizing: border-box;
+    border: #F3F4F6 3px solid;
+}
+
+.slide__header {
+    padding: 0.01%;
+    width: 100%;
+    height: 320px;
+}
+
+.slide__header_1 {
+    background: url(../img/promotions/slide1.jpg) no-repeat top center;
+}
+
+.slide__header_2 {background: url(../img/promotions/slide2.jpg) no-repeat top center;}
+
+.slide__header_3 {
+    background: url(../img/promotions/slide3.jpg) no-repeat top center;
+}
+
+.slide__heading {
+    margin: 33px 30px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.6px;
+}
+
+.slide__heading_black {
+    color: #000;
+}
+
+.slide__article {
+    height: 209px;
+    padding: 22px 23px 0 26px;
+}
+
+.slide__article-title {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+
+.slide__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    color: #5F5F5F;
+    margin: 27px 0;
+}

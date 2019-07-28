@@ -89,16 +89,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .logo__subheading {
-    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 16px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
     line-height: 12px;
 }
 
 .header__menu {}
 
 .menu {
-    width: 368px;
+    width: 372px;
     height: 100%;
 }
 
@@ -110,6 +110,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     line-height: 84px;
     font-size: 16px;
     letter-spacing: 1.7px;
+    font-family: PF Din Text Comp Pro Medium;
 }
 
 .header__contact {
@@ -131,8 +132,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .contact__item {
     font-size: 24px;
-    margin-left: 21px;
-    letter-spacing: 1.3px;
+    margin-left: 22px;
+    letter-spacing: 0.7px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
 }
 
 .contact__item_first {
@@ -172,6 +174,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     line-height: 67px;
     font-size: 18px;
     letter-spacing: 1px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
 }
 
 .search::before {
@@ -240,6 +243,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     top: -7px;
     right: -14px;
     z-index: 100;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    line-height: 20px;
 }
 
 .basket__amount {
@@ -255,7 +260,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .email-not-found {
-    background: #F2DEDE;height: 45px;
+    background: #F2DEDE;
+    height: 45px;
     display: none;
 }
 
@@ -263,6 +269,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     line-height: 45px;
+    padding-left: 4px;
+    letter-spacing: 0.5px;
 }
 
 /*.................New Password Sended.....................*/
@@ -275,13 +283,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .new-password-sended {
     background: #DFF0D8;
     height: 45px;
-    display: none;
+    /* display: none; */
 }
 
 .new-password-sended__message {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     line-height: 45px;
+    letter-spacing: 0.5px;
 }
 
     /*...............Location.................*/
