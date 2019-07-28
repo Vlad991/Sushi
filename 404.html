@@ -94,6 +94,10 @@
         </div>
     </div>
 
+    <div class="container__404 container__fixed">
+        <img src="img/404/404.svg" alt="404" class="img404">
+    </div>
+
     <footer class="container__footer footer">
         <div class="container__fixed">
             <section class="footer__main main">
@@ -182,24 +186,6 @@
     ga('send', 'pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
-<script>
-    // Initialize and add the map
-    function initMap() {
-        // The location of Uluru
-        var uluru = {lat: 46.8309549, lng: 29.6167622};
-        // The map, centered at Uluru
-        var map = new google.maps.Map(
-            document.getElementById('map'), {
-                zoom: 17,
-                center: uluru
-            });
-        // The marker, positioned at Uluru
-        var marker = new google.maps.Marker({position: uluru, map: map});
-    }
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbe_pjG--7Tm9BJL5m4rHeSfWFsJ8seUI&callback=initMap">
-</script>
 </body>
 
 </html>
