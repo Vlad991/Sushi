@@ -19,9 +19,45 @@ container
         navigation__enter
             enter
                 login
-                    login__img
+                    login__img-wrap
+                        login__img
                     login__title
                 basket
                     basket__img
                     basket__amount
+
+    location
+        container__fixed
+            location__main
+            location__sub
+
+    container__authorization
+        authorization authorization_phone
+            authorization__header
+            authorization__number number
+                number__title
+                number__input
+            authorization__sms-button button
+            authorization__footer
+        authorization authorization_phone-password
+                    authorization__header
+                    authorization__number number
+                        number__title
+                        number__input field
+                    authorization__password password
+                        password__title
+                        password__input field
+                        password__forgot
+                    authorization__enter-button button
+        authorization authorization_forgot-password
+                    authorization__header
+                    authorization__text
+                    authorization__email email
+                        email__title
+                        email__input field
+                    authorization__continue-button button
+
+
+
+
 

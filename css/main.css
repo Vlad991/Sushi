@@ -32,6 +32,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .container {
     margin: 0 0;
     min-height: 2000px;
+    position: relative;
 }
 
 .container__fixed {
@@ -125,6 +126,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .container__sticky {
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .navigation__menu {
@@ -227,3 +229,201 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     /* font-family: "PF Din Text Comp Pro Medium"; */
     font-size: 18px;
 }
+
+/*.................Email Not Found.....................*/
+
+.container__email-not-found {
+    position: sticky;
+    top: 0;
+}
+
+.email-not-found {background: #F2DEDE;height: 45px;display: none;}
+
+.email-not-found__message {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+    line-height: 45px;
+}
+
+/*.................New Password Sended.....................*/
+
+.container__new-password-sended {
+    position: sticky;
+    top: 0;
+}
+
+.new-password-sended {
+    background: #DFF0D8;
+    height: 45px;
+    display: none;
+}
+
+.new-password-sended__message {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+    line-height: 45px;
+}
+
+    /*...............Location.................*/
+
+.container__location {
+    margin-top: 24px;
+}
+
+.location {font-size: 14px;letter-spacing: 1px;}
+
+.location__main {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+}
+
+.location__slash {}
+
+.location__sub {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+}
+
+
+/*......................Authorization......................*/
+
+.container__authorization {
+    position: absolute;
+    left: 36%;
+    top: 331px;
+}
+
+.authorization  {
+    width: 335px;
+    height: 260px;
+}
+
+.authorization_phone {
+    /* display: none; */
+}
+
+.authorization_phone-password {
+    display: none;
+}
+
+.authorization_forgot-password {
+    display: none;
+}
+
+.authorization__header {
+    text-align: center;
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.authorization__number {margin-top: 26px;}
+
+.number {}
+
+.number__title {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-size: 16px;
+    color: #5F5F5F;
+    letter-spacing: 0.5px;
+    margin-bottom: 9px;
+}
+
+.number__title::after {
+    content: "*";
+    display: inline-block;
+    color: #F81242;
+}
+
+.number__input {}
+
+.field {
+    width: 335px;
+    height: 44px;
+    box-sizing: border-box;
+    border: #A4B0BE 1px solid;
+    border-radius: 9px;
+    padding: 9px 13px;
+    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-size: 20px;
+}
+
+.authorization__sms-button {
+    margin: 40px 0;
+}
+
+.button {
+    width: 335px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 22px;
+    background: #DFE4EA;
+    border: none;
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.authorization__footer {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+    letter-spacing: 0.5px;
+}
+
+.authorization__password {
+}
+
+.password {
+}
+
+.password__title {
+    margin-top: 20px;
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+    letter-spacing: 0.5px;
+}
+
+.password__input {
+    margin: 9px 0;
+}
+
+.password__forgot {
+    display: block;
+    margin-top: 11px;
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #F81242;
+    letter-spacing: 0.5px;
+}
+
+.authorization__enter-button {
+    margin-top: 39px;
+}
+
+.authorization__text {
+    margin: 21px 0 4px;
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.authorization__email {}
+
+.email {}
+
+.email__title {
+    /* font-family: "PF Din Text Comp Pro Regular"; */
+    color: #5F5F5F;
+    letter-spacing: 0.5px;
+}
+
+.email__input {
+    margin: 9px 0;
+}
+
+.authorization__continue-button {
+    margin-top: 31px;
+}
+
+
+

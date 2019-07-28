@@ -26,6 +26,7 @@
 <!-- Add your site or application content here -->
 
 <div class="container">
+
     <header class="header container__header">
         <div class="container__fixed layout">
             <div class="logo header__logo layout">
@@ -50,6 +51,7 @@
             </div>
         </div>
     </header>
+
     <section class="navigation container__navigation container__sticky">
         <div class="container__fixed layout">
             <nav class="navigation__menu">
@@ -78,6 +80,61 @@
                 </a>
             </div>
         </div>
+    </section>
+
+    <div class="container__email-not-found email-not-found">
+        <div class="container__fixed">
+            <div class="email-not-found__message">E-Mail адрес не найден, проверьте и попробуйте ещё раз!</div>
+        </div>
+    </div>
+
+    <div class="container__new-password-sended new-password-sended">
+        <div class="container__fixed">
+            <div class="new-password-sended__message">Новый пароль был выслан на ваш E-mail</div>
+        </div>
+    </div>
+
+    <div class="location container__location">
+        <div class="container__fixed">
+            <span class="location__main">Главная</span>
+            <span class="location__slash">/</span>
+            <span class="location__sub">Авторизация</span>
+        </div>
+    </div>
+
+    <section class="container__authorization">
+        <form action="" class="authorization authorization_phone">
+            <div class="authorization__header">Авторизация</div>
+            <div class="authorization__number number">
+                <div class="number__title">Номер мобильного телефона</div>
+                <input type="text" class="number__input field">
+            </div>
+            <button class="authorization__sms-button button">ПОЛУЧИТЬ КОД ПО SMS</button>
+            <a href="#" class="authorization__footer">У меня есть пароль</a>
+        </form>
+        <form action="" class="authorization authorization_phone-password">
+            <div class="authorization__header">Авторизация</div>
+            <div class="authorization__number number">
+                <div class="number__title">Номер мобильного телефона</div>
+                <input type="text" class="number__input field">
+            </div>
+            <div class="authorization__password password">
+                <div class="password__title">Пароль:</div>
+                <input type="password" class="password__input field">
+                <a href="#" class="password__forgot">Забыли пароль?</a>
+            </div>
+            <button class="authorization__enter-button button">Войти</button>
+        </form>
+        <form action="" class="authorization authorization_forgot-password">
+            <div class="authorization__header">Забыли пароль?</div>
+            <div class="authorization__text">Введите адрес электронной почты вашей учетной записи.<br> Нажмите кнопку
+                Продолжить, чтобы получить пароль по электронной почте.</div>
+            <div class="authorization__email email">
+                <div class="email__title">E-mail:</div>
+                <input type="text" class="email__input field">
+            </div>
+            <button class="authorization__continue-button button">Продолжить</button>
+        </form>
     </section>
 
 </div>
