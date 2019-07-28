@@ -29,7 +29,7 @@
     <header class="header container__header">
         <div class="container__fixed layout">
             <div class="logo header__logo layout">
-                <img src="img/header/logo.png" alt="Sushi And Pizza!" class="logo__img">
+                <img src="img/header/logo.svg" alt="Sushi And Pizza!" class="logo__img">
                 <div class="logo__title">
                     <div class="logo__heading">LOVE SUSHI</div>
                     <div class="logo__subheading">Мы делаем жизнь вкуснее!</div>
@@ -50,7 +50,7 @@
             </div>
         </div>
     </header>
-    <section class="navigation container__navigation">
+    <section class="navigation container__navigation container__sticky">
         <div class="container__fixed layout">
             <nav class="navigation__menu">
                 <ul class="menu layout menu_nav">
@@ -64,18 +64,18 @@
                     <li class="menu__item menu__item_nav"><a href=""
                                                                                 class="menu__link menu__link_burgers menu__link_nav">БУРГЕРЫ И ГРИЛЬ</a></li>
                     <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">САЛАТЫ</a></li>
-                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_search">Поиск</a></li>
+                    <li class="menu__item menu__item_search"><a href="" class="menu__link menu__link_search">Поиск
+                    </a></li>
                 </ul>
             </nav>
-            <div class="enter navigation__enter">
-                <div class="login">
-                    <img src="img/header/login-man.png" alt="Login" class="login__img">
-                    <div class="login__title">Войти</div>
-                </div>
-                <div class="basket">
-                    <img src="img/header/basket.png" alt="Корзина" class="basket__img">
+            <div class="enter navigation__enter layout">
+                <a href="#" class="login">Войти</a>
+                <a href="#" class="basket layout">
+                    <div class="basket__img-wrap">
+                        <img src="img/header/basket.svg" alt="Корзина" class="basket__img">
+                    </div>
                     <div class="basket__amount">1 185 р.</div>
-                </div>
+                </a>
             </div>
         </div>
     </section>

@@ -31,6 +31,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .container {
     margin: 0 0;
+    min-height: 2000px;
 }
 
 .container__fixed {
@@ -72,8 +73,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .logo__subheading {
     /* font-family: "PF Din Text Comp Pro Medium"; */
     font-size: 16px;
-    font-weight: lighter;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.5px;
 }
 
 .header__menu {}
@@ -107,6 +107,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 16px;
     letter-spacing: 0.5px;
     margin: 16px 0 3px 185px;
+    color: #5F5F5F;
 }
 
 .contact__item {
@@ -116,28 +117,51 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .navigation {
-    position: fixed;
-    left: 40px;
     height: 62px;
-    border-bottom: #000 1px solid;
+    border-bottom: #CED6E0 1px solid;
+    background: #fff;
 }
 
-.navigation__menu {}
+.container__sticky {
+    position: sticky;
+    top: 0;
+}
+
+.navigation__menu {
+}
 
 .link-search {}
 
 .menu_nav {
-    /* height: 62px; */
-    /* border-bottom: #000 1px solid; */
+    height: 62px;
+    width: 100%;
 }
 
 .menu__link_nav {
     line-height: 62px;
     letter-spacing: 0.5px;
+    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-family: sans-serif;
+}
+
+.menu__link_search {
+    width: 87px;
+    line-height: 62px;
+    font-size: 18px;
+}
+
+.menu__link_search::before {
+    content: url("../img/header/loupe.svg");
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .menu__item_nav {
     margin-left: 34px;
+}
+
+.menu__item_search {
+    margin-left: 27px;
 }
 
 .menu__link_burgers {
@@ -148,18 +172,58 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-left: 0;
 }
 
-.navigation__enter {}
+.navigation__enter {
+    margin-right: 53px;
+}
 
-.enter {}
+.enter {
+    width: 209px;
+}
 
-.login {}
+.login {
+    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-size: 18px;
+    line-height: 61px;
+    width: 81px;
+}
 
-.login__img {}
+.login::before {
+    content: url("../img/header/login-man.svg");
+    display: inline-block;
+    margin-right: 11px;
+}
 
-.login__title {}
+.login__title {
+    display: inline-flex;
+}
 
-.basket {}
+.basket {
+    width: 97px;
+    padding: 21px 0;
+}
 
 .basket__img {}
 
-.basket__amount {}
+.basket__img-wrap {
+    position: relative;
+}
+
+.basket__img-wrap::before {
+    content: "5";
+    display: block;
+    height: 18px;
+    width: 18px;
+    background: #F81242;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -9px;
+    right: -12px;
+    z-index: 100;
+}
+
+.basket__amount {
+    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-size: 18px;
+}
