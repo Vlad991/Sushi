@@ -10,7 +10,22 @@
 
 @font-face {
     font-family: 'PF Din Text Comp Pro Medium';
-    src: url("../font/PF Din Text Comp Pro Medium.ttf");
+    src: url("../font/pfdintextcomppro-medium.ttf");
+}
+
+@font-face {
+    font-family: 'Century Gothic Bold';
+    src: url("../font/centurygothicbold.ttf");
+}
+
+@font-face {
+    font-family: 'SF UI Text Regular';
+    src: url("../font/sfuitextregular.otf");
+}
+
+@font-face {
+    font-family: 'SF UI Text Semibold';
+    src: url("../font/sfuitextsemibold.ttf");
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -22,7 +37,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align:baseline;
     list-style: none;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "PF Din Text Comp Pro Regular";
 }
 
 /*.........................Main styles...........................................*/
@@ -36,7 +51,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .container__fixed {
-    width: 1361px;
+    width: 1290px;
     margin: 0 auto;
 }
 
@@ -48,39 +63,42 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header {
     background: #F3F4F6;
     padding: 38px 0;
+    height: 79px;
 }
 
 .header__logo {}
 
 .logo {
-    width: 330px;
+    width: 264px;
 }
 
 .logo__img {}
 
 .logo__title {
     width: 220px;
-    font-family: sans-serif;
-    padding: 12px 0;
+    padding: 15px 0 0;
+    margin-left: 30px;
 }
 
 .logo__heading {
-    /* font-family: "PF Din Text Comp Pro Bold"; */
+    font-family: "PF Din Text Comp Pro Bold", sans-serif;
     font-size: 32px;
     font-weight: bold;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
+    line-height: 38px;
 }
 
 .logo__subheading {
-    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 16px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
+    line-height: 12px;
 }
 
 .header__menu {}
 
 .menu {
-    width: 514px;
+    width: 368px;
     height: 100%;
 }
 
@@ -89,17 +107,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .menu__link {
     display: block;
     height: 100%;
-    line-height: 81px;
+    line-height: 84px;
     font-size: 16px;
-    letter-spacing: 1.6px;
+    letter-spacing: 1.7px;
 }
 
 .header__contact {
-    margin-left: 105px;
+    margin-left: 183px;
 }
 
 .contact {
-    width: 411px;
+    width: 341px;
 }
 
 .contact::before {
@@ -113,12 +131,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .contact__item {
     font-size: 24px;
-    margin-left: 3px;
-    letter-spacing: 0.7px;
+    margin-left: 21px;
+    letter-spacing: 1.3px;
+}
+
+.contact__item_first {
+    margin-left: 41px;
 }
 
 .navigation {
-    height: 62px;
+    height: 64px;
     border-bottom: #CED6E0 1px solid;
     background: #fff;
 }
@@ -135,39 +157,35 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .link-search {}
 
 .menu_nav {
-    height: 62px;
+    height: 64px;
     width: 100%;
 }
 
 .menu__link_nav {
-    line-height: 62px;
+    line-height: 66px;
     letter-spacing: 0.5px;
-    /* font-family: "PF Din Text Comp Pro Medium"; */
-    font-family: sans-serif;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
 }
 
-.menu__link_search {
+.search {
     width: 87px;
-    line-height: 62px;
+    line-height: 67px;
     font-size: 18px;
+    letter-spacing: 1px;
 }
 
-.menu__link_search::before {
+.search::before {
     content: url("../img/header/loupe.svg");
     display: inline-block;
     margin-right: 10px;
 }
 
 .menu__item_nav {
-    margin-left: 34px;
-}
-
-.menu__item_search {
-    margin-left: 27px;
+    margin-left: 26px;
 }
 
 .menu__link_burgers {
-    width: 158px;
+    width: 104px;
 }
 
 .menu__item_nav:first-child {
@@ -175,18 +193,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .navigation__enter {
-    margin-right: 53px;
 }
 
 .enter {
-    width: 209px;
+    width: 300px;
 }
 
 .login {
-    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 18px;
-    line-height: 61px;
-    width: 81px;
+    line-height: 65px;
+    width: 87px;
 }
 
 .login::before {
@@ -200,8 +217,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .basket {
-    width: 97px;
-    padding: 21px 0;
+    width: 81px;
+    padding: 22px 0;
 }
 
 .basket__img {}
@@ -220,13 +237,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-align: center;
     color: #fff;
     position: absolute;
-    top: -9px;
-    right: -12px;
+    top: -7px;
+    right: -14px;
     z-index: 100;
 }
 
 .basket__amount {
-    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 18px;
 }
 
@@ -237,10 +254,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     top: 0;
 }
 
-.email-not-found {background: #F2DEDE;height: 45px;display: none;}
+.email-not-found {
+    background: #F2DEDE;height: 45px;
+    display: none;
+}
 
 .email-not-found__message {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     line-height: 45px;
 }
@@ -259,7 +279,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .new-password-sended__message {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     line-height: 45px;
 }
@@ -270,16 +290,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-top: 24px;
 }
 
-.location {font-size: 14px;letter-spacing: 1px;}
+.location {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
 
 .location__main {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+     font-family: "PF Din Text Comp Pro Regular", sans-serif;
 }
 
 .location__slash {}
 
 .location__sub {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
 }
 
@@ -288,7 +311,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .container__authorization {
     position: absolute;
-    left: 36%;
+    left: 38.4%;
     top: 331px;
 }
 
@@ -311,9 +334,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .authorization__header {
     text-align: center;
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .authorization__number {margin-top: 26px;}
@@ -321,11 +344,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .number {}
 
 .number__title {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 16px;
     color: #5F5F5F;
     letter-spacing: 0.5px;
-    margin-bottom: 9px;
+    margin-bottom: 7px;
 }
 
 .number__title::after {
@@ -343,12 +366,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: #A4B0BE 1px solid;
     border-radius: 9px;
     padding: 9px 13px;
-    /* font-family: "PF Din Text Comp Pro Medium"; */
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 20px;
 }
 
 .authorization__sms-button {
-    margin: 40px 0;
+    margin: 41px 0;
 }
 
 .button {
@@ -358,14 +381,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border-radius: 22px;
     background: #DFE4EA;
     border: none;
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 16px;
     letter-spacing: 0.7px;
     text-transform: uppercase;
+    line-height: 48px;
 }
 
 .authorization__footer {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     letter-spacing: 0.5px;
 }
@@ -378,7 +402,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .password__title {
     margin-top: 20px;
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     letter-spacing: 0.5px;
 }
@@ -390,7 +414,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .password__forgot {
     display: block;
     margin-top: 11px;
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #F81242;
     letter-spacing: 0.5px;
 }
@@ -400,8 +424,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .authorization__text {
-    margin: 21px 0 4px;
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    margin: 21px 0 28px;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     line-height: 24px;
     letter-spacing: 0.5px;
@@ -412,17 +436,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .email {}
 
 .email__title {
-    /* font-family: "PF Din Text Comp Pro Regular"; */
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     letter-spacing: 0.5px;
 }
 
 .email__input {
-    margin: 9px 0;
+    margin: 7px 0;
 }
 
 .authorization__continue-button {
-    margin-top: 31px;
+    margin-top: 32px;
 }
 
 
