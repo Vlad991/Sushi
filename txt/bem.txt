@@ -100,7 +100,14 @@ container
                 contacts__header
                 contacts__communication-points
                     communication-points
-                        comunication-points__item
+                        communication-points__item layout
+                            communication-point__img
+                            communication-point__text
+                                communication-point__title
+                                communication-point__point
+                contacts__map
+                    map
+
 
 
 

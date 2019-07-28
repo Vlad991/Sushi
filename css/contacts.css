@@ -1,0 +1,77 @@
+.container__contacts {}
+
+.contacts {}
+
+.contacts__header {
+    margin: 68px 0 46px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.contacts__communication-points {
+    margin-bottom: 97px;
+}
+
+.communication-points {
+}
+
+.communication-points__item {
+    display: inline-block;
+    margin-left: 108px;
+}
+
+.communication-points__item_first {
+    margin-left: 0;
+}
+
+.communication-points__item_second {
+}
+
+.communication-points__item_third {
+    margin-left: 65px;
+}
+
+.communication-points__item_fourth {
+    margin-left: 131px;
+}
+
+.communication-point__img {vertical-align: top;margin: 6px 0;}
+
+.communication-point__text {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+.communication-point__text_first {
+
+}
+
+.communication-point__text_second {margin-left: 26px;}
+
+.communication-point__text_third {margin-left: 20px;}
+
+.communication-point__text_fourth {margin-left: 27px;}
+
+.communication-point__title {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.communication-point__point {
+    margin: 8px 0 0;
+    font-family: "PF Din Text Comp Pro Regular" ,sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+    letter-spacing: 0.6px;
+}
+
+.container__map {
+    min-height: 700px;
+}
+
+.map {
+    height: 500px;
+    background: #333;
+}

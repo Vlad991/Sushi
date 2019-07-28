@@ -1,60 +1,205 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="">
+
 <head>
     <meta charset="utf-8">
-    <title>Page Not Found</title>
+    <title></title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
 
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="img/header/logo.svg">
+    <!-- Place favicon.ico in the root directory -->
 
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
-        }
+    <!--  <link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/404.css">
 
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
-        }
-
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
-        }
-
-        p {
-            margin: 0 auto;
-            width: 280px;
-        }
-
-        @media only screen and (max-width: 280px) {
-
-            body, p {
-                width: 95%;
-            }
-
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
-            }
-
-        }
-
-    </style>
+    <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<div class="container">
+
+    <header class="header container__header">
+        <div class="container__fixed layout">
+            <div class="logo header__logo layout">
+                <img src="img/header/logo.svg" alt="Sushi And Pizza!" class="logo__img">
+                <div class="logo__title">
+                    <div class="logo__heading">LOVE SUSHI</div>
+                    <div class="logo__subheading">Мы делаем жизнь вкуснее!</div>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <ul class="menu layout">
+                    <li class="menu__item"><a href="payment_and_delivery.html" class="menu__link">Оплата и доставка</a>
+                    </li>
+                    <li class="menu__item"><a href="bonuses.html" class="menu__link">Бонусы</a></li>
+                    <li class="menu__item"><a href="promotions.html" class="menu__link">Акции</a></li>
+                    <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="contact header__contact">
+                <a class="contact__item contact__item_first" href="tel:053320420">0 (533) 20-4-20</a>
+                <a class="contact__item" href="tel:77772244">0 (777) 7-22-44</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation container__navigation container__sticky">
+        <div class="container__fixed layout">
+            <div class="navigation__menu">
+                <ul class="menu layout menu_nav">
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">НОВИНКИ</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">АССОРТИ</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">ПРЕМИУМ</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">РОЛЛЫ</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">СУШИ</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">ПИЦЦА</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">WOK</a></li>
+                    <li class="menu__item menu__item_nav"><a href=""
+                                                             class="menu__link menu__link_burgers menu__link_nav">БУРГЕРЫ
+                        И ГРИЛЬ</a></li>
+                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">САЛАТЫ</a></li>
+                    <li
+                            class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">НЕ ЗАБЫТЬ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="enter navigation__enter layout">
+                <a href="" class="search">Поиск</a>
+                <a href="#" class="login">Войти</a>
+                <a href="#" class="basket layout">
+                    <div class="basket__img-wrap">
+                        <img src="img/header/basket.svg" alt="Корзина" class="basket__img">
+                    </div>
+                    <div class="basket__amount">1 185 р.</div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="location container__location">
+        <div class="container__fixed">
+            <span class="location__main">Главная</span>
+            <span class="location__slash">/</span>
+            <span class="location__sub">Акции</span>
+        </div>
+    </div>
+
+    <footer class="container__footer footer">
+        <div class="container__fixed">
+            <section class="footer__main main">
+                <div class="main__item main__item_first">
+                    <div class="logo logo_footer main__logo layout">
+                        <img src="img/footer/logo.svg" alt="Sushi And Pizza!" class="logo__img">
+                        <div class="logo__title logo__title_footer">
+                            <div class="logo__heading logo__heading_footer">LOVE SUSHI</div>
+                            <div class="logo__subheading logo__subheading_footer">Мы делаем жизнь вкуснее!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__item">
+                    <div class="item-section">
+                        <div class="item-section__heading">ИНФОРМАЦИЯ</div>
+                        <nav class="item-section__link-list">
+                            <ul class="linklist">
+                                <li class="link-list__item"><a href="#" class="link-list__link">О нас</a></li>
+                                <li class="link-list__item"><a href="#" class="link-list__link">Оплата и доставка</a>
+                                </li>
+                                <li class="link-list__item"><a href="#" class="link-list__link">Политика
+                                    безопасности</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="main__item">
+                    <div class="item-section">
+                        <div class="item-section__heading">ДОПОЛНИТЕЛЬНО</div>
+                        <nav class="item-section__link-list">
+                            <ul class="linklist">
+                                <li class="link-list__item"><a href="" class="link-list__link">Производители</a></li>
+                                <li class="link-list__item"><a href="" class="link-list__link">Подарочные
+                                    сертификаты</a></li>
+                                <li class="link-list__item"><a href="" class="link-list__link">Партнёры</a></li>
+                                <li class="link-list__item"><a href="" class="link-list__link">Товары со скидкой</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="main__item">
+                    <div class="item-section">
+                        <div class="item-section__heading">НАШИ КОНТАКТЫ</div>
+                        <nav class="item-section__link-list">
+                            <ul class="linklist">
+                                <li class="link-list__item"><a href="" class="link-list__link">0 (533) 20-4-20, 0 (777)
+                                    7-22-44</a></li>
+                                <li class="link-list__item"><a href="" class="link-list__link">г. Тирасполь, ул. 1 Мая,
+                                    2</a></li>
+                                <li class="link-list__item"><a href="" class="link-list__link">zakaz@love-sushi.org</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <section class="footer__sprite layout">
+                <ul class="sprite layout">
+                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_vk"></a></li>
+                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_fb"></a></li>
+                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_od"></a></li>
+                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_inst"></a></li>
+                </ul>
+                <div class="footer__download download layout">
+                    <div class="download__title">Скачать приложение:</div>
+                    <a href="" class="download__app-store"><img src="img/footer/app-store.svg" alt=""></a>
+                    <a href="" class="download__play-market"><img src="img/footer/play-market.svg" alt=""></a>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+</div>
+
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 46.8309549, lng: 29.6167622};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {
+                zoom: 17,
+                center: uluru
+            });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbe_pjG--7Tm9BJL5m4rHeSfWFsJ8seUI&callback=initMap">
+</script>
 </body>
+
 </html>
-<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
