@@ -1,3 +1,7 @@
+.container__contacts-location {
+    display: none;
+}
+
 .container__contacts {}
 
 .contacts {}
@@ -75,3 +79,88 @@
     height: 500px;
     background: #333;
 }
+
+@media screen and (max-width: 1280px){
+    .communication-point__text {
+    }
+
+    .communication-points__item {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .communication-points__item {
+        width: 268px;
+        margin: 12px 30px;
+    }
+}
+
+@media screen and (max-width: 800px){}
+
+@media screen and (max-width: 640px){
+    .container__contacts-location {
+        display: block;
+    }
+
+    .contacts-location__link {
+    display: block;
+    margin: 20px 0 0px;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    }
+
+    .contacts-location__link::before {
+        content: url("../img/contacts/arrow.svg");
+        display: inline-block;
+        margin: 0 13px 0 0;
+    }
+
+    .contacts__header {
+        margin: 17px 0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+
+    .contacts__communication-points {
+        margin-bottom: 34px;
+    }
+
+    .communication-points__item {
+        margin: 14px 7px;
+    }
+    .communication-points__item_first {
+        margin: 11px 7px;
+    }
+
+    .communication-point__text {
+        margin-left: 23px;
+    }
+
+    .communication-point__text_first {}
+
+    .communication-point__text_second {
+    margin-left: 13px;
+}
+
+    .communication-point__text_third {
+    margin-left: 8px;
+}
+    
+    .communication-point__text_fourth {
+    margin-left: 14px;
+    }
+
+    .container__map {
+        min-height: 401px;
+    }
+
+    .map {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px){}
+
+@media screen and (max-width: 320px){}

@@ -79,7 +79,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 @media screen and (max-width: 480px) {
     .container__fixed_adaptive {
-        max-width: 325px;
+        max-width: 333px;
     }
 }
 
@@ -199,7 +199,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .adaptive-navigation {
-    /* display: none; */
+    display: none;
 }
 
 .container__sticky {
