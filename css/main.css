@@ -67,7 +67,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 @media screen and (max-width: 959px) {
     .container__fixed_adaptive {
-        max-width: 900px;
+        max-width: 700px;
     }
 }
 
@@ -196,6 +196,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 64px;
     border-bottom: #CED6E0 1px solid;
     background: #fff;
+}
+
+.adaptive-navigation {
+    /* display: none; */
 }
 
 .container__sticky {
@@ -583,8 +587,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
     .adaptive-navigation {}
 
-    .container__fixed_adaptive {}
-
     .adaptive-navigation {
     flex-wrap: wrap;
 }
@@ -834,7 +836,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*..................................Footer..................................................*/
 
 .container__footer {
-     display: none;
+     /* display: none; */
 }
 
 .footer {
@@ -845,8 +847,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .footer__main {}
 
-.main {
-}
+.main {}
 
 .main__item {
     display: inline-block;
@@ -910,7 +911,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .link-list__link {
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
-    color: #fff;
+    color: #9F9F9F;
 }
 
 .footer__sprite {
@@ -970,5 +971,147 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-left: 16px;
 }
 
+@media screen and (max-width: 1280px) {
+    .main__item {
+        margin-left: 88px;
+        width: 179px;
+    }
 
+    .main__item_first {
+        width: 262px;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1152px) {
+    .main__item {
+        margin-left: 46px;
+    }
+
+    .main__item_first {
+        width: 262px;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .main__item {
+        margin-left: -10px;
+    }
+
+    .main__item_first {
+        width: 262px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .container__footer {
+        margin-bottom: 62px;
+    }
+
+    .main__item {
+        width: 153px;
+    }
+
+    .main__item_first {
+    width: 243px;
+}
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        height: 667px;
+        padding: 0.01%;
+    }
+
+    .logo_footer {}
+
+    .logo {
+    margin: 0;
+}
+
+    .logo__title_footer {
+    padding: 0;
+    margin: 0;
+}
+
+    .logo__heading_footer {
+        font-family: "PF Din Text Comp Pro Bold", sans-serif;
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    .main__item {
+        width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main__item_first {
+        width: 186px;
+        margin-top: 29px;
+    }
+
+    .item-section__heading {
+        display: none;
+    }
+
+    .item-section__link-list {
+    margin-top: 23px;
+    }
+
+    .link-list__item {}
+
+    .link-list__link {
+        display: block;
+        text-align: center;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .footer__sprite {
+        display: block;
+    }
+
+    .sprite {
+        width: 180px;
+        margin: 32px auto 0;
+    }
+
+    .footer__download {
+        margin: 50px auto;
+    }
+
+    .download__title {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    }
+
+    .download {
+        width: 218px;
+    }
+
+    .download__app-store {
+    margin-left: 16px;
+    }
+
+    .download__play-market {margin-left: 19px;}
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
 
