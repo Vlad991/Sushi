@@ -7,16 +7,33 @@
 
     var showMenu = function () {
         hidingMenu.style.display = "block";
-        console.log("show");
     };
 
     var hideMenu = function () {
         hidingMenu.style.display = "none";
-        console.log("hide");
     };
 
     menuIcon.addEventListener('click', showMenu, false);
     closeHidingMenuElement.addEventListener('click', hideMenu, false);
 
+    var navMenuIcon = doc.getElementById("nav-menu-icon");
+    var navMenu = doc.getElementById("nav-menu");
 
+    var showNavMenu = function () {
+        navMenu.style.display = "block";
+    };
+
+    var hideNavMenu = function () {
+        navMenu.style.display = "none";
+    };
+
+    var doNavMenu = function () {
+        if (getComputedStyle(navMenu).display == "none") {
+            showNavMenu();
+        } else {
+            hideNavMenu();
+        }
+    };
+
+    navMenuIcon.addEventListener('click', doNavMenu, false);
 
