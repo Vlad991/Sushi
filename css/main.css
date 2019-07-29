@@ -645,6 +645,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
+@media screen and (max-width: 959px) {
+    .email-not-found__message {
+        text-align: center;
+    }
+}
+
 
 /*.................New Password Sended.....................*/
 
@@ -666,7 +672,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     letter-spacing: 0.5px;
 }
 
-    /*...............Location.................*/
+@media screen and (max-width: 959px) {
+    .new-password-sended__message {
+        text-align: center;
+    }
+}
+
+/*...............Location.................*/
 
 .container__location {
     margin-top: 24px;
@@ -713,7 +725,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .authorization_forgot-password {
-    display: none;
+    /* display: none; */
 }
 
 .authorization__header {
@@ -770,6 +782,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     letter-spacing: 0.7px;
     text-transform: uppercase;
     line-height: 48px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .authorization__footer {
@@ -832,6 +845,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .authorization__continue-button {
     margin-top: 32px;
 }
+
+@media screen and (max-width: 1280px){}
+@media screen and (max-width: 1023px){}
+@media screen and (max-width: 959px){
+    .container__wrap {
+        position: static;
+        width: 335px;
+        margin: 41px auto;
+    }
+}
+@media screen and (max-width: 800px){}
+@media screen and (max-width: 640px){}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 320px){}
 
 /*..................................Footer..................................................*/
 
