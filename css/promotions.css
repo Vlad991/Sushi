@@ -1,3 +1,7 @@
+.container__contacts-location {
+    display: none;
+}
+
 .container__promotions {}
 
 .promotions {
@@ -32,7 +36,7 @@
 }
 
 .slide__header_1 {
-    background: url(../img/promotions/slide1.jpg) no-repeat top center;
+    background: url(../img/promotions/slide1.jpg) no-repeat;
 }
 
 .slide__header_2 {background: url(../img/promotions/slide2.jpg) no-repeat top center;}
@@ -72,3 +76,94 @@
     color: #5F5F5F;
     margin: 27px 0;
 }
+
+
+@media screen and (max-width: 1280px) {
+    .container__contacts-location {
+        display: block;
+    }
+
+    .contacts-location__link {
+        display: block;
+        margin: 20px 0 0px;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .contacts-location__link::before {
+        content: url("../img/contacts/arrow.svg");
+        display: inline-block;
+        margin: 0 13px 0 0;
+    }
+
+    .promotions__slider {
+    }
+
+    .slider {
+        width: 970px;
+        margin: 0 auto;
+    }
+
+    .slide {
+    border: none;
+    }
+
+    .promotions__header {
+    }
+}
+@media screen and (max-width: 1023px) {
+    .slider {
+        display: block;
+        width: 430px;
+    }
+
+    .slide__header {
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .slide__header {
+         background-size: contain;
+         height: 252px;
+    }
+
+    .promotions__header {
+        width: 335px;
+    }
+
+    .slider {
+        width: 335px;
+    }
+
+    .slide {
+        width: 335px;
+        height: 458px;
+    }
+
+    .slide__article {
+        padding: 22px 0 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    .promotions__header {
+        margin: 17px 0 27px;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        font-size: 18px;
+    }
+
+    .slide__header {
+        background-size: contain;
+        height: 252px;
+    }
+
+    .slide__heading {
+        margin: 19px 19px;
+    }
+
+    .slide__text {
+    margin: 0;
+}
+}
+@media screen and (max-width: 480px) {}
+@media screen and (max-width: 320px) {}
