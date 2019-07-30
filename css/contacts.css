@@ -2,9 +2,11 @@
     display: none;
 }
 
-.container__contacts {}
+.container__contacts {
+}
 
-.contacts {}
+.contacts {
+}
 
 .contacts__header {
     margin: 68px 0 46px;
@@ -40,7 +42,10 @@
     margin-left: 131px;
 }
 
-.communication-point__img {vertical-align: top;margin: 6px 0;}
+.communication-point__img {
+    vertical-align: top;
+    margin: 6px 0;
+}
 
 .communication-point__text {
     display: inline-block;
@@ -51,11 +56,17 @@
 
 }
 
-.communication-point__text_second {margin-left: 26px;}
+.communication-point__text_second {
+    margin-left: 26px;
+}
 
-.communication-point__text_third {margin-left: 20px;}
+.communication-point__text_third {
+    margin-left: 20px;
+}
 
-.communication-point__text_fourth {margin-left: 27px;}
+.communication-point__text_fourth {
+    margin-left: 27px;
+}
 
 .communication-point__title {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
@@ -65,7 +76,7 @@
 
 .communication-point__point {
     margin: 8px 0 0;
-    font-family: "PF Din Text Comp Pro Regular" ,sans-serif;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 18px;
     color: #5F5F5F;
     letter-spacing: 0.6px;
@@ -80,7 +91,7 @@
     background: #333;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
     .communication-point__text {
     }
 
@@ -89,26 +100,27 @@
     }
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
     .communication-points__item {
         width: 268px;
         margin: 12px 30px;
     }
 }
 
-@media screen and (max-width: 800px){}
+@media screen and (max-width: 800px) {
+}
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
     .container__contacts-location {
         display: block;
     }
 
     .contacts-location__link {
-    display: block;
-    margin: 20px 0 0px;
-    font-family: "PF Din Text Comp Pro Regular", sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
+        display: block;
+        margin: 20px 0 0px;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
     }
 
     .contacts-location__link::before {
@@ -130,6 +142,7 @@
     .communication-points__item {
         margin: 14px 7px;
     }
+
     .communication-points__item_first {
         margin: 11px 7px;
     }
@@ -138,18 +151,19 @@
         margin-left: 23px;
     }
 
-    .communication-point__text_first {}
+    .communication-point__text_first {
+    }
 
     .communication-point__text_second {
-    margin-left: 13px;
-}
+        margin-left: 13px;
+    }
 
     .communication-point__text_third {
-    margin-left: 8px;
-}
-    
+        margin-left: 8px;
+    }
+
     .communication-point__text_fourth {
-    margin-left: 14px;
+        margin-left: 14px;
     }
 
     .container__map {
@@ -161,6 +175,8 @@
     }
 }
 
-@media screen and (max-width: 480px){}
+@media screen and (max-width: 480px) {
+}
 
-@media screen and (max-width: 320px){}
+@media screen and (max-width: 320px) {
+}

@@ -1,9 +1,11 @@
-.container__payment-and-delivery {}
+.container__payment-and-delivery {
+}
 
-.payment-and-delivery {}
+.payment-and-delivery {
+}
 
 .payment-and-delivery__header {
-    font-family: "PF Din Text Comp Pro Medium",sans-serif;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
     margin: 67px 0 0;
@@ -13,7 +15,8 @@
     margin: 24px 0 0;
 }
 
-.info-text {}
+.info-text {
+}
 
 .info-text__info-paragraph {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
@@ -26,7 +29,8 @@
 .info-text__info-list {
 }
 
-.info-list {}
+.info-list {
+}
 
 .info-list__item {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
@@ -55,7 +59,8 @@
     margin: 27px 0 0;
 }
 
-.payment-and-delivery__delivery-table {}
+.payment-and-delivery__delivery-table {
+}
 
 .delivery-table {
     width: 960px;
@@ -64,7 +69,7 @@
 }
 
 .table-header {
-    font-family: "PF Din Text Comp Pro Medium",sans-serif;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 18px;
     vertical-align: middle;
     padding: 0 0 0 20px;
@@ -80,8 +85,161 @@
     background: #F3F4F6;
 }
 
-.table-col {width: 218px;height: 44px;font-family: "PF Din Text Comp Pro Regular", sans-serif;font-size: 18px;padding: 12px 0 0 18px;box-sizing: border-box;}
+.table-col {
+    width: 218px;
+    height: 44px;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    padding: 12px 0 0 18px;
+    box-sizing: border-box;
+}
 
 .first-col {
     width: 300px;
 }
+
+.payment-and-delivery__table-title {
+    display: none;
+}
+
+.payment-and-delivery__table-adaptive {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1023px) {
+    .delivery-table {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .delivery-table {
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .delivery-table {
+        width: 600px;
+    }
+
+    .container__payment-and-delivery {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .first-col {
+        width: 185px;
+    }
+
+    .container__footer {
+        margin: 81px 0 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .payment-and-delivery__delivery-table {
+        display: none;
+    }
+
+    .payment-and-delivery__table-title {
+        display: block;
+    }
+
+    .payment-and-delivery__table-adaptive {
+        display: block;
+    }
+
+    .container__payment-and-delivery {
+        width: 335px;
+    }
+
+    .payment-and-delivery__header {
+        font-size: 18px;
+        margin: 16px 0 0;
+        letter-spacing: 0.5px;
+    }
+
+    .payment-and-delivery__info-text {
+        margin: 27px 0;
+    }
+
+    .info-text__info-paragraph {
+    margin: 27px 0;
+    }
+
+    .payment-and-delivery__delivery-table {
+        display: none;
+    }
+
+    .payment-and-delivery__table-title {
+        background: #F3F4F6;
+        width: 375px;
+        position: relative;
+        left: -21px;
+        padding: 14px 20px;
+        height: 44px;
+        box-sizing: border-box;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        margin: 29px 0 2px;
+    }
+
+    .table-adaptive {
+        width: 335px;
+    }
+
+    .payment-and-delivery__table-adaptive {
+        margin: 0 auto;
+        width: 335px;
+    }
+
+    .table-adaptive__item {
+    border-bottom: #CED6E0 1px solid;
+    box-sizing: border-box;
+    }
+
+    .table-adaptive__location {
+        height: 47px;
+        line-height: 47px;
+        font-size: 16px;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .table-adaptive__arrow {
+    /* transform: rotate(180deg); */
+    }
+
+    .table-adaptive__delivery-list {
+    margin: 0 0 8px;
+    }
+
+    .delivery-list {
+    display: none;
+    }
+
+    .delivery-list__item {
+    height: 31px;
+    line-height: 29px;
+    /* border-bottom: #CED6E0 1px solid; */
+    }
+
+    .delivery-list__key {
+    }
+
+    .delivery-list__value {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+

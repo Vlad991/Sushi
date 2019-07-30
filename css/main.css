@@ -29,12 +29,12 @@
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
     color: #000;
-    font-size:100%;
-    vertical-align:baseline;
+    font-size: 100%;
+    vertical-align: baseline;
     list-style: none;
     text-decoration: none;
     font-family: "PF Din Text Comp Pro Regular";
@@ -101,7 +101,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     display: none;
 }
 
-.header__logo {}
+.header__logo {
+}
 
 .header__menu-icon {
     display: none;
@@ -111,7 +112,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 264px;
 }
 
-.logo__img {}
+.logo__img {
+}
 
 .small-logo__img {
     display: none;
@@ -138,14 +140,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     line-height: 12px;
 }
 
-.header__menu {}
+.header__menu {
+}
 
 .menu {
     width: 372px;
     height: 100%;
 }
 
-.menu__item {}
+.menu__item {
+}
 
 .menu__link {
     display: block;
@@ -211,7 +215,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .navigation__menu {
 }
 
-.link-search {}
+.link-search {
+}
 
 .menu_nav {
     height: 64px;
@@ -279,7 +284,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 22px 0;
 }
 
-.basket__img {}
+.basket__img {
+}
 
 .basket__img-wrap {
     position: relative;
@@ -347,10 +353,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .header {
-    padding: 23px 0;
-}
+        padding: 23px 0;
+    }
 
     .logo__img {
         display: none;
@@ -381,9 +387,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .contact::before {
-    margin: 0 0 0 0;
-    width: 156px;
-}
+        margin: 0 0 0 0;
+        width: 156px;
+    }
 }
 
 @media screen and (max-width: 959px) {
@@ -431,11 +437,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .menu__link {
-    height: 47px;
-    line-height: 47px;
-    letter-spacing: 0.8px;
-    border-bottom: #CED6E0 1px solid;
-    box-sizing: border-box;
+        height: 47px;
+        line-height: 47px;
+        letter-spacing: 0.8px;
+        border-bottom: #CED6E0 1px solid;
+        box-sizing: border-box;
     }
 
     .menu__item:first-child .menu__link {
@@ -530,12 +536,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         top: auto;
     }
 
-    .nav-menu-icon__img {}
+    .nav-menu-icon__img {
+    }
 
     .nav-menu-icon__title {
-    line-height: 63px;
-    margin-left: 10px;
-    letter-spacing: 1.2px;
+        line-height: 63px;
+        margin-left: 10px;
+        letter-spacing: 1.2px;
     }
 
     .search {
@@ -564,14 +571,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+}
 
-@media screen and (max-width: 540px) {}
+@media screen and (max-width: 540px) {
+}
 
 @media screen and (max-width: 320px) {
     .hiding-menu {
-    width: 300px;
-}
+        width: 300px;
+    }
 }
 
 /*.....................Search Form....................................*/
@@ -583,43 +592,45 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*.........................Adaptive Navigation.............................................*/
 
 @media screen and (max-width: 959px) {
-    .container__adaptive-navigation {}
-
-    .adaptive-navigation {}
+    .container__adaptive-navigation {
+    }
 
     .adaptive-navigation {
-    flex-wrap: wrap;
-}
+    }
+
+    .adaptive-navigation {
+        flex-wrap: wrap;
+    }
 
     .adaptive-navigation__item {
-    margin: 20px 0 0;
-}
+        margin: 20px 0 0;
+    }
 
     .adaptive-navigation__link {
-    display: block;
-    width: 95px;
-    height: 90px;
-    padding: 13px 0 0;
-    box-sizing: border-box;
-    border: #F3F4F6 1px solid;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-}
+        display: block;
+        width: 95px;
+        height: 90px;
+        padding: 13px 0 0;
+        box-sizing: border-box;
+        border: #F3F4F6 1px solid;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
 
     .adaptive-navigation__img {
-    margin: 0 auto;
-    display: block;
-    min-height: 23px;
-}
+        margin: 0 auto;
+        display: block;
+        min-height: 23px;
+    }
 
     .adaptive-navigation__title {
-    text-align: center;
-    margin: 15px 0 0;
-    font-family: "PF Din Text Comp Pro Regular";
-    font-size: 14px;
-    letter-spacing: 0.4px;
-}
+        text-align: center;
+        margin: 15px 0 0;
+        font-family: "PF Din Text Comp Pro Regular";
+        font-size: 14px;
+        letter-spacing: 0.4px;
+    }
 
 }
 
@@ -684,26 +695,72 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-top: 24px;
 }
 
+.container__contacts-location {
+    display: none;
+}
+
 .location {
     font-size: 14px;
     letter-spacing: 1px;
 }
 
 .location__main {
-     font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
 }
 
-.location__slash {}
+.location__slash {
+}
 
 .location__sub {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
 }
 
+@media screen and (max-width: 1280px) {
+    .container__contacts-location {
+        display: block;
+    }
+
+    .container__location {
+        display: none;
+    }
+
+    .contacts-location__link {
+        display: block;
+        margin: 20px 0 0px;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .contacts-location__link::before {
+        content: url("../img/contacts/arrow.svg");
+        display: inline-block;
+        margin: 0 13px 0 0;
+    }
+
+    .promotions__slider {
+    }
+
+    .slider {
+        width: 970px;
+        margin: 0 auto;
+    }
+
+    .slide {
+        border: none;
+    }
+
+    .promotions__header {
+    }
+}
+
 
 /*......................Authorization......................*/
 
-.container__authorization {height: 500px;}
+.container__authorization {
+    height: 500px;
+}
 
 .container__wrap {
     position: absolute;
@@ -711,7 +768,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     top: 331px;
 }
 
-.authorization  {
+.authorization {
     width: 335px;
     height: 260px;
 }
@@ -735,9 +792,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     letter-spacing: 1px;
 }
 
-.authorization__number {margin-top: 26px;}
+.authorization__number {
+    margin-top: 26px;
+}
 
-.number {}
+.number {
+}
 
 .number__title {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
@@ -753,7 +813,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #F81242;
 }
 
-.number__input {}
+.number__input {
+}
 
 .field {
     width: 335px;
@@ -828,9 +889,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     letter-spacing: 0.5px;
 }
 
-.authorization__email {}
+.authorization__email {
+}
 
-.email {}
+.email {
+}
 
 .email__title {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
@@ -846,25 +909,37 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-top: 32px;
 }
 
-@media screen and (max-width: 1280px){}
-@media screen and (max-width: 1023px){}
-@media screen and (max-width: 959px){
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 959px) {
     .container__wrap {
         position: static;
         width: 335px;
         margin: 41px auto;
     }
 }
-@media screen and (max-width: 800px){}
-@media screen and (max-width: 640px){}
-@media screen and (max-width: 480px){}
-@media screen and (max-width: 320px){}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
 
 /*..................................Footer..................................................*/
 
 .container__footer {
-     /* display: none; */
-     margin-top: 197px;
+    /* display: none; */
+    margin-top: 197px;
 }
 
 .footer {
@@ -873,9 +948,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 41px 0;
 }
 
-.footer__main {}
+.footer__main {
+}
 
-.main {}
+.main {
+}
 
 .main__item {
     display: inline-block;
@@ -892,7 +969,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 34px 0 0;
 }
 
-.logo_footer {}
+.logo_footer {
+}
 
 .logo__heading_footer {
     color: #fff;
@@ -928,7 +1006,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 23px 0 0;
 }
 
-.link-list {}
+.link-list {
+}
 
 .link-list__item {
     line-height: 30px;
@@ -944,7 +1023,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 24px 0;
 }
 
-.sprite {}
+.sprite {
+}
 
 .sprite__item {
     margin-left: 15px;
@@ -980,7 +1060,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-right: 84px;
 }
 
-.download {}
+.download {
+}
 
 .download__title {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
@@ -1044,8 +1125,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .main__item_first {
-    width: 243px;
-}
+        width: 243px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1054,16 +1135,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         padding: 0.01%;
     }
 
-    .logo_footer {}
+    .logo_footer {
+    }
 
     .logo {
-    margin: 0;
-}
+        margin: 0;
+    }
 
     .logo__title_footer {
-    padding: 0;
-    margin: 0;
-}
+        padding: 0;
+        margin: 0;
+    }
 
     .logo__heading_footer {
         font-family: "PF Din Text Comp Pro Bold", sans-serif;
@@ -1087,10 +1169,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .item-section__link-list {
-    margin-top: 23px;
+        margin-top: 23px;
     }
 
-    .link-list__item {}
+    .link-list__item {
+    }
 
     .link-list__link {
         display: block;
@@ -1114,9 +1197,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .download__title {
-    font-family: "PF Din Text Comp Pro Regular", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
+        font-family: "PF Din Text Comp Pro Regular", sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.5px;
     }
 
     .download {
@@ -1124,10 +1207,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .download__app-store {
-    margin-left: 16px;
+        margin-left: 16px;
     }
 
-    .download__play-market {margin-left: 19px;}
+    .download__play-market {
+        margin-left: 19px;
+    }
 }
 
 @media screen and (max-width: 640px) {
