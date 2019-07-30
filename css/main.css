@@ -864,6 +864,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .container__footer {
      /* display: none; */
+     margin-top: 197px;
 }
 
 .footer {
@@ -895,10 +896,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .logo__heading_footer {
     color: #fff;
-    font-size: 26px;
-    font-family: "Opne Sans", sans-serif;
-    font-weight: bold;
-    letter-spacing: -1px;
+    font-size: 32px;
+    font-family: "PF Din Text Comp Pro Bold", sans-serif;
+    letter-spacing: 1px;
 }
 
 .logo__title_footer {
@@ -908,18 +908,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .logo__subheading_footer {
     color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    letter-spacing: 0;
-    font-style: italic;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 .item-section {
 }
 
 .item-section__heading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 18px;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
@@ -936,8 +935,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .link-list__link {
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
     color: #9F9F9F;
 }
 
@@ -984,10 +983,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .download {}
 
 .download__title {
-    font-family: "Open Sans", sans-serif;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 27px;
+    letter-spacing: 1px;
 }
 
 .download__app-store {

@@ -108,7 +108,21 @@ container
                 contacts__map
                     map
 
-
+    container__payment-and-delivery
+        payment-and-delivery
+            container__fixed
+                payment-and-delivery__header
+                payment-and-delivery__info-text
+                    info-text
+                        info-text__info-paragraph
+                        info-text__info-list info-list
+                            info-list__item
+                        info-text__heading
+                payment-and-delivery__delivery-table
+                    delivery-table
+                        table-header
+                        table-row
+                        table-col
 
 
 
