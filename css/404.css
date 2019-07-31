@@ -1,10 +1,106 @@
-.container__404 {
-    min-height: 670px;
+.container__page404 {
     padding: 0.01%;
+    width: 388px;
+    margin-top: 68px;
 }
 
-.img404 {
-    margin: 70px auto;
+.page404 {
+}
+
+.page404__heading {
+    display: none;
+}
+
+.page404__img404 {
+    /* margin: 70px auto; */
     display: block;
     vertical-align: middle;
+}
+
+
+.page404__img404_adaptive {
+    display: none;
+}
+
+.page404__text {
+    margin: 51px 0 0;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    color: #707070;
+    letter-spacing: 0.6px;
+}
+
+.page404__return-button {
+    margin: 47px auto 0;
+}
+
+.button_return {
+    background: #F81242;
+    width: 190px;
+    text-align: center;
+    color: #fff;
+    width: 249px;
+}
+
+.page404__br {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+    .container__page404 {
+        margin: 0 auto;
+    }
+
+    .page404__heading {
+        display: block;
+        font-family: "PF Din Text Comp Pro Medium", sans-serif;
+        font-size: 18px;
+        margin: 16px 0;
+    }
+
+    .page404__img404 {
+        display: none;
+    }
+
+    .page404__img404_adaptive {
+        display: block;
+        margin: 28px auto 0;
+    }
+
+    .page404__text {
+        width: 284px;
+        text-align: center;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        margin: 41px auto 0;
+    }
+
+    .page404__br {
+        display: inline;
+    }
+
+    .page404__return-button {
+        margin: 35px auto 0;
+    }
+
+    .button_return {
+    }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }
