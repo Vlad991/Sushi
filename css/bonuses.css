@@ -1,0 +1,125 @@
+.container__bonuses {
+}
+
+.bonuses {
+}
+
+.bonuses__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 67px 0 0;
+}
+
+.bonuses__bonuses-header {
+    margin: 27px 0 0;
+}
+
+.bonuses-header {
+    background: url(../img/bonuses/header-bg.jpg) no-repeat center;
+    height: 350px;
+    padding: 0.01%;
+}
+
+.bonuses-header__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    margin: 56px 0 0;
+}
+
+.bonuses-header__paragraph {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 24px 0 0;
+}
+
+.bonuses__how-it-works {
+}
+
+.how-it-works {
+}
+
+.how-it-works__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 69px 0 0;
+}
+
+.how-it-works__order {
+    margin: 44px auto 65px;
+}
+
+.order {
+    width: 730px;
+}
+
+.order__item {
+    width: 180px;
+}
+
+.order__item_small {
+    width: 23px;
+}
+
+.order__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.order__action {
+    text-align: center;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    margin: 14px 0 0;
+}
+
+.order__arrow {
+    margin: 38px 0 0;
+}
+
+.how-it-works__title {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    margin: 52px 0 0;
+    letter-spacing: 0.5px;
+}
+
+.how-it-works__paragraph {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+    letter-spacing: 0.6px;
+    margin: 16px 0 0;
+}
+
+.how-it-works__remark-list {
+    margin: 48px 0 0;
+}
+
+.remark-list__item {
+    margin: 1px 0 0;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    color: #707070;
+    letter-spacing: 0.5px;
+}
+
+.remark-list__item::before {
+    content: '*';
+    display: inline-block;
+    color: #F81242;
+    margin-right: 6px;
+}
+

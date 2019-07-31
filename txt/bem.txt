@@ -124,6 +124,30 @@ container
                         table-row
                         table-col
 
+    container__bonuses
+        bonuses
+            container__fixed
+                bonuses__heading
+            bonuses__bonuses-header
+                bonuses-header
+                    bonuses-header__heading
+                    bonuses-header__paragraph
+            container__fixed
+                bonuses__how-it-works
+                    how-it-works
+                        how-it-works__heading
+                        how-it-works__order
+                            order
+                                order__item
+                                    order__img
+                                    order__action
+                                order__item
+                                    order__arrow
+                        how-it-works__title
+                        how-it-works__paragraph
+                        how-it-works__list
+
+
 
 
 
