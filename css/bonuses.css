@@ -123,3 +123,93 @@
     margin-right: 6px;
 }
 
+@media screen and (max-width: 799px) {
+    .container__bonuses {
+        margin: 0 auto;
+    }
+
+    .bonuses {
+        max-width: 600px;
+    }
+
+    .order {
+        width: 605px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .bonuses {
+        max-width: 100%;
+    }
+
+    .bonuses__heading {
+        font-size: 18px;
+        margin: 16px 0 0;
+        letter-spacing: 0.5px;
+    }
+
+    .bonuses__bonuses-header {
+        margin: 29px 0 0;
+    }
+
+    .bonuses-header {
+        height: 260px;
+    }
+
+    .bonuses-header__heading {
+        font-size: 28px;
+        margin: 29px 0 0;
+        letter-spacing: 1px;
+    }
+
+    .bonuses-header__paragraph {
+        font-size: 18px;
+        margin: 24px auto 0;
+        letter-spacing: 0.5px;
+        width: 270px;
+    }
+
+    .how-it-works__heading {
+        font-size: 20px;
+        margin: 50px 0 0;
+        letter-spacing: 0.5px;
+    }
+
+    .how-it-works__order {
+        margin: 22px 0 67px;
+    }
+
+    .order {
+        display: block;
+        width: 100%;
+    }
+
+    .order__item {
+        margin: 19px auto 0;
+        width: 265px;
+    }
+
+    .order__item_small {
+        display: none;
+    }
+
+    .order__action {
+        letter-spacing: 0.5px;
+    }
+
+    .how-it-works__title {
+        margin: 49px 0 0;
+    }
+
+    .how-it-works__paragraph {
+        line-height: 24px;
+    }
+
+    .how-it-works__remark-list {
+        margin: 23px 0 0;
+    }
+
+    .remark-list__item {
+        margin: 2px 0 0;
+    }
+}
