@@ -147,9 +147,73 @@ container
                         how-it-works__paragraph
                         how-it-works__list
 
-
-
-
-
-
-
+    container__main-page
+        main-page
+            container__fixed container__fixed_adaptive
+                main-page__slider
+                    slider
+                        slider__slide
+                            slide
+                                layout
+                                    slide__description
+                                        description
+                                            description__heading
+                                            description__text
+                                            description__button
+                                                button button_red
+                                    slide__img
+                        slider__controls
+                            controls
+                                layout
+                                    controls__circle
+                                        circle circle_active
+            main-page__info-list
+                info-list
+                    container__fixed container__fixed_adaptive layout
+                        info-list__item
+                            layout
+                                info-list__img
+                                info-list__info
+                                    info__heading
+                                    info__text
+            container__fixed container__fixed_adaptive
+                main-page__pizza-slider
+                    pizza-slider
+                        pizza-slider__branches
+                            branches
+                                branches__item
+                        pizza-slider__pizza-slides
+                            pizza-slides
+                                pizza-slides__item
+                                    pizza-slide
+                                        pizza-slide__img
+                                        pizza-slide__heading
+                                        pizza-slide__text
+                                        pizza-slide__footer layout
+                                            pizza-slide__price
+                                            pizza-slide__button button button_red
+            main-page__reviews
+                reviews
+                    container__fixed container__fixed_adaptive
+                        reviews__heading
+                        reviews__review-slider
+                            review-slider
+                                review-slider__slide
+                                    review-slider__name
+                                    review-slider__text
+                                    review-slider__mark layout
+                                        mark__star
+                        reviews__review-controls
+                            review-controls
+                                review-controls__circle
+                        reviews__button
+                            button button_red
+            main-page__rant
+                rant
+                    container__fixed container__fixed_adaptive layout
+                        rant__slogan
+                        rant__mini-slogans
+                            mini-slogans
+                                mini-slogans__slogan
+                                    mini-slogans__title
+                                    mini-slogans__text

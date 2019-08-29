@@ -40,6 +40,7 @@
     text-align: center;
     color: #fff;
     width: 249px;
+    box-shadow: 0 3px 6px rgba(255, 0, 53, 0.4);
 }
 
 .page404__br {

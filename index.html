@@ -13,6 +13,7 @@
 
     <!--  <link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-page.css">
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -195,44 +196,154 @@
         </div>
     </div>
 
-    <section class="container__authorization">
-        <div class="container__wrap">
-            <form action="" class="authorization authorization_phone">
-                <div class="authorization__header">Авторизация</div>
-                <div class="authorization__number number">
-                    <div class="number__title">Номер мобильного телефона</div>
-                    <input type="text" class="number__input field">
+    <div class="container__main-page main-page">
+        <div class="container__fixed container__fixed_adaptive">
+            <div class="main-page__slider slider">
+                <div class="slider__slide layout">
+                    <div class="slide__description description">
+                        <div class="description__heading"></div>
+                        <div class="description__text"></div>
+                        <div class="description__button">
+                            <button class="button button_red"></button>
+                        </div>
+                    </div>
+                    <img src="" alt="Slide Image" class="slide__img">
                 </div>
-                <button class="authorization__sms-button button">ПОЛУЧИТЬ КОД ПО SMS</button>
-                <a href="#" class="authorization__footer">У меня есть пароль</a>
-            </form>
-            <form action="" class="authorization authorization_phone-password">
-                <div class="authorization__header">Авторизация</div>
-                <div class="authorization__number number">
-                    <div class="number__title">Номер мобильного телефона</div>
-                    <input type="text" class="number__input field">
-                </div>
-                <div class="authorization__password password">
-                    <div class="password__title">Пароль:</div>
-                    <input type="password" class="password__input field">
-                    <a href="#" class="password__forgot">Забыли пароль?</a>
-                </div>
-                <button class="authorization__enter-button button">Войти</button>
-            </form>
-            <form action="" class="authorization authorization_forgot-password">
-                <div class="authorization__header">Забыли пароль?</div>
-                <div class="authorization__text">Введите адрес электронной почты вашей учетной записи.<br> Нажмите
-                    кнопку
-                    Продолжить, чтобы получить пароль по электронной почте.
-                </div>
-                <div class="authorization__email email">
-                    <div class="email__title">E-mail:</div>
-                    <input type="text" class="email__input field">
-                </div>
-                <button class="authorization__continue-button button">Продолжить</button>
-            </form>
+                <ul class="slider__controls controls layout">
+                    <li class="controls__circle">
+                        <div class="circle"></div>
+                    </li>
+                    <li class="controls__circle">
+                        <div class="circle circle_active"></div>
+                    </li>
+                    <li class="controls__circle">
+                        <div class="circle"></div>
+                    </li>
+                    <li class="controls__circle">
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
+        <div class="main-page__info-list info-list">
+            <div class="container__fixed container__fixed_adaptive layout">
+                <div class="info-list__item layout">
+                    <img src="" alt="Info Item" class="info-list__img">
+                    <div class="info-list__info">
+                        <div class="info__heading"></div>
+                        <div class="info__text"></div>
+                    </div>
+                </div>
+                <div class="info-list__item layout">
+                    <img src="" alt="Info Item" class="info-list__img">
+                    <div class="info-list__info">
+                        <div class="info__heading"></div>
+                        <div class="info__text"></div>
+                    </div>
+                </div>
+                <div class="info-list__item layout">
+                    <img src="" alt="Info Item" class="info-list__img">
+                    <div class="info-list__info">
+                        <div class="info__heading"></div>
+                        <div class="info__text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__fixed container__fixed_adaptive">
+            <div class="main-page__pizza-slider pizza-slider">
+                <ul class="pizza-slider__branches branches">
+                    <li class="branches__item"></li>
+                    <li class="branches__item"></li>
+                    <li class="branches__item"></li>
+                    <li class="branches__item"></li>
+                </ul>
+                <div class="pizza-slider__pizza-slides pizza-slides">
+                    <div class="pizza-slides__item pizza-slide">
+                        <img src="" alt="Slide Image" class="pizza-slide__img">
+                        <div class="pizza-slide__heading"></div>
+                        <div class="pizza-slide__text"></div>
+                        <div class="pizza-slide__footer layout">
+                            <div class="pizza-slide__price"></div>
+                            <button class="pizza-slide__button button button_red"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-page__reviews reviews">
+            <div class="container__fixed container__fixed_adaptive">
+                <div class="reviews__heading"></div>
+                <div class="reviews__review-slider review-slider">
+                    <div class="review-slider__slide">
+                        <div class="review-slider__name"></div>
+                        <div class="review-slider__text"></div>
+                        <div class="review-slider__mark layout">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                        </div>
+                    </div>
+                    <div class="review-slider__slide">
+                        <div class="review-slider__name"></div>
+                        <div class="review-slider__text"></div>
+                        <div class="review-slider__mark layout">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                        </div>
+                    </div>
+                    <div class="review-slider__slide">
+                        <div class="review-slider__name"></div>
+                        <div class="review-slider__text"></div>
+                        <div class="review-slider__mark layout">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                            <img src="" alt="*" class="mark__star">
+                        </div>
+                    </div>
+                </div>
+                <ul class="reviews__review-controls review-controls">
+                    <li class="review-controls__circle"></li>
+                    <li class="review-controls__circle"></li>
+                    <li class="review-controls__circle"></li>
+                    <li class="review-controls__circle"></li>
+                </ul>
+                <button class="reviews__button button button_red"></button>
+            </div>
+        </div>
+        <div class="main-page__rant rant">
+            <div class="container__fixed container__fixed_adaptive layout">
+                <div class="rant__slogan"></div>
+                <div class="rant__mini-slogans mini-slogans">
+                    <div class="mini-slogans__slogan">
+                        <div class="mini-slogans__slogan">
+                            <div class="mini-slogans__title"></div>
+                            <div class="mini-slogans__text"></div>
+                        </div>
+                    </div>
+                    <div class="mini-slogans__slogan">
+                        <div class="mini-slogans__slogan">
+                            <div class="mini-slogans__title"></div>
+                            <div class="mini-slogans__text"></div>
+                        </div>
+                    </div>
+                    <div class="mini-slogans__slogan">
+                        <div class="mini-slogans__slogan">
+                            <div class="mini-slogans__title"></div>
+                            <div class="mini-slogans__text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="container__footer footer">
         <div class="container__fixed container__fixed_adaptive">
