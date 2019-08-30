@@ -846,6 +846,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-transform: uppercase;
     line-height: 48px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .authorization__footer {
@@ -940,9 +941,43 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*....................................Pizza Slide......................................................*/
 
 .pizza-slide {
+    width: 324px;
+    height: 560px;
+    border: 2px solid #F3F4F6;
+    box-sizing: border-box;
 }
 
 .pizza-slide__img {
+    display: block;
+    position: relative;
+}
+
+.pizza-slide__img::before {
+    content: "ХИТ";
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #F81242;
+    color: #fff;
+    padding: 9px 8px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px #FF0035;
+}
+
+.pizza-slide__likes {
+    position: absolute;
+    bottom: 13px;
+    right: 16px;
+}
+
+.pizza-slide__likes:before {
+    content: url("../img/main-page/like.svg");
+    display: inline-block;
+    margin: 0 7px 0 0;
 }
 
 .pizza-slide__heading {
@@ -961,6 +996,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .button_red {
+    background: #F81242;
+    color: #fff;
+    box-shadow: 0 6px 6px rgba(248, 18, 66, 0.15);
+}
+
+.button_to-cage {
+    display: none;
 }
 
 /*..................................Footer..................................................*/

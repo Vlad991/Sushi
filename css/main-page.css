@@ -8,12 +8,16 @@
 }
 
 .slider {
+    min-height: 580px;
+    padding: 0.01%;
 }
 
 .slider__slide {
+    margin-top: 70px;
 }
 
 .slide {
+    padding: 0 10px 0 0;
 }
 
 .slide__description {
@@ -23,76 +27,137 @@
 }
 
 .description__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 48px;
+    margin-top: 43px;
 }
 
 .description__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    max-width: 526px;
+    margin-top: 22px;
 }
 
 .description__button {
+    margin-top: 45px;
+}
+
+.button_slider {
+    width: 190px;
 }
 
 .slide__img {
 }
 
 .slider__controls {
+    margin-top: 82px;
 }
 
 .controls {
+    width: 84px;
 }
 
 .controls__circle {
 }
 
 .circle {
+    width: 12px;
+    height: 12px;
+    background: #DCDEDF;
+    border-radius: 50%;
 }
 
 .circle_active {
+    background: #F81242;
+    width: 24px;
+    border-radius: 6px;
 }
 
 .main-page__info-list {
 }
 
 .info-list {
+    min-height: 170px;
+    background: #F3F4F6;
+    padding: 48px 0 0 0;
+    box-sizing: border-box;
 }
 
 .info-list__item {
+    margin: 0 6px 0 16px;
 }
 
 .info-list__img {
 }
 
 .info-list__info {
+    margin: 0 0 0 47px;
+}
+
+.info {
+    width: 300px;
 }
 
 .info__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
 }
 
 .info__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    max-width: 290px;
+    margin: 5px 0 0 0;
 }
 
 .main-page__pizza-slider {
 }
 
 .pizza-slider {
+    min-height: 1327px;
+    padding: 73px 0;
+    box-sizing: border-box;
 }
 
-.pizza-slider__branches {
+.pizza-slider__branches { /* margin-top: 41px; */
 }
 
 .branches {
+    width: 400px;
+    height: 28px;
 }
 
 .branches__item {
+    font-family: "PF Din Text Comp Pro Bold", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    height: 16px;
+    position: relative;
 }
 
-.pizza-slider__pizza-slides {
+.branches__item_active::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 70px;
+    background: #F81242;
+    margin-top: 7px;
+    position: absolute;
 }
+
+.pizza-slider__pizza-slides {margin: 31px 0 0 0;}
 
 .pizza-slides {
 }
 
 .pizza-slides__item {
 }
+
+
 
 .main-page__reviews {
 }
