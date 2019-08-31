@@ -941,10 +941,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*....................................Pizza Slide......................................................*/
 
 .pizza-slide {
-    width: 324px;
-    height: 560px;
-    border: 2px solid #F3F4F6;
+    width: 323px;
+    height: 559px;
+    border: 1px solid #F3F4F6;
     box-sizing: border-box;
+}
+
+.pizza-slide:hover {
+    border: 1px solid #F81242;
+}
+
+.pizza-slide:hover .button_to-cage {
+    display: block;
 }
 
 .pizza-slide__img {
@@ -981,15 +989,32 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .pizza-slide__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin: 14px 0 0 23px;
 }
 
 .pizza-slide__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #707070;
+    width: 274px;
+    margin: 5px auto;
 }
 
 .pizza-slide__footer {
+    margin: 18px auto;
+    width: 274px;
+    height: 44px;
 }
 
 .pizza-slide__price {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin: auto 0;
 }
 
 .pizza-slide__button {
@@ -1003,13 +1028,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .button_to-cage {
     display: none;
+    width: 150px;
 }
 
 /*..................................Footer..................................................*/
 
 .container__footer {
     /* display: none; */
-    margin-top: 197px;
+    /* margin-top: 197px; */
 }
 
 .footer {

@@ -35,6 +35,7 @@
 .description__text {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 20px;
+    color: #707070;
     letter-spacing: 0.6px;
     max-width: 526px;
     margin-top: 22px;
@@ -110,6 +111,7 @@
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 18px;
     letter-spacing: 0.5px;
+    color: #707070;
     max-width: 290px;
     margin: 5px 0 0 0;
 }
@@ -118,7 +120,7 @@
 }
 
 .pizza-slider {
-    min-height: 1327px;
+    min-height: 1320px;
     padding: 73px 0;
     box-sizing: border-box;
 }
@@ -149,77 +151,123 @@
     position: absolute;
 }
 
-.pizza-slider__pizza-slides {margin: 31px 0 0 0;}
+.pizza-slider__pizza-slides {
+    margin: 31px 0 0 0;
+}
 
 .pizza-slides {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1296px;
 }
 
 .pizza-slides__item {
+    display: inline-block;
+    margin: 0;
 }
-
 
 
 .main-page__reviews {
 }
 
 .reviews {
+    min-height: 550px;
+    padding: 46px 0;
+    background: #F3F4F6;
+    box-sizing: border-box;
 }
 
 .reviews__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 24px;
 }
 
 .reviews__review-slider {
+    margin: 49px 0;
 }
 
 .review-slider {
 }
 
 .review-slider__slide {
+    width: 410px;
 }
 
 .review-slider__name {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
 }
 
 .review-slider__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    color: #707070;
+    width: 100%;
+    margin: 4px 0 0 0;
 }
 
 .review-slider__mark {
+    width: 88px;
+    margin: 23px 0 0 0;
 }
 
 .mark__star {
 }
 
 .reviews__review-controls {
+    margin: 70px auto 0;
 }
 
 .review-controls {
+    width: 79px;
 }
 
 .review-controls__circle {
+    width: 12px;
+    height: 12px;
+    border: 3px solid #A8ADAF;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.review-controls__circle_active {
+    border: 3px solid #F81242;
 }
 
 .reviews__button {
+    float: right;
+    margin: 49px 0 0;
 }
 
-.main-page__rant {
+.button_review {
+    width: 190px;
 }
+
+.main-page__rant {padding: 97px 0;box-sizing: border-box;}
 
 .rant {
+    min-height: 488px;
+    background: url(../img/main-page/vegetables-bg.svg) no-repeat top center;
 }
 
 .rant__slogan {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    margin: 59px 0 0;
 }
 
 .rant__mini-slogans {
 }
 
-.mini-slogans {
-}
+.mini-slogans {width: 633px;height: 188px;}
 
-.mini-slogans__slogan {
-}
+.mini-slogans__slogan {margin-bottom: 25px;}
 
 .mini-slogans__title {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
-.mini-slogans__text
+.mini-slogans__text {font-family: "PF Din Text Comp Pro Regular", sans-serif;font-size: 18px;letter-spacing: 0.7px;color: #707070;}
