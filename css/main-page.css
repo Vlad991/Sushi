@@ -18,6 +18,7 @@
 
 .slide {
     padding: 0 10px 0 0;
+    flex-wrap: wrap;
 }
 
 .slide__description {
@@ -30,12 +31,12 @@
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 48px;
     margin-top: 43px;
+    max-width: 323px;
 }
 
 .description__text {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 20px;
-    color: #707070;
     letter-spacing: 0.6px;
     max-width: 526px;
     margin-top: 22px;
@@ -158,7 +159,8 @@
 .pizza-slides {
     display: flex;
     flex-wrap: wrap;
-    width: 1296px;
+    /* justify-content: space-around; */
+    /* align-content: space-between; */
 }
 
 .pizza-slides__item {
@@ -244,7 +246,10 @@
     width: 190px;
 }
 
-.main-page__rant {padding: 97px 0;box-sizing: border-box;}
+.main-page__rant {
+    padding: 97px 0;
+    box-sizing: border-box;
+}
 
 .rant {
     min-height: 488px;
@@ -260,9 +265,13 @@
 .rant__mini-slogans {
 }
 
-.mini-slogans {width: 633px;height: 188px;}
+.mini-slogans {
+    max-width: 633px;
+}
 
-.mini-slogans__slogan {margin-bottom: 25px;}
+.mini-slogans__slogan {
+    margin-bottom: 25px;
+}
 
 .mini-slogans__title {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
@@ -270,4 +279,270 @@
     letter-spacing: 0.5px;
 }
 
-.mini-slogans__text {font-family: "PF Din Text Comp Pro Regular", sans-serif;font-size: 18px;letter-spacing: 0.7px;color: #707070;}
+.mini-slogans__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    color: #707070;
+}
+
+@media screen and (max-width: 1280px) {
+    .description__text {
+        max-width: 423px;
+    }
+
+    .slide__img {
+        width: 520px;
+    }
+
+    .info-list__info {
+        margin: 0 0 0 25px;
+    }
+
+    .info {
+        width: 190px;
+    }
+
+    .review-slider__slide {
+        max-width: 350px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .description__text {
+        max-width: 394px;
+    }
+
+    .slide__img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .description__heading {
+        font-size: 28px;
+    }
+
+    .description__text {
+        max-width: 350px;
+    }
+
+    .slide__img {
+        width: 336px;
+    }
+
+    .info-list__item {
+        margin: 0 0 0 0;
+    }
+
+    .info {
+        width: 160px;
+    }
+
+    .reviews__button {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .slider {
+        position: relative;
+        min-height: 515px;
+    }
+
+    .slide {
+        padding: 0;
+        margin: 30px 0 0;
+    }
+
+    .slide__img {
+        margin: 0 auto;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description__heading {
+        max-width: 373px;
+        margin: 0 0;
+    }
+
+    .description__text {
+        max-width: 530px;
+        margin: 13px 0;
+    }
+
+    .description__button {
+        position: absolute;
+        top: 343px;
+        left: 34%;
+    }
+
+    .slider__controls {
+        margin: 116px auto 0;
+    }
+
+    .main-page__info-list {
+        display: none;
+    }
+
+    .pizza-slider {
+        padding: 20px 0;
+        min-height: 711px;
+    }
+
+    .pizza-slides {
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    .reviews {
+        min-height: 480px;
+    }
+
+    .hide-info-slide {
+        display: none;
+    }
+
+    .reviews__review-slider {
+        margin: 45px 0 0;
+    }
+
+    .review-slider__slide {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .review-slider__text {
+        width: 100%;
+    }
+
+    .reviews__button {
+        float: none;
+        margin: 51px auto 0;
+    }
+
+    .rant {
+        padding: 40px 0;
+        min-height: 400px;
+    }
+
+    .rant__slogan {
+        margin: 0;
+    }
+
+    .rant__mini-slogans {
+        margin: 27px 0;
+    }
+
+    .mini-slogans {
+        width: 600px;
+    }
+
+    .adaptive-no-layout {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .description__button {
+        top: 396px;
+        left: 21%;
+    }
+
+    .main-page__pizza-slider {
+        margin: 35px 0;
+    }
+
+    .branches {
+        width: 334px;
+    }
+
+    .mini-slogans {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .slider {
+        min-height: 430px;
+    }
+
+    .slide {
+        margin: 18px 0;
+    }
+
+    .description__heading {
+        font-size: 24px;
+    }
+
+    .description__text {
+        font-size: 16px;
+        margin: 9px 0 0;
+        line-height: 21px;
+    }
+
+    .slide__img {
+        width: 287px;
+        margin: 15px auto;
+    }
+
+    .description__button {
+        top: 293px;
+        left: 22%;
+    }
+
+    .slider__controls {
+        margin: 75px auto 0;
+    }
+
+    .main-page__pizza-slider {
+        margin: 16px 0 0;
+        min-height: 505px;
+    }
+
+    .pizza-slider__pizza-slides {
+        margin: 21px 0;
+    }
+
+    .reviews {
+        padding: 28px 0;
+        min-height: 441px;
+    }
+
+    .reviews__review-slider {
+        margin: 29px 0;
+    }
+
+    .review-slider__slide {
+        padding: 0;
+    }
+
+    .review-slider__text {
+        line-height: 24px;
+    }
+
+    .reviews__review-controls {
+        margin: 48px auto 0;
+    }
+
+    .reviews__button {
+        margin: 40px auto 0;
+    }
+
+    .rant {
+        padding: 29px 0;
+        min-height: 593px;
+    }
+
+    .mini-slogans__text {
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+}

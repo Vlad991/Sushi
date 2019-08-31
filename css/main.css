@@ -744,7 +744,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 
     .slider {
-        width: 970px;
+        /* width: 970px; */
         margin: 0 auto;
     }
 
@@ -941,7 +941,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*....................................Pizza Slide......................................................*/
 
 .pizza-slide {
-    width: 323px;
+    width: 322px;
     height: 559px;
     border: 1px solid #F3F4F6;
     box-sizing: border-box;
@@ -960,8 +960,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: relative;
 }
 
-.pizza-slide__img::before {
+.pizza-slide__img_hit::before {
     content: "ХИТ";
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #F81242;
+    color: #fff;
+    padding: 9px 8px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px #FF0035;
+}
+
+.pizza-slide__img_pepper::before {
+    content: url("../img/main-page/pepper.svg");
     display: block;
     width: 34px;
     height: 34px;
@@ -1029,6 +1045,72 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .button_to-cage {
     display: none;
     width: 150px;
+}
+
+.button_cage {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 479px) {
+
+    .pizza-slide {
+        width: 230px;
+        height: 386px;
+    }
+
+    .pizza-img {
+        width: 226px;
+    }
+
+    .pizza-slide__heading {
+        font-size: 18px;
+        margin: 4px 11px 0;
+    }
+
+    .pizza-slide__text {
+        font-size: 12px;
+        width: 206px;
+        margin: 0 0 0 11px;
+        line-height: 16px;
+    }
+
+    .pizza-slide__price {
+        font-size: 18px;
+    }
+
+    .pizza-slide__footer {
+        width: 100%;
+        padding: 0 9px;
+        box-sizing: border-box;
+        margin: 7px 0;
+    }
+
+    .pizza-slide:hover .button_to-cage {
+        display: none;
+    }
+
+    .button_cage {
+        display: block;
+        width: 77px;
+    }
+}
+
+@media screen and (max-width: 320px) {
 }
 
 /*..................................Footer..................................................*/
