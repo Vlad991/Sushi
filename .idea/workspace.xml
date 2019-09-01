@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/my-order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_order.html" afterDir="false" />
+    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="Add my_order adaptive (017)">
+      <change afterPath="$PROJECT_DIR$/css/chef-gift.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pizza-department.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-department.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txt/bem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/bem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="182" column="89" selection-start-line="182" selection-start-column="89" selection-end-line="182" selection-end-column="89" />
+            <state relative-caret-position="194">
+              <caret line="250" column="50" selection-start-line="250" selection-start-column="50" selection-end-line="250" selection-end-column="50" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -54,8 +51,20 @@
                 <element signature="n#li#0;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#1;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#2;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/chef-gift.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -63,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/my-order.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="119" column="126" selection-start-line="119" selection-start-column="126" selection-end-line="119" selection-end-column="126" />
+            <state relative-caret-position="387">
+              <caret line="238" column="25" selection-start-line="238" selection-start-column="25" selection-end-line="238" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -72,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            <state relative-caret-position="249">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -117,9 +126,10 @@
         <option value="$PROJECT_DIR$/pizza.html" />
         <option value="$PROJECT_DIR$/css/pizza-department.css" />
         <option value="$PROJECT_DIR$/txt/bem.txt" />
-        <option value="$PROJECT_DIR$/css/my-order.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/my-order.css" />
         <option value="$PROJECT_DIR$/my_order.html" />
+        <option value="$PROJECT_DIR$/css/chef-gift.css" />
       </list>
     </option>
   </component>
@@ -214,7 +224,7 @@
       <workItem from="1565034104007" duration="155000" />
       <workItem from="1567099073953" duration="6298000" />
       <workItem from="1567167903553" duration="11000" />
-      <workItem from="1567178737304" duration="38137000" />
+      <workItem from="1567178737304" duration="43409000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -384,11 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567333056889</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add my_order (015)">
+      <created>1567340640136</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1567340640137</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add my_order adaptive (017)">
+      <created>1567348460704</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567348460704</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139080000" />
+    <option name="totallyTimeSpent" value="144352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add header (0107) without fonts and fixed position" />
     <MESSAGE value="Add final header and sticky menu (0107)" />
     <MESSAGE value="Add authorization (0107, 0108, 0109, 0110, 0111)" />
     <MESSAGE value="Add original fonts" />
@@ -512,7 +535,9 @@
     <MESSAGE value="Add main-page (04)" />
     <MESSAGE value="Add main-page adaptive (05)" />
     <MESSAGE value="Add pizza-department (06)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pizza-department (06)" />
+    <MESSAGE value="Add my_order (015)" />
+    <MESSAGE value="Add my_order adaptive (017)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add my_order adaptive (017)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE.txt" />
@@ -551,13 +576,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/404/404.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,22 +870,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/my-order.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="119" column="126" selection-start-line="119" selection-start-column="126" selection-end-line="119" selection-end-column="126" />
+        <state relative-caret-position="387">
+          <caret line="238" column="25" selection-start-line="238" selection-start-column="25" selection-end-line="238" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        <state relative-caret-position="249">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="182" column="89" selection-start-line="182" selection-start-column="89" selection-end-line="182" selection-end-column="89" />
+        <state relative-caret-position="194">
+          <caret line="250" column="50" selection-start-line="250" selection-start-column="50" selection-end-line="250" selection-end-column="50" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -878,8 +903,18 @@
             <element signature="n#li#0;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/chef-gift.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
         </state>
       </provider>
     </entry>

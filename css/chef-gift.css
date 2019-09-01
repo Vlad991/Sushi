@@ -1,0 +1,79 @@
+.container__chef-gift {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 133px 0;
+    box-sizing: border-box;
+}
+
+.chef-gift {
+    height: 670px;
+    background: #fff;
+    position: relative;
+    padding: 0.01%;
+}
+
+.chef-gift__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 70px 0 0;
+    letter-spacing: 0.5px;
+}
+
+.chef-gift__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 18px auto;
+    width: 500px;
+    color: #5F5F5F;
+    letter-spacing: 0.5px;
+}
+
+.chef-gift__cancel {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.chef-gift__gifts {
+    margin: 49px auto 0;
+}
+
+.gifts {
+    width: 631px;
+    display: flex;
+}
+
+.gifts__item {
+    width: 212px;
+    height: 280px;
+    border: 2px solid #F3F4F6;
+    box-sizing: border-box;
+}
+
+.gifts__item:hover {
+    border: 2px solid #F81242;
+}
+
+.gifts__title {
+    text-align: center;
+    margin: 15px 0 0;
+    letter-spacing: 0.5px;
+}
+
+.chef-gift__button {
+    margin: 49px auto 0;
+}
+
+.button_gift {
+    width: 190px;
+}
