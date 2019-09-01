@@ -1,0 +1,76 @@
+.container__pizza-department {
+}
+
+.pizza-department {
+}
+
+.container__fixed {
+}
+
+.container__fixed_adaptive {
+}
+
+.pizza-department__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 68px 0 0;
+}
+
+.pizza-department__sort-pizza {
+    margin: 27px 0 0;
+}
+
+.sort-pizza {
+    width: 460px;
+}
+
+.sort-pizza__item {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.sort-pizza__item_active {
+    color: #F81242;
+    border-bottom: 2px dotted #F81242;
+}
+
+.pizza-department__pizzas {
+    margin: 33px 0;
+}
+
+.pizzas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizzas__item {
+}
+
+.pizza-department__pagination {
+    margin: 63px 0 200px;
+}
+
+.pagination {
+    width: 170px;
+}
+
+.pagination__item {}
+
+.pagination__link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.pagination__link_active {
+    background: #F81242;
+    color: #fff;
+    border: 1px solid #F81242;
+}

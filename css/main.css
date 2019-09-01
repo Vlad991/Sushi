@@ -947,6 +947,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     box-sizing: border-box;
 }
 
+.pizza-slide_2 {
+    height: 630px;
+}
+
 .pizza-slide:hover {
     border: 1px solid #F81242;
 }
@@ -1018,6 +1022,47 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #707070;
     width: 274px;
     margin: 5px auto;
+}
+
+.pizza-slide__sizes {
+    margin: 22px auto 30px;
+}
+
+.sizes {
+    width: 271px;
+}
+
+.sizes__text {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+
+.sizes__size-list {
+}
+
+.size-list {
+    background: #CED6E0;
+    border-radius: 6px;
+    width: 195px;
+    border: 1px solid #CED6E0;
+}
+
+.size-list__item {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #CED6E0;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.size-list__item_active {
+    background: #fff;
 }
 
 .pizza-slide__footer {

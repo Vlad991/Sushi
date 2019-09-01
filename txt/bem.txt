@@ -217,3 +217,27 @@ container
                                 mini-slogans__slogan
                                     mini-slogans__title
                                     mini-slogans__text
+
+    container__pizza-department
+        pizza-department
+            container__fixed container__fixed_adaptive
+                pizza-department__heading
+                pizza-department__sort-pizza
+                    sort-pizza
+                        sort-pizza__item sort-pizza__item_active
+                pizza-department__pizzas
+                    pizzas
+                        pizzas__item pizza-slide
+                            pizza-slide__img
+                                pizza-img
+                                pizza-slide__likes
+                            pizza-slide__heading
+                            pizza-slide__text
+                            pizza-slide__sizes
+                                sizes
+                                    sizes__text
+                                    sizes__size-list size-list
+                                        size-list__item size-list__item_active
+                            pizza-slide__footer
+                                pizza-slide__price
+                                    pizza-slide__button button button_to-cage
