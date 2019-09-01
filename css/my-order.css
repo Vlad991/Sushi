@@ -1,7 +1,9 @@
 .container__my-order {
 }
 
-.my-order {min-height: 794px;}
+.my-order {
+    min-height: 794px;
+}
 
 .my-order__heading {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
@@ -115,9 +117,18 @@
     margin: auto 0 auto 30px;
 }
 
-.ord-footer__sum-text {font-family: "PF Din Text Comp Pro Medium", sans-serif;font-size: 20px;line-height: 76px;}
+.ord-footer__sum-text {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    line-height: 76px;
+}
 
-.ord-footer__sum {font-family: "PF Din Text Comp Pro Medium", sans-serif;font-size: 20px;line-height: 76px;margin-left: 55px;}
+.ord-footer__sum {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    line-height: 76px;
+    margin-left: 55px;
+}
 
 .enter-promo {
     border: none;
@@ -145,4 +156,150 @@
     margin: auto 7px auto 0;
 }
 
-.button_order {width: 190px;margin: 49px 0 0;}
+.button_order {
+    width: 190px;
+    margin: 49px 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .order__description {
+        width: 430px;
+    }
+
+    .order__heading {
+        margin: 18px 0 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .order__description {
+        width: 345px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .my-order__heading {
+        margin: 25px 0 0;
+    }
+
+
+    .order {
+        position: relative;
+        height: 160px;
+    }
+
+    .order__img {
+        height: 80px;
+    }
+
+    .order__quantity {
+        position: absolute;
+        bottom: 17px;
+        left: -38px;
+    }
+
+    .order__price {
+        position: absolute;
+        bottom: 17px;
+        right: 40px;
+        line-height: 30px;
+    }
+
+    .order__cancel {
+        margin: 0 0 0 228px;
+    }
+
+    .ord-footer {
+        position: relative;
+        height: 146px;
+    }
+
+    .ord-footer__enter-promo {
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .ord-footer__sum {
+        margin: 0 0 0 100px;
+    }
+
+    .ord-footer__sum-text {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .my-order {
+        min-height: 861px;
+    }
+
+    .my-order__heading {
+        font-family: "PF Din Text Comp Pro Medium", sans-serif;
+        font-size: 18px;
+        margin: 16px 0 0;
+    }
+
+    .my-order__orders {
+        margin: 29px 0 0;
+    }
+
+    .order__description {
+        margin: 0 0 0 4px;
+        width: 389px;
+    }
+
+    .order__img {
+        margin: 19px 0 0;
+    }
+
+    .order__heading {
+        font-family: "PF Din Text Comp Pro Medium", sans-serif;
+        font-size: 18px;
+    }
+
+    .order__text {
+        font-size: 14px;
+        margin: 5px 0 0;
+        letter-spacing: 0.4px;
+    }
+
+    .order__price {
+        margin: 0;
+        right: 0;
+        bottom: 15px;
+    }
+
+    .order__cancel {
+        margin: 0;
+        width: 20px;
+    }
+
+    .ord-footer {
+        padding: 0;
+    }
+
+    .ord-footer__sum-text {
+        margin: 0 0 0 7px;
+    }
+
+    .ord-footer__sum {
+        margin: 0 0 0 160px;
+    }
+
+    .ord-footer__enter-promo {
+        width: 281px;
+    }
+
+    .enter-promo {
+        width: 200px;
+    }
+
+    .my-order__submit {
+        float: none;
+    }
+
+    .button_order {
+        margin: 40px auto 0;
+        width: 247px;
+    }
+}
