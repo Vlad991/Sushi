@@ -241,3 +241,31 @@ container
                             pizza-slide__footer
                                 pizza-slide__price
                                     pizza-slide__button button button_to-cage
+
+        container__my-order
+            my-order
+                container__fixed container__fixed_adaptive
+                    my-order__heading
+                    my-order__orders
+                        orders
+                            orders__item
+                                order
+                                    order__img
+                                    order__description
+                                        order__heading
+                                        order__text
+                                    order__quantity
+                                        quantity
+                                            quantity__pls
+                                            quantity__number
+                                            quantity__mns
+                                    order__price
+                                    order__cancel
+                    my-order__ord-footer
+                        ord-footer
+                            ord-footer__enter-promo
+                            ord-footer__sum-text
+                            ord-footer__sum
+                    my-order__submit button button_red
+
+

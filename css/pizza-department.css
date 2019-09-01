@@ -56,7 +56,8 @@
     width: 170px;
 }
 
-.pagination__item {}
+.pagination__item {
+}
 
 .pagination__link {
     display: block;
@@ -73,4 +74,8 @@
     background: #F81242;
     color: #fff;
     border: 1px solid #F81242;
+}
+
+@media screen and (max-width: 480px) {
+
 }

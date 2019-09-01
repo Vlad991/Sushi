@@ -1,0 +1,148 @@
+.container__my-order {
+}
+
+.my-order {min-height: 794px;}
+
+.my-order__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 67px 0 0;
+}
+
+.my-order__orders {
+    margin: 26px 0 0;
+}
+
+.orders {
+}
+
+.orders__item {
+}
+
+.order {
+    height: 121px;
+    border-top: 1px solid #CED6E0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.order__img {
+}
+
+.order__description {
+    width: 733px;
+    margin: 0 0 0 30px;
+    box-sizing: border-box;
+}
+
+.order__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin: 32px 0 0;
+}
+
+.order__text {
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+    letter-spacing: 0.5px;
+}
+
+.order__quantity {
+    margin: auto 0 auto 35px;
+}
+
+.quantity {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.quantity__pls {
+    width: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.quantity__number {
+    font-size: 21px;
+}
+
+.quantity__mns {
+    width: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.order__price {
+    margin: 0 0 0 170px;
+    line-height: 120px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 64px;
+}
+
+.order__cancel {
+    margin: 0 0 0 74px;
+    cursor: pointer;
+}
+
+.my-order__ord-footer {
+}
+
+.ord-footer {
+    height: 74px;
+    background: #F3F4F6;
+    border-radius: 5px;
+    padding-right: 109px;
+}
+
+.ord-footer__enter-promo {
+    height: 44px;
+    width: 270px;
+    background: #fff;
+    border: 1px solid #CFD7E1;
+    box-sizing: border-box;
+    border-radius: 22px;
+    margin: auto 0 auto 30px;
+}
+
+.ord-footer__sum-text {font-family: "PF Din Text Comp Pro Medium", sans-serif;font-size: 20px;line-height: 76px;}
+
+.ord-footer__sum {font-family: "PF Din Text Comp Pro Medium", sans-serif;font-size: 20px;line-height: 76px;margin-left: 55px;}
+
+.enter-promo {
+    border: none;
+    height: 38px;
+    margin: auto 0 auto 25px;
+    color: #000;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
+}
+
+.enter-promo:focus {
+    outline: none;
+}
+
+.my-order__submit {
+    float: right;
+}
+
+.button_arrow {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    box-shadow: none;
+    line-height: 36px;
+    margin: auto 7px auto 0;
+}
+
+.button_order {width: 190px;margin: 49px 0 0;}
