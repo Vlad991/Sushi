@@ -1,5 +1,5 @@
 .container__chef-gift {
-    display: none;
+     display: none;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -76,4 +76,49 @@
 
 .button_gift {
     width: 190px;
+}
+
+@media screen and (max-width: 640px) {
+    .container__chef-gift {
+        padding: 24px 0;
+    }
+
+    .chef-gift {
+        width: 375px;
+        margin: 0 auto;
+        height: 512px;
+    }
+
+    .chef-gift__heading {
+        margin: 50px 0 0;
+    }
+
+    .chef-gift__gifts {
+        margin: 29px auto;
+    }
+
+    .gifts {
+        width: 340px;
+    }
+
+    .gifts__item {
+        width: 113px;
+        height: 164px;
+    }
+
+    .gifts__img {
+        width: 107px;
+    }
+
+    .chef-gift__text {
+        width: 320px;
+    }
+
+    .chef-gift__button {
+        margin: 41px auto;
+    }
+
+    .button_gift {
+        width: 300px;
+    }
 }
