@@ -268,4 +268,50 @@ container
                             ord-footer__sum
                     my-order__submit button button_red
 
+    container__checkout
+        checkout
+            container__fixed container__fixed_adaptive
+                checkout__heading
+                checkout__blank
+                    blank
+                        blank__text
+                        blank__receiver-text
+                        blank__receiver-name
+                        blank__receiver-phone
+                        blank__radio
+                            radio
+                                radio__item
+                        blank__address
+                            address
+                                address__item
+                        blank__intercom
+                        blank__no-call
+                        blank__when
+                        blank__radio
+                            radio
+                                radio__item
+                        blank__payment
+                        blank__radio
+                            radio
+                                radio__item
+                        blank__comment
+                        blank__comment-input
+                        blank__bonus
+                checkout__order-icon
+                    order-icon
+                        order-icon__heading
+                        order-icon__back
+                        order-icon__orders
+                            orders
+                                orders__item
+                                    order
+                                        order__img
+                                        order__description
+                                            order__heading
+                                            order__text
+                                        order__price
+                                            order__value
+                                            order__sum
+                checkout__submit
+
 

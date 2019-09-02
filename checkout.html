@@ -13,8 +13,7 @@
 
     <!--  <link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/my-order.css">
-    <link rel="stylesheet" href="css/chef-gift.css">
+    <link rel="stylesheet" href="css/checkout.css">
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -181,64 +180,46 @@
         </div>
     </div>
 
-    <form class="container__my-order my-order container__fixed container__fixed_adaptive">
-        <div class="my-order__heading">Мой заказ</div>
-        <ul class="my-order__orders orders">
-            <li class="orders__item order">
-                <img src="img/my_order/pizza1.svg" alt="Pizza" class="order__img">
-                <div class="order__description">
-                    <div class="order__heading">Гавайская</div>
-                    <div class="order__text">Куриное филе, сливочный соус, ананасы консерв., моцарелла.</div>
-                </div>
-                <div class="order__quantity quantity layout">
-                    <div class="quantity__mns">-</div>
-                    <div class="quantity__number">1</div>
-                    <div class="quantity__pls">+</div>
-                </div>
-                <div class="order__price">69 руб.</div>
-                <img src="img/my_order/cross.svg" alt="x" class="order__cancel">
-            </li>
-            <li class="orders__item order">
-                <img src="img/my_order/pizza2.svg" alt="Pizza" class="order__img">
-                <div class="order__description">
-                    <div class="order__heading">Пицца Ассорти</div>
-                    <div class="order__text">Красный соус, Моцарелла, Болгарский перец, Помидор, Копченая куриная грудка, Охотничьи
-                        колбаски, Бекон, Огурец соленый, Грибы, Лук. </div>
-                </div>
-                <div class="order__quantity quantity layout">
-                    <div class="quantity__mns">-</div>
-                    <div class="quantity__number">2</div>
-                    <div class="quantity__pls">+</div>
-                </div>
-                <div class="order__price">170 руб.</div>
-                <img src="img/my_order/cross.svg" alt="x" class="order__cancel">
-            </li>
-            <li class="orders__item order">
-                <img src="img/my_order/pizza3.svg" alt="Pizza" class="order__img">
-                <div class="order__description">
-                    <div class="order__heading">Пицца Греческая</div>
-                    <div class="order__text">Красный соус, Моцарелла, Ветчина, Помидор, Болгарский перец, Маслины, Фета, Лук. Зелень.</div>
-                </div>
-                <div class="order__quantity quantity layout">
-                    <div class="quantity__mns">-</div>
-                    <div class="quantity__number">3</div>
-                    <div class="quantity__pls">+</div>
-                </div>
-                <div class="order__price">225 руб.</div>
-                <img src="img/my_order/cross.svg" alt="x" class="order__cancel">
-            </li>
-        </ul>
-        <div class="my-order__ord-footer ord-footer layout">
-            <div class="ord-footer__enter-promo layout">
-                <input type="text" class="enter-promo" placeholder="Ввести промокод">
-                <button type="button" class="button button_red button_arrow"><img src="img/my_order/right-arrow.svg" alt="->"></button>
+    <form class="container__checkout checkout container__fixed container__fixed_adaptive">
+        <div class="checkout__heading">Оформление заказа</div>
+        <div class="checkout__blank blank">
+            <div class="blank__text">Авторизуйтесь на сайте, и мы сохраним всю информацию по заказу и автоматически заполним ваши контактные данные</div>
+            <div class="blank__receiver-text"><label for="receiverName" type="text">Получатель:</label></div>
+            <input type="text" id="receiverName" class="blank__receiver-name blank-input" placeholder="Имя*">
+            <input type="text" id="receiverPhone" class="blank__receiver-phone blank-input" placeholder="Контактный телефон*">
+            <div class="blank__radio1 radio">
+                <div><input id="delivery" type="radio" name="radio1" class="radio__item" checked><label for="delivery">Доставка</label></div>
+                <div><input id="takeYourself" type="radio" name="radio1" class="radio__item"><label for="takeYourself">Забрать самому</label></div>
             </div>
-            <div class="layout">
-                <div class="ord-footer__sum-text">Сумма заказа :</div>
-                <div class="ord-footer__sum">464 руб.</div>
+            <div class="blank__address address">
+                <input type="text" class="address__item blank-input" placeholder="Город*">
+                <input type="text" class="address__item blank-input" placeholder="Улица*">
+                <input type="text" class="address__item blank-input" placeholder="Дом*">
+                <input type="text" class="address__item blank-input" placeholder="Квартира">
+                <input type="text" class="address__item blank-input" placeholder="Подъезд">
+                <input type="text" class="address__item blank-input" placeholder="Код двери">
             </div>
+            <div class="blank__intercom-and-call layout">
+                <div><input id="intercom" type="checkbox" class="blank__intercom"><label for="intercom">Домофон не работает</label></div>
+                <div><input id="no-call" type="checkbox" class="blank__no-call"><label for="no-call">Не перезванивать</label></div>
+            </div>
+            <div class="blank__when">Когда выполнить заказ?</div>
+            <div class="blank__radio2 radio">
+                <div><input id="faster" type="radio" name="radio2" class="radio__item" checked><label for="faster">Как можно быстрее</label></div>
+                <div><input id="choseDate" type="radio" name="radio2" class="radio__item"><label for="choseDate">Выбрать дату и время</label></div>
+            </div>
+            <div class="blank__payment">Способ оплаты:</div>
+            <div class="blank__radio3 radio">
+                <div><input id="cash" type="radio" name="radio3" class="radio__item" checked><label for="cash">Оплата при получении наличными</label></div>
+                <div><input id="cardReceipt" type="radio" name="radio3" class="radio__item"><label for="cardReceipt">Оплата при получении картой Радуга</label></div>
+                <div><input id="cardOnline" type="radio" name="radio3" class="radio__item"><label for="cardOnline">Оплата картой Радуга онлайн</label></div>
+                <div><input id="mobile" type="radio" name="radio3" class="radio__item"><label for="mobile">Оплата мобильным платежом</label></div>
+                <div><input id="auto" type="radio" name="radio3" class="radio__item"><label for="auto">Автоматический платеж</label></div>
+            </div>
+            <label for="comment" class="blank__comment">Комментарий к заказу:</label>
+            <textarea id="comment" class="blank__comment-input">Например (сдача с 500 рублей...)</textarea>
+            <div class="blank__bonus"><input id="bonus" type="checkbox"><label for="bonus">Стать участником Бонусной программы</label></div>
         </div>
-        <div class="my-order__submit"><button type="button" class="button button_red button_order">ОФОРМИТЬ ЗАКАЗ</button></div>
     </form>
 
     <footer class="container__footer footer">

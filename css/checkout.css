@@ -1,0 +1,139 @@
+.container__checkout {
+}
+
+.checkout {
+}
+
+.checkout__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 68px 0 0;
+}
+
+.checkout__blank {
+}
+
+.blank {
+    width: 630px;
+}
+
+.blank-input {
+    height: 44px;
+    width: 190px;
+    border: 1px solid #A4B0BE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 6px 14px;
+}
+
+.blank-input[type="text"] {
+    font-family: "PF Din Text Comp Pro Regular";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/*.blank-input::after {*/
+/*    content: "*";*/
+/*    display: inline-block;*/
+/*    color: #F81242;*/
+/*}*/
+
+.blank__text {
+    font-size: 18px;
+    color: #5F5F5F;
+    letter-spacing: 0.55px;
+    margin: 24px 0 0;
+}
+
+.blank__receiver-text {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 55px 0 0;
+}
+
+.blank__receiver-name {
+    margin: 27px 0 0;
+    width: 300px;
+}
+
+.blank__receiver-phone {
+    width: 300px;
+    margin: 0 0 0 26px;
+}
+
+.blank__radio1 {
+    width: 358px;
+    margin: 70px 0 0;
+}
+
+.radio {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.radio__item {
+    margin: 0 28px 0 0;
+}
+
+.radio__item[type="radio"] {
+}
+
+.blank__address {
+    margin: 27px 0 0;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.address__item {
+    margin: 0 0 20px 0;
+}
+
+.blank__intercom-and-call {width: 362px;font-size: 18px;margin: 10px 0 0;}
+
+.blank__intercom {margin: 0 28px 0 0;}
+
+.blank__no-call {margin: 0 28px 0 0;}
+
+.blank__when {margin: 67px 0 0;font-size: 20px;letter-spacing: 0.5px;font-family: "PF Din Text Comp Pro Medium", sans-serif;}
+
+.blank__radio2 {margin: 28px 0 0;width: 397px;}
+
+.blank__payment {font-family: "PF Din Text Comp Pro Medium", sans-serif;margin: 68px 0 0;font-size: 20px;letter-spacing: 0.5px;}
+
+.blank__radio3 {margin: 27px 0 0;}
+
+.blank__comment {
+}
+
+.blank__comment-input {
+}
+
+.blank__bonus {
+}
+
+.checkout__order-icon {
+}
+
+.order-icon {
+}
+
+.order-icon__heading {
+}
+
+.order-icon__back {
+}
+
+.order-icon__orders {
+}
+
+.checkout__submit {
+}

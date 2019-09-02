@@ -3,6 +3,7 @@
 
 .my-order {
     min-height: 794px;
+    display: none;
 }
 
 .my-order__heading {
@@ -230,6 +231,7 @@
 
 @media screen and (max-width: 800px) {
     .my-order {
+        display: none;
         min-height: 861px;
     }
 
