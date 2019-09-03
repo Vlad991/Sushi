@@ -4,6 +4,9 @@
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/assorti.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pizza-department.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-department.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/premium.php" beforeDir="false" afterPath="$PROJECT_DIR$/premium.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rolls.php" beforeDir="false" afterPath="$PROJECT_DIR$/rolls.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +92,7 @@
       <workItem from="1567178737304" duration="57859000" />
       <workItem from="1567510241172" duration="16000" />
       <workItem from="1567510299911" duration="540000" />
-      <workItem from="1567511643283" duration="23540000" />
+      <workItem from="1567511643283" duration="24145000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -350,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567539785241</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add assorti">
+      <created>1567540067452</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1567540067452</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -394,7 +404,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add authorization adaptability (0102, 0103, 0104, 0105, 0106)" />
     <MESSAGE value="Add contacts adaptability (012-1)" />
     <MESSAGE value="Add promotions adaptability (014)" />
     <MESSAGE value="Add payment and delivery (015)" />
@@ -419,6 +428,7 @@
     <MESSAGE value="Add location.php" />
     <MESSAGE value="Change button and delete button_red" />
     <MESSAGE value="Add pizza slides php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pizza slides php" />
+    <MESSAGE value="Add assorti" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assorti" />
   </component>
 </project>

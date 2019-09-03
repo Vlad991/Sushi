@@ -42,7 +42,7 @@
     ?>
 
     <div class="container__pizza-department pizza-department container__fixed container__fixed_adaptive">
-        <div class="pizza-department__heading">Новые роллы, пиццы, бургеры и другие новинки нашего меню.</div>
+        <div class="pizza-department__heading">Ассорти</div>
         <ul class="pizza-department__sort-pizza sort-pizza">
             <li class="sort-pizza__item sort-pizza__item_no-hover">Сортировать:</li>
             <li class="sort-pizza__item sort-pizza__item_active">Все</li>
