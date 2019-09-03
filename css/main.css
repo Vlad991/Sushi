@@ -253,6 +253,7 @@ input:focus {
 }
 
 .search {
+    cursor: pointer;
     width: 87px;
     line-height: 67px;
     font-size: 18px;
@@ -264,6 +265,10 @@ input:focus {
     content: url("../img/header/loupe.svg");
     display: inline-block;
     margin-right: 10px;
+}
+
+.search:hover {
+    color: #7f7f7f;
 }
 
 .menu__item_nav {
@@ -296,6 +301,10 @@ input:focus {
     content: url("../img/header/login-man.svg");
     display: inline-block;
     margin-right: 11px;
+}
+
+.login:hover {
+    color: #7f7f7f;
 }
 
 .login__title {
@@ -334,6 +343,10 @@ input:focus {
 .basket__amount {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 18px;
+}
+
+.basket__amount:hover {
+    color: #7f7f7f;
 }
 
 .header__search-block {

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/psd/049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/049.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/051.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search-block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assorti.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/burgers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drinks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/novelty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/premium.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rolls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wok.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-order.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-order.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,7 +102,7 @@
       <workItem from="1567178737304" duration="57859000" />
       <workItem from="1567510241172" duration="16000" />
       <workItem from="1567510299911" duration="540000" />
-      <workItem from="1567511643283" duration="9791000" />
+      <workItem from="1567511643283" duration="12495000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -314,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567518520950</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add search-block.php">
+      <created>1567522163380</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1567522163381</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -358,7 +372,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add contacts" />
     <MESSAGE value="Add 404 template (not final) (046)" />
     <MESSAGE value="Add header adaptability (0, 0100)" />
     <MESSAGE value="Add navigation-menu adaptability (0101)" />
@@ -383,6 +396,7 @@
     <MESSAGE value="Add checkout not final" />
     <MESSAGE value="Make php and add footer.php" />
     <MESSAGE value="Add header.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header.php" />
+    <MESSAGE value="Add search-block.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search-block.php" />
   </component>
 </project>

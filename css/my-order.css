@@ -3,7 +3,7 @@
 
 .my-order {
     min-height: 794px;
-    display: none;
+    /* display: none; */
 }
 
 .my-order__heading {
