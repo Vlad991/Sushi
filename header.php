@@ -32,4 +32,8 @@
             <a class="contact__item" href="tel:77772244">0 (777) 7-22-44</a>
         </div>
     </div>
+    <div class="header__search-block">
+        <!-- Search Block -->
+        <?php include('./search-block.php'); ?>
+    </div>
 </header>

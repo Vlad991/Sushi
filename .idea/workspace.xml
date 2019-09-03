@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/psd/049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/psd/049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/psd/051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-block.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonuses.php" beforeDir="false" afterPath="$PROJECT_DIR$/bonuses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/brands.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/inst-d.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer/inst-d.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment_and_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment_and_delivery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promotions.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specials.php" beforeDir="false" afterPath="$PROJECT_DIR$/specials.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vouchers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vouchers.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +28,6 @@
         <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace>{}</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +95,7 @@
       <workItem from="1567178737304" duration="57859000" />
       <workItem from="1567510241172" duration="16000" />
       <workItem from="1567510299911" duration="540000" />
-      <workItem from="1567511643283" duration="6615000" />
+      <workItem from="1567511643283" duration="9791000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -325,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567516194026</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add header.php">
+      <created>1567518520950</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1567518520950</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -369,7 +358,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add footer" />
     <MESSAGE value="Add contacts" />
     <MESSAGE value="Add 404 template (not final) (046)" />
     <MESSAGE value="Add header adaptability (0, 0100)" />
@@ -394,6 +382,7 @@
     <MESSAGE value="Add chef-gift adaptive (021)" />
     <MESSAGE value="Add checkout not final" />
     <MESSAGE value="Make php and add footer.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make php and add footer.php" />
+    <MESSAGE value="Add header.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add header.php" />
   </component>
 </project>

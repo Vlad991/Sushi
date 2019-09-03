@@ -31,16 +31,6 @@
     <!-- Header -->
     <?php include('./header.php'); ?>
 
-    <!--    <div class="container__search-block search-block">-->
-    <!--        <div class="search-block__heading">Поиск</div>-->
-    <!--        <div class="search-block__search-form">-->
-    <!--            <form action="" class="search-form">-->
-    <!--                <input type="text" class="search-form__input" placeholder="Что Вы ищете?">-->
-    <!--                <button class="search-form__loupe"><img src="img/search-form/loupe.svg" alt="" class="search-form__img"></button>-->
-    <!--            </form>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
     <nav id="nav-menu" class="container__adaptive-navigation adaptive-navigation">
         <div class="container__fixed_adaptive">
             <ul class="adaptive-navigation layout">
