@@ -125,6 +125,9 @@ input:focus {
     width: 264px;
 }
 
+.logo__href-img {
+}
+
 .logo__img {
 }
 
@@ -173,6 +176,10 @@ input:focus {
     font-family: PF Din Text Comp Pro Medium;
 }
 
+.menu__link:hover {
+    color: #7f7f7f;
+}
+
 .header__contact {
     margin-left: 183px;
 }
@@ -195,6 +202,10 @@ input:focus {
     margin-left: 22px;
     letter-spacing: 0.7px;
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
+}
+
+.contact__item:hover {
+    color: #7f7f7f;
 }
 
 .contact__item_first {
@@ -222,7 +233,6 @@ input:focus {
 .container__sticky {
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
 .navigation__menu {
@@ -371,7 +381,7 @@ input:focus {
         padding: 23px 0;
     }
 
-    .logo__img {
+    .logo__href-img {
         display: none;
     }
 
@@ -425,19 +435,23 @@ input:focus {
     .header__menu {
         display: none;
         position: fixed;
-        right: 0;
+        width: 100%;
+        left: 0;
         top: 0;
         z-index: 1000;
+        background: rgba(0, 0, 0, 0.45);
+        height: 100%;
     }
 
     .hiding-menu {
+        float: right;
         width: 340px;
+        height: 100%;
         min-height: 585px;
         background: #fff;
         /* border: #000 1px solid; */
         box-sizing: border-box;
         padding: 11px 19px;
-        box-shadow: -100px 0 1000px rgba(0, 0, 0, 0.7);
     }
 
     .menu {
@@ -534,6 +548,7 @@ input:focus {
         background: #F3F4F6;
         padding: 0 20px;
         box-sizing: border-box;
+        z-index: 100;
     }
 
     .navigation__nav-menu-icon {
@@ -1308,7 +1323,7 @@ input:focus {
 }
 
 .sprite__link_inst:hover {
-    background: url(../img/footer/inst-d.svg) no-repeat center;
+    background: url(../img/footer/inst-d.svg) no-repeat top center;
 }
 
 .footer__download {

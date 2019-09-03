@@ -2,36 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brands.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footer/app-store-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footer/fb-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footer/inst-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footer/od-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footer/play-market-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footer/vk-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/.04.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/.06.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/partners.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/privacy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specials.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vouchers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization.html" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonuses.html" beforeDir="false" afterPath="$PROJECT_DIR$/bonuses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bonuses.php" beforeDir="false" afterPath="$PROJECT_DIR$/bonuses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/brands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/psd/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/psd/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment_and_delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment_and_delivery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promotions.html" beforeDir="false" afterPath="$PROJECT_DIR$/promotions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/inst-d.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer/inst-d.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment_and_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment_and_delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotions.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specials.php" beforeDir="false" afterPath="$PROJECT_DIR$/specials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vouchers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vouchers.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +113,7 @@
       <workItem from="1567178737304" duration="57859000" />
       <workItem from="1567510241172" duration="16000" />
       <workItem from="1567510299911" duration="540000" />
-      <workItem from="1567511643283" duration="4235000" />
+      <workItem from="1567511643283" duration="6615000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -327,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567451434764</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Make php and add footer.php">
+      <created>1567516194026</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567516194026</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -371,7 +369,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add promotions without footer (02, 03, 013)" />
     <MESSAGE value="Add footer" />
     <MESSAGE value="Add contacts" />
     <MESSAGE value="Add 404 template (not final) (046)" />
@@ -396,6 +393,7 @@
     <MESSAGE value="Add chef-gift (019, 020)" />
     <MESSAGE value="Add chef-gift adaptive (021)" />
     <MESSAGE value="Add checkout not final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add checkout not final" />
+    <MESSAGE value="Make php and add footer.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make php and add footer.php" />
   </component>
 </project>

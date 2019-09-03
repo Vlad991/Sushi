@@ -3,7 +3,7 @@
         <section class="footer__main main">
             <div class="main__item main__item_first">
                 <div class="logo logo_footer main__logo layout">
-                    <a href="./index.php"><img src="./img/footer/logo.svg" alt="Sushi And Pizza!" class="logo__img"></a>
+                    <a class="logo__href-img" href="./index.php"><img src="./img/footer/logo.svg" alt="Sushi And Pizza!" class="logo__img"></a>
                     <div class="logo__title logo__title_footer">
                         <div class="logo__heading logo__heading_footer">LOVE <img src="./img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"> SUSHI</div>
                         <div class="logo__subheading logo__subheading_footer">Мы делаем жизнь вкуснее!</div>
