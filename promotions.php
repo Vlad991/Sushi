@@ -46,7 +46,7 @@
             <header class="promotions__header">Акции</header>
             <div class="promotions__slider">
                 <nav class="slider layout">
-                    <a href="#" class="slide">
+                    <a href="./404.php" class="slide">
                         <div class="slide__header slide__header_1">
                             <div class="slide__heading">Сет Мини именинникам<br> в подарок!</div>
                         </div>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="" class="slide">
+                    <a href="./404.php" class="slide">
                         <div class="slide__header slide__header_2">
                             <div class="slide__heading slide__heading_black">Счастливые часы!</div>
                         </div>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="" class="slide">
+                    <a href="./404.php" class="slide">
                         <div class="slide__header slide__header_3">
                             <div class="slide__heading"></div>
                         </div>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="" class="slide">
+                    <a href="./404.php" class="slide">
                         <div class="slide__header slide__header_3">
                             <div class="slide__heading"></div>
                         </div>
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="slide">
+                    <a href="./404.php" class="slide">
                         <div class="slide__header slide__header_1">
                             <div class="slide__heading">Сет Мини именинникам<br> в подарок!</div>
                         </div>
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="" class="slide">
+                    <a href="./404.php" class="slide">
                         <div class="slide__header slide__header_2">
                             <div class="slide__heading slide__heading_black">Счастливые часы!</div>
                         </div>

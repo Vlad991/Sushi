@@ -880,7 +880,7 @@ input:focus {
 }
 
 .authorization_phone {
-    display: none;
+    /* display: none; */
 }
 
 .authorization_phone-password {
@@ -888,7 +888,7 @@ input:focus {
 }
 
 .authorization_forgot-password {
-    /* display: none; */
+    display: none;
 }
 
 .authorization__header {
@@ -954,10 +954,19 @@ input:focus {
     cursor: pointer;
 }
 
+.button:hover {
+    background: #F81242;
+    box-shadow: 0 3px 6px #F81242;
+}
+
 .authorization__footer {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     color: #5F5F5F;
     letter-spacing: 0.5px;
+}
+
+.authorization__footer:hover {
+    color: #000;
 }
 
 .authorization__password {
@@ -1186,7 +1195,7 @@ input:focus {
 .pizza-slide__button {
 }
 
-.button_red {
+. {
     background: #F81242;
     color: #fff;
     box-shadow: 0 6px 6px rgba(248, 18, 66, 0.15);

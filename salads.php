@@ -73,7 +73,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -97,7 +97,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -121,7 +121,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -145,7 +145,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -169,7 +169,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -193,7 +193,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -217,7 +217,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -241,7 +241,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -265,7 +265,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -289,7 +289,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -313,7 +313,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -337,7 +337,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -361,7 +361,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -385,7 +385,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -409,7 +409,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
             <div class="pizzas__item pizza-slide pizza-slide_2">
@@ -433,7 +433,7 @@
                 <div class="pizza-slide__footer layout">
                     <div class="pizza-slide__price">69 руб.</div>
                     <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button button_red button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
+                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
                 </div>
             </div>
         </div>

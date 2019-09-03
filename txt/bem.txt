@@ -160,7 +160,7 @@ container
                                             description__heading
                                             description__text
                                             description__button
-                                                button button_red
+                                                button
                                     slide__img
                         slider__controls
                             controls
@@ -191,7 +191,7 @@ container
                                         pizza-slide__text
                                         pizza-slide__footer layout
                                             pizza-slide__price
-                                            pizza-slide__button button button_red
+                                            pizza-slide__button button
             main-page__reviews
                 reviews
                     container__fixed container__fixed_adaptive
@@ -207,7 +207,7 @@ container
                             review-controls
                                 review-controls__circle
                         reviews__button
-                            button button_red
+                            button
             main-page__rant
                 rant
                     container__fixed container__fixed_adaptive layout
@@ -266,7 +266,7 @@ container
                             ord-footer__enter-promo
                             ord-footer__sum-text
                             ord-footer__sum
-                    my-order__submit button button_red
+                    my-order__submit button
 
     container__checkout
         checkout

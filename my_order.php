@@ -91,14 +91,14 @@
         <div class="my-order__ord-footer ord-footer layout">
             <div class="ord-footer__enter-promo layout">
                 <input type="text" class="enter-promo" placeholder="Ввести промокод">
-                <button type="button" class="button button_red button_arrow"><img src="img/my_order/right-arrow.svg" alt="->"></button>
+                <button type="button" class="button  button_arrow"><img src="img/my_order/right-arrow.svg" alt="->"></button>
             </div>
             <div class="layout">
                 <div class="ord-footer__sum-text">Сумма заказа :</div>
                 <div class="ord-footer__sum">464 руб.</div>
             </div>
         </div>
-        <div class="my-order__submit"><button type="button" class="button button_red button_order">ОФОРМИТЬ ЗАКАЗ</button></div>
+        <div class="my-order__submit"><button type="button" class="button  button_order">ОФОРМИТЬ ЗАКАЗ</button></div>
     </form>
 
     <!-- Footer -->
