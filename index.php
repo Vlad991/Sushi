@@ -34,18 +34,6 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <div class="container__email-not-found email-not-found">
-        <div class="container__fixed">
-            <div class="email-not-found__message">E-Mail адрес не найден, проверьте и попробуйте ещё раз!</div>
-        </div>
-    </div>
-
-    <div class="container__new-password-sended new-password-sended">
-        <div class="container__fixed">
-            <div class="new-password-sended__message">Новый пароль был выслан на ваш E-mail</div>
-        </div>
-    </div>
-
     <!--    <div class="location container__location">-->
     <!--        <div class="container__fixed">-->
     <!--            <span class="location__main">Главная</span>-->
