@@ -13,7 +13,7 @@
 
     <!--  <link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/404.css">
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -51,11 +51,11 @@
                     <img id="close-hiding-menu" src="img/header/close.svg" alt="Close" class="header__close">
                 </div>
                 <ul class="menu layout">
-                    <li class="menu__item"><a href="payment_and_delivery.html" class="menu__link">Оплата и доставка</a>
+                    <li class="menu__item"><a href="payment_and_delivery.php" class="menu__link">Оплата и доставка</a>
                     </li>
-                    <li class="menu__item"><a href="bonuses.html" class="menu__link">Бонусы</a></li>
-                    <li class="menu__item"><a href="promotions.html" class="menu__link">Акции</a></li>
-                    <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    <li class="menu__item"><a href="bonuses.php" class="menu__link">Бонусы</a></li>
+                    <li class="menu__item"><a href="promotions.php" class="menu__link">Акции</a></li>
+                    <li class="menu__item"><a href="contacts.php" class="menu__link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="contact header__contact">
@@ -170,130 +170,26 @@
         <div class="container__fixed">
             <span class="location__main">Главная</span>
             <span class="location__slash">/</span>
-            <span class="location__sub">Акции</span>
+            <span class="location__sub">404</span>
         </div>
     </div>
 
     <div class="container__contacts-location contacts-location">
         <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.html" class="contacts-location__link">Главная</a>
+            <a href="authorization.php" class="contacts-location__link">Главная</a>
         </div>
     </div>
 
-    <form class="container__checkout checkout container__fixed container__fixed_adaptive">
-        <div class="checkout__heading">Оформление заказа</div>
-        <div class="checkout__blank blank">
-            <div class="blank__text">Авторизуйтесь на сайте, и мы сохраним всю информацию по заказу и автоматически заполним ваши контактные данные</div>
-            <div class="blank__receiver-text"><label for="receiverName" type="text">Получатель:</label></div>
-            <input type="text" id="receiverName" class="blank__receiver-name blank-input" placeholder="Имя*">
-            <input type="text" id="receiverPhone" class="blank__receiver-phone blank-input" placeholder="Контактный телефон*">
-            <div class="blank__radio1 radio">
-                <div><input id="delivery" type="radio" name="radio1" class="radio__item" checked><label for="delivery">Доставка</label></div>
-                <div><input id="takeYourself" type="radio" name="radio1" class="radio__item"><label for="takeYourself">Забрать самому</label></div>
-            </div>
-            <div class="blank__address address">
-                <input type="text" class="address__item blank-input" placeholder="Город*">
-                <input type="text" class="address__item blank-input" placeholder="Улица*">
-                <input type="text" class="address__item blank-input" placeholder="Дом*">
-                <input type="text" class="address__item blank-input" placeholder="Квартира">
-                <input type="text" class="address__item blank-input" placeholder="Подъезд">
-                <input type="text" class="address__item blank-input" placeholder="Код двери">
-            </div>
-            <div class="blank__intercom-and-call layout">
-                <div><input id="intercom" type="checkbox" class="blank__intercom"><label for="intercom">Домофон не работает</label></div>
-                <div><input id="no-call" type="checkbox" class="blank__no-call"><label for="no-call">Не перезванивать</label></div>
-            </div>
-            <div class="blank__when">Когда выполнить заказ?</div>
-            <div class="blank__radio2 radio">
-                <div><input id="faster" type="radio" name="radio2" class="radio__item" checked><label for="faster">Как можно быстрее</label></div>
-                <div><input id="choseDate" type="radio" name="radio2" class="radio__item"><label for="choseDate">Выбрать дату и время</label></div>
-            </div>
-            <div class="blank__payment">Способ оплаты:</div>
-            <div class="blank__radio3 radio">
-                <div><input id="cash" type="radio" name="radio3" class="radio__item" checked><label for="cash">Оплата при получении наличными</label></div>
-                <div><input id="cardReceipt" type="radio" name="radio3" class="radio__item"><label for="cardReceipt">Оплата при получении картой Радуга</label></div>
-                <div><input id="cardOnline" type="radio" name="radio3" class="radio__item"><label for="cardOnline">Оплата картой Радуга онлайн</label></div>
-                <div><input id="mobile" type="radio" name="radio3" class="radio__item"><label for="mobile">Оплата мобильным платежом</label></div>
-                <div><input id="auto" type="radio" name="radio3" class="radio__item"><label for="auto">Автоматический платеж</label></div>
-            </div>
-            <label for="comment" class="blank__comment">Комментарий к заказу:</label>
-            <textarea id="comment" class="blank__comment-input">Например (сдача с 500 рублей...)</textarea>
-            <div class="blank__bonus"><input id="bonus" type="checkbox"><label for="bonus">Стать участником Бонусной программы</label></div>
-        </div>
-    </form>
+    <div class="container__page404 page404 container__fixed container__fixed_adaptive">
+        <h1 class="page404__heading">404</h1>
+        <img src="img/404/404.svg" alt="404" class="page404__img404">
+        <img src="img/404/404-adaptive.svg" alt="404" class="page404__img404_adaptive">
+        <p class="page404__text">Нам очень жаль,<br class="page404__br"> но страница, которую Вы ищете не найдена.<br class="page404__br"> Но не огорчайтесь, в нашем меню<br class="page404__br"> еще много вкусной еды!</p>
+        <a href="authorization.php" class="page404__return-button button button_return">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+    </div>
 
-    <footer class="container__footer footer">
-        <div class="container__fixed container__fixed_adaptive">
-            <section class="footer__main main">
-                <div class="main__item main__item_first">
-                    <div class="logo logo_footer main__logo layout">
-                        <img src="img/footer/logo.svg" alt="Sushi And Pizza!" class="logo__img">
-                        <div class="logo__title logo__title_footer">
-                            <div class="logo__heading logo__heading_footer">LOVE <img src="img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"> SUSHI</div>
-                            <div class="logo__subheading logo__subheading_footer">Мы делаем жизнь вкуснее!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">ИНФОРМАЦИЯ</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="#" class="link-list__link">О нас</a></li>
-                                <li class="link-list__item"><a href="#" class="link-list__link">Оплата и доставка</a>
-                                </li>
-                                <li class="link-list__item"><a href="#" class="link-list__link">Политика
-                                    безопасности</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">ДОПОЛНИТЕЛЬНО</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="" class="link-list__link">Производители</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Подарочные
-                                    сертификаты</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Партнёры</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Товары со скидкой</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">НАШИ КОНТАКТЫ</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="" class="link-list__link">0 (533) 20-4-20, 0 (777)
-                                    7-22-44</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">г. Тирасполь, ул. 1 Мая,
-                                    2</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">zakaz@love-sushi.org</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </section>
-            <section class="footer__sprite layout">
-                <ul class="sprite layout">
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_vk"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_fb"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_od"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_inst"></a></li>
-                </ul>
-                <div class="footer__download download layout">
-                    <div class="download__title">Скачать приложение:</div>
-                    <a href="" class="download__app-store"><img src="img/footer/app-store.svg" alt=""></a>
-                    <a href="" class="download__play-market"><img src="img/footer/play-market.svg" alt=""></a>
-                </div>
-            </section>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <?php include('./footer.php'); ?>
 
 </div>
 

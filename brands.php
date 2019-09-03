@@ -8,12 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="img/header/logo.svg">
+    <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!--  <link rel="stylesheet" href="css/normalize.css">-->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="./css/main.css">
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -33,7 +32,8 @@
             <div class="logo header__logo layout">
                 <img src="img/header/logo.svg" alt="Sushi And Pizza!" class="logo__img">
                 <div class="logo__title">
-                    <div class="logo__heading">LOVE <img src="img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"> SUSHI
+                    <div class="logo__heading">LOVE <img src="img/header/logo46.svg" alt="Sushi And Pizza!"
+                                                         class="small-logo__img"> SUSHI
                     </div>
                     <div class="logo__subheading">Мы делаем жизнь вкуснее!</div>
                 </div>
@@ -47,15 +47,16 @@
             </div>
             <nav id="hiding-menu" class="header__menu hiding-menu">
                 <div class="layout">
-                    <div class="header__small-logo"><img src="img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"></div>
+                    <div class="header__small-logo"><img src="img/header/logo46.svg" alt="Sushi And Pizza!"
+                                                         class="small-logo__img"></div>
                     <img id="close-hiding-menu" src="img/header/close.svg" alt="Close" class="header__close">
                 </div>
                 <ul class="menu layout">
-                    <li class="menu__item"><a href="payment_and_delivery.html" class="menu__link">Оплата и доставка</a>
+                    <li class="menu__item"><a href="payment_and_delivery.php" class="menu__link">Оплата и доставка</a>
                     </li>
-                    <li class="menu__item"><a href="bonuses.html" class="menu__link">Бонусы</a></li>
-                    <li class="menu__item"><a href="promotions.html" class="menu__link">Акции</a></li>
-                    <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    <li class="menu__item"><a href="bonuses.php" class="menu__link">Бонусы</a></li>
+                    <li class="menu__item"><a href="promotions.php" class="menu__link">Акции</a></li>
+                    <li class="menu__item"><a href="contacts.php" class="menu__link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="contact header__contact">
@@ -65,6 +66,16 @@
 
         </div>
     </header>
+
+    <!--    <div class="container__search-block search-block">-->
+    <!--        <div class="search-block__heading">Поиск</div>-->
+    <!--        <div class="search-block__search-form">-->
+    <!--            <form action="" class="search-form">-->
+    <!--                <input type="text" class="search-form__input" placeholder="Что Вы ищете?">-->
+    <!--                <button class="search-form__loupe"><img src="img/search-form/loupe.svg" alt="" class="search-form__img"></button>-->
+    <!--            </form>-->
+    <!--        </div>-->
+    <!--    </div>-->
 
     <nav id="nav-menu" class="container__adaptive-navigation adaptive-navigation">
         <div class="container__fixed_adaptive">
@@ -148,9 +159,13 @@
                     <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">СУШИ</a></li>
                     <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">ПИЦЦА</a></li>
                     <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">WOK</a></li>
-                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_burgers menu__link_nav">БУРГЕРЫ И ГРИЛЬ</a></li>
+                    <li class="menu__item menu__item_nav"><a href=""
+                                                             class="menu__link menu__link_burgers menu__link_nav">БУРГЕРЫ
+                        И ГРИЛЬ</a></li>
                     <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav">САЛАТЫ</a></li>
-                    <li class="menu__item menu__item_nav"><a href="" class="menu__link menu__link_nav menu__link_dont-forget">НЕ ЗАБЫТЬ</a></li>
+                    <li class="menu__item menu__item_nav"><a href=""
+                                                             class="menu__link menu__link_nav menu__link_dont-forget">НЕ
+                        ЗАБЫТЬ</a></li>
                 </ul>
             </div>
             <div class="enter navigation__enter layout">
@@ -166,115 +181,31 @@
         </div>
     </nav>
 
-    <div class="location container__location">
+    <div class="container__email-not-found email-not-found">
         <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">404</span>
+            <div class="email-not-found__message">E-Mail адрес не найден, проверьте и попробуйте ещё раз!</div>
         </div>
     </div>
 
-    <div class="container__contacts-location contacts-location">
-        <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.html" class="contacts-location__link">Главная</a>
+    <div class="container__new-password-sended new-password-sended">
+        <div class="container__fixed">
+            <div class="new-password-sended__message">Новый пароль был выслан на ваш E-mail</div>
         </div>
     </div>
 
-    <div class="container__page404 page404 container__fixed container__fixed_adaptive">
-        <h1 class="page404__heading">404</h1>
-        <img src="img/404/404.svg" alt="404" class="page404__img404">
-        <img src="img/404/404-adaptive.svg" alt="404" class="page404__img404_adaptive">
-        <p class="page404__text">Нам очень жаль,<br class="page404__br"> но страница, которую Вы ищете не найдена.<br class="page404__br"> Но не огорчайтесь, в нашем меню<br class="page404__br"> еще много вкусной еды!</p>
-        <a href="authorization.html" class="page404__return-button button button_return">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
-    </div>
+    <!--    <div class="location container__location">-->
+    <!--        <div class="container__fixed">-->
+    <!--            <span class="location__main">Главная</span>-->
+    <!--            <span class="location__slash">/</span>-->
+    <!--            <span class="location__sub">Авторизация</span>-->
+    <!--        </div>-->
+    <!--    </div>-->
 
-    <footer class="container__footer footer">
-        <div class="container__fixed container__fixed_adaptive">
-            <section class="footer__main main">
-                <div class="main__item main__item_first">
-                    <div class="logo logo_footer main__logo layout">
-                        <img src="img/footer/logo.svg" alt="Sushi And Pizza!" class="logo__img">
-                        <div class="logo__title logo__title_footer">
-                            <div class="logo__heading logo__heading_footer">LOVE <img src="img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"> SUSHI</div>
-                            <div class="logo__subheading logo__subheading_footer">Мы делаем жизнь вкуснее!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">ИНФОРМАЦИЯ</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="#" class="link-list__link">О нас</a></li>
-                                <li class="link-list__item"><a href="#" class="link-list__link">Оплата и доставка</a>
-                                </li>
-                                <li class="link-list__item"><a href="#" class="link-list__link">Политика
-                                    безопасности</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">ДОПОЛНИТЕЛЬНО</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="" class="link-list__link">Производители</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Подарочные
-                                    сертификаты</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Партнёры</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Товары со скидкой</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">НАШИ КОНТАКТЫ</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="" class="link-list__link">0 (533) 20-4-20, 0 (777)
-                                    7-22-44</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">г. Тирасполь, ул. 1 Мая,
-                                    2</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">zakaz@love-sushi.org</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </section>
-            <section class="footer__sprite layout">
-                <ul class="sprite layout">
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_vk"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_fb"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_od"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_inst"></a></li>
-                </ul>
-                <div class="footer__download download layout">
-                    <div class="download__title">Скачать приложение:</div>
-                    <a href="" class="download__app-store"><img src="img/footer/app-store.svg" alt=""></a>
-                    <a href="" class="download__play-market"><img src="img/footer/play-market.svg" alt=""></a>
-                </div>
-            </section>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <?php include('./footer.php'); ?>
 
 </div>
 
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-    window.ga = function () {
-        ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('set', 'transport', 'beacon');
-    ga('send', 'pageview')
-</script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 <script src="js/main.js"></script>
 </body>

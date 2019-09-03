@@ -53,11 +53,11 @@
                     <img id="close-hiding-menu" src="img/header/close.svg" alt="Close" class="header__close">
                 </div>
                 <ul class="menu layout">
-                    <li class="menu__item"><a href="payment_and_delivery.html" class="menu__link">Оплата и доставка</a>
+                    <li class="menu__item"><a href="payment_and_delivery.php" class="menu__link">Оплата и доставка</a>
                     </li>
-                    <li class="menu__item"><a href="bonuses.html" class="menu__link">Бонусы</a></li>
-                    <li class="menu__item"><a href="promotions.html" class="menu__link">Акции</a></li>
-                    <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    <li class="menu__item"><a href="bonuses.php" class="menu__link">Бонусы</a></li>
+                    <li class="menu__item"><a href="promotions.php" class="menu__link">Акции</a></li>
+                    <li class="menu__item"><a href="contacts.php" class="menu__link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="contact header__contact">
@@ -617,81 +617,8 @@
         </ul>
     </div>
 
-    <footer class="container__footer footer">
-        <div class="container__fixed container__fixed_adaptive">
-            <section class="footer__main main">
-                <div class="main__item main__item_first">
-                    <div class="logo logo_footer main__logo layout">
-                        <img src="img/footer/logo.svg" alt="Sushi And Pizza!" class="logo__img">
-                        <div class="logo__title logo__title_footer">
-                            <div class="logo__heading logo__heading_footer">LOVE <img src="img/header/logo46.svg"
-                                                                                      alt="Sushi And Pizza!"
-                                                                                      class="small-logo__img"> SUSHI
-                            </div>
-                            <div class="logo__subheading logo__subheading_footer">Мы делаем жизнь вкуснее!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">ИНФОРМАЦИЯ</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="#" class="link-list__link">О нас</a></li>
-                                <li class="link-list__item"><a href="#" class="link-list__link">Оплата и доставка</a>
-                                </li>
-                                <li class="link-list__item"><a href="#" class="link-list__link">Политика
-                                    безопасности</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">ДОПОЛНИТЕЛЬНО</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="" class="link-list__link">Производители</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Подарочные
-                                    сертификаты</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Партнёры</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">Товары со скидкой</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="main__item">
-                    <div class="item-section">
-                        <div class="item-section__heading">НАШИ КОНТАКТЫ</div>
-                        <nav class="item-section__link-list">
-                            <ul class="linklist">
-                                <li class="link-list__item"><a href="" class="link-list__link">0 (533) 20-4-20, 0 (777)
-                                    7-22-44</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">г. Тирасполь, ул. 1 Мая,
-                                    2</a></li>
-                                <li class="link-list__item"><a href="" class="link-list__link">zakaz@love-sushi.org</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </section>
-            <section class="footer__sprite layout">
-                <ul class="sprite layout">
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_vk"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_fb"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_od"></a></li>
-                    <li class="sprite__item"><a href="" class="sprite__link sprite__link_inst"></a></li>
-                </ul>
-                <div class="footer__download download layout">
-                    <div class="download__title">Скачать приложение:</div>
-                    <a href="" class="download__app-store"><img src="img/footer/app-store.svg" alt=""></a>
-                    <a href="" class="download__play-market"><img src="img/footer/play-market.svg" alt=""></a>
-                </div>
-            </section>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <?php include('./footer.php'); ?>
 
 </div>
 

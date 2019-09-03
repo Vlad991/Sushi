@@ -1254,6 +1254,10 @@ input:focus {
     color: #9F9F9F;
 }
 
+.link-list__link:hover {
+    color: #5f5F5F;
+}
+
 .footer__sprite {
     margin: 24px 0;
 }
@@ -1279,16 +1283,32 @@ input:focus {
     background: url(../img/footer/vk.svg) no-repeat center;
 }
 
+.sprite__link_vk:hover {
+    background: url(../img/footer/vk-d.svg) no-repeat center;
+}
+
 .sprite__link_fb {
     background: url(../img/footer/fb.svg) no-repeat center;
+}
+
+.sprite__link_fb:hover {
+    background: url(../img/footer/fb-d.svg) no-repeat center;
 }
 
 .sprite__link_od {
     background: url(../img/footer/od.svg) no-repeat center;
 }
 
+.sprite__link_od:hover {
+    background: url(../img/footer/od-d.svg) no-repeat center;
+}
+
 .sprite__link_inst {
     background: url(../img/footer/inst.svg) no-repeat center;
+}
+
+.sprite__link_inst:hover {
+    background: url(../img/footer/inst-d.svg) no-repeat center;
 }
 
 .footer__download {
@@ -1308,10 +1328,26 @@ input:focus {
 
 .download__app-store {
     margin-left: 30px;
+    display: block;
+    width: 22px;
+    height: 28px;
+    background: url(../img/footer/app-store.svg) no-repeat top center;
+}
+
+.download__app-store:hover {
+    background: url(../img/footer/app-store-d.svg) no-repeat top center;
 }
 
 .download__play-market {
     margin-left: 16px;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(../img/footer/play-market.svg) no-repeat top center;
+}
+
+.download__play-market:hover {
+    background: url(../img/footer/play-market-d.svg) no-repeat top center;
 }
 
 @media screen and (max-width: 1280px) {
