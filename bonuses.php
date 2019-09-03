@@ -43,7 +43,7 @@
 
     <section class="container__bonuses bonuses">
         <div class="container__fixed container__fixed_adaptive">
-            <h1 class="bonuses__heading">Бонусы</h1>
+            <h1 class="container__heading">Бонусы</h1>
         </div>
         <header class="bonuses__bonuses-header bonuses-header">
             <div class="bonuses-header__heading">Бонусная программа<br> Love Sushi&pizza</div>

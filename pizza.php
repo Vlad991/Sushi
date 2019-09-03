@@ -44,7 +44,7 @@
     <div class="container__pizza-department pizza-department container__fixed container__fixed_adaptive">
         <div class="pizza-department__heading">Пицца</div>
         <ul class="pizza-department__sort-pizza sort-pizza layout">
-            <li class="sort-pizza__item">Сортировать:</li>
+            <li class="sort-pizza__item sort-pizza__item_no-hover">Сортировать:</li>
             <li class="sort-pizza__item">Все</li>
             <li class="sort-pizza__item sort-pizza__item_active">Новинка</li>
             <li class="sort-pizza__item">Острое</li>

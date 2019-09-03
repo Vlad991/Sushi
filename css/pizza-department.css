@@ -21,19 +21,32 @@
     margin: 27px 0 0;
 }
 
-.sort-pizza {
-    width: 460px;
-}
+.sort-pizza {display: flex;flex-wrap: wrap;}
 
 .sort-pizza__item {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 18px;
     letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.sort-pizza__item:hover {
+    color: #7f7f7f;
 }
 
 .sort-pizza__item_active {
     color: #F81242;
     border-bottom: 2px dotted #F81242;
+}
+
+.sort-pizza__item_active:hover {
+    color: #F81242;
+}
+
+.sort-pizza__item_no-hover:hover {
+    color: #000;
+    cursor: default;
 }
 
 .pizza-department__pizzas {
@@ -43,6 +56,9 @@
 .pizzas {
     display: flex;
     flex-wrap: wrap;
+}
+
+.pizzas_novelty {
 }
 
 .pizzas__item {
@@ -70,9 +86,19 @@
     box-sizing: border-box;
 }
 
+.pagination__link:hover {
+    background: #DFE4EA;
+    border: 1px solid #DFE4EA;
+}
+
 .pagination__link_active {
     background: #F81242;
     color: #fff;
+    border: 1px solid #F81242;
+}
+
+.pagination__link_active:hover {
+    background: #F81242;
     border: 1px solid #F81242;
 }
 

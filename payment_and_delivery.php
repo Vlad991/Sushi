@@ -43,7 +43,7 @@
 
     <div class="container__payment-and-delivery payment-and-delivery">
         <div class="container__fixed container__fixed_adaptive">
-            <h1 class="payment-and-delivery__header">Оплата и доставка</h1>
+            <h1 class="container__heading">Оплата и доставка</h1>
             <div class="payment-and-delivery__info-text info-text">
                 <p class="info-text__info-paragraph">Ждем Ваших заказов с 10:30 до 23:00 без выходных: </p>
                 <ul class="info-text__info-list info-list">

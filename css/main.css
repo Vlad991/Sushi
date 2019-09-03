@@ -69,6 +69,13 @@ input:focus {
     margin: 0 auto;
 }
 
+.container__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 67px 0 0;
+}
+
 .layout {
     display: flex;
     justify-content: space-between;
@@ -87,6 +94,12 @@ input:focus {
 @media screen and (max-width: 640px) {
     .container__fixed_adaptive {
         max-width: 590px;
+    }
+
+    .container__heading {
+        font-size: 18px;
+        margin: 16px 0 0;
+        letter-spacing: 0.5px;
     }
 }
 
@@ -956,6 +969,7 @@ input:focus {
 
 .button:hover {
     background: #F81242;
+    color: #fff;
     box-shadow: 0 3px 6px #F81242;
 }
 
@@ -1065,6 +1079,10 @@ input:focus {
     height: 630px;
 }
 
+.pizza-slide_3 {
+    min-height: 682px;
+}
+
 .pizza-slide:hover {
     border: 1px solid #F81242;
 }
@@ -1110,6 +1128,38 @@ input:focus {
     box-shadow: 0 3px 6px #FF0035;
 }
 
+.pizza-slide__img_20::before {
+    content: "-20%";
+    display: block;
+    width: 47px;
+    height: 34px;
+    border-radius: 37px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #F81242;
+    color: #fff;
+    padding: 9px 8px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px #FF0035;
+}
+
+.pizza-slide__img_new::before {
+    content: "NEW";
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #F81242;
+    color: #fff;
+    padding: 10px 6px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px #FF0035;
+}
+
 .pizza-slide__likes {
     position: absolute;
     bottom: 13px;
@@ -1135,7 +1185,16 @@ input:focus {
     letter-spacing: 0.5px;
     color: #707070;
     width: 274px;
+    min-height: 92px;
     margin: 5px auto;
+}
+
+.pizza-slide__ingredients {
+    margin: 20px 0 29px 25px;
+    font-size: 20px;
+    border-bottom: 2px dotted;
+    width: 147px;
+    cursor: pointer;
 }
 
 .pizza-slide__sizes {
@@ -1175,6 +1234,14 @@ input:focus {
     cursor: pointer;
 }
 
+.size-list__item:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.size-list__item_active:hover {
+    background: #fff;
+}
+
 .size-list__item_active {
     background: #fff;
 }
@@ -1192,10 +1259,23 @@ input:focus {
     margin: auto 0;
 }
 
+.pizza-slide__price_new {
+    color: #F81242;
+    margin-left: 7px;
+}
+
+.pizza-slide__price_old {
+    color: #5F5F5F;
+    text-decoration: line-through;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
 .pizza-slide__button {
 }
 
-. {
+.button_red {
     background: #F81242;
     color: #fff;
     box-shadow: 0 6px 6px rgba(248, 18, 66, 0.15);
