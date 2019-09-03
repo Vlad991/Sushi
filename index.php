@@ -34,14 +34,6 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <!--    <div class="location container__location">-->
-    <!--        <div class="container__fixed">-->
-    <!--            <span class="location__main">Главная</span>-->
-    <!--            <span class="location__slash">/</span>-->
-    <!--            <span class="location__sub">Авторизация</span>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
     <div class="container__main-page main-page">
         <div class="container__fixed container__fixed_adaptive">
             <div class="main-page__slider slider">
@@ -323,7 +315,7 @@
 
 </div>
 
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+
 <script src="js/main.js"></script>
 </body>
 

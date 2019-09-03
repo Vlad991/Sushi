@@ -34,29 +34,12 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <!--    <div class="container__search-block search-block">-->
-    <!--        <div class="search-block__heading">Поиск</div>-->
-    <!--        <div class="search-block__search-form">-->
-    <!--            <form action="" class="search-form">-->
-    <!--                <input type="text" class="search-form__input" placeholder="Что Вы ищете?">-->
-    <!--                <button class="search-form__loupe"><img src="img/search-form/loupe.svg" alt="" class="search-form__img"></button>-->
-    <!--            </form>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-    <div class="location container__location">
-        <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">Оплата и доставка</span>
-        </div>
-    </div>
-
-    <div class="container__contacts-location contacts-location">
-        <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.php" class="contacts-location__link">Главная</a>
-        </div>
-    </div>
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Оплата и доставка";
+    include('./location.php');
+    ?>
 
     <div class="container__payment-and-delivery payment-and-delivery">
         <div class="container__fixed container__fixed_adaptive">
@@ -296,18 +279,6 @@
 </div>
 
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-    window.ga = function () {
-        ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('set', 'transport', 'beacon');
-    ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 <script src="js/main.js"></script>
 </body>
 

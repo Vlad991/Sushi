@@ -33,16 +33,6 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <!--    <div class="container__search-block search-block">-->
-    <!--        <div class="search-block__heading">Поиск</div>-->
-    <!--        <div class="search-block__search-form">-->
-    <!--            <form action="" class="search-form">-->
-    <!--                <input type="text" class="search-form__input" placeholder="Что Вы ищете?">-->
-    <!--                <button class="search-form__loupe"><img src="img/search-form/loupe.svg" alt="" class="search-form__img"></button>-->
-    <!--            </form>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
     <div class="container__email-not-found email-not-found">
         <div class="container__fixed">
             <div class="email-not-found__message">E-Mail адрес не найден, проверьте и попробуйте ещё раз!</div>
@@ -55,13 +45,12 @@
         </div>
     </div>
 
-    <div class="location container__location">
-        <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">Авторизация</span>
-        </div>
-    </div>
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Авторизация";
+    include('./location.php');
+    ?>
 
     <section class="container__authorization">
         <div class="container__wrap">

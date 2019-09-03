@@ -34,29 +34,12 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <!--    <div class="container__search-block search-block">-->
-    <!--        <div class="search-block__heading">Поиск</div>-->
-    <!--        <div class="search-block__search-form">-->
-    <!--            <form action="" class="search-form">-->
-    <!--                <input type="text" class="search-form__input" placeholder="Что Вы ищете?">-->
-    <!--                <button class="search-form__loupe"><img src="img/search-form/loupe.svg" alt="" class="search-form__img"></button>-->
-    <!--            </form>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-    <div class="location container__location">
-        <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">Бонусы</span>
-        </div>
-    </div>
-
-    <div class="container__contacts-location contacts-location">
-        <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.php" class="contacts-location__link">Главная</a>
-        </div>
-    </div>
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Бонусы";
+    include('./location.php');
+    ?>
 
     <section class="container__bonuses bonuses">
         <div class="container__fixed container__fixed_adaptive">

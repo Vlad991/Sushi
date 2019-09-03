@@ -34,19 +34,12 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <div class="location container__location">
-        <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">Акции</span>
-        </div>
-    </div>
-
-    <div class="container__contacts-location contacts-location">
-        <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.php" class="contacts-location__link">Главная</a>
-        </div>
-    </div>
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Оформление заказа";
+    include('./location.php');
+    ?>
 
     <form class="container__checkout checkout container__fixed container__fixed_adaptive">
         <div class="checkout__heading">Оформление заказа</div>

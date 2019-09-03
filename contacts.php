@@ -34,19 +34,12 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <div class="location container__location">
-        <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">Контакты</span>
-        </div>
-    </div>
-
-    <div class="container__contacts-location contacts-location">
-        <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.php" class="contacts-location__link">Главная</a>
-        </div>
-    </div>
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Контакты";
+    include('./location.php');
+    ?>
 
     <section class="container__contacts contacts">
         <div class="container__fixed container__fixed_adaptive">

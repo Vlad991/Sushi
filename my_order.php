@@ -21,8 +21,7 @@
 
 <body>
 <!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
 <!-- Add your site or application content here -->
@@ -35,19 +34,12 @@
     <!-- Navigation -->
     <?php include('./navigation.php'); ?>
 
-    <div class="location container__location">
-        <div class="container__fixed">
-            <span class="location__main">Главная</span>
-            <span class="location__slash">/</span>
-            <span class="location__sub">Акции</span>
-        </div>
-    </div>
-
-    <div class="container__contacts-location contacts-location">
-        <div class="container__fixed container__fixed_adaptive">
-            <a href="authorization.php" class="contacts-location__link">Главная</a>
-        </div>
-    </div>
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Мой заказ";
+    include('./location.php');
+    ?>
 
     <form class="container__my-order my-order container__fixed container__fixed_adaptive">
         <div class="my-order__heading">Мой заказ</div>
