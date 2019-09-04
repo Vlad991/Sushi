@@ -1312,7 +1312,7 @@ input:focus {
         height: 386px;
     }
 
-    .pizza-img {
+    .pizza-slide-img {
         width: 226px;
     }
 
@@ -1326,7 +1326,16 @@ input:focus {
         width: 206px;
         margin: 0 0 0 11px;
         line-height: 16px;
+        min-height: 45px;
     }
+
+    .pizza-slide__sizes {
+        margin: 0;
+    }
+
+    .sizes__text {
+    display: none;
+}
 
     .pizza-slide__price {
         font-size: 18px;

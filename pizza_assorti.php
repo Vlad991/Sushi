@@ -57,44 +57,44 @@
             <div class="recommended__heading">Рекомендуем</div>
             <div class=" recommended__pizzas pizzas">
                 <?php
-                $pizzaIcon = "";
-                $pizzaImage = "./img/main-page/pizza1.svg";
-                $pizzaLikes = "272";
-                $pizzaName = "Четыре сезона";
-                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
-                $pizzaWeight = "540 г.";
-                $pizzaPrice = "69 руб.";
-                include('./pizza-slide.php');
+                $rollIcon = "";
+                $rollImage = "./img/main-page/pizza1.svg";
+                $rollLikes = "272";
+                $rollName = "Четыре сезона";
+                $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $rollWeight = "540 г.";
+                $rollPrice = "69 руб.";
+                include('./roll-slide.php');
                 ?>
                 <?php
-                $pizzaIcon = "";
-                $pizzaImage = "./img/main-page/pizza1.svg";
-                $pizzaLikes = "272";
-                $pizzaName = "Четыре сезона";
-                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
-                $pizzaWeight = "540 г.";
-                $pizzaPrice = "69 руб.";
-                include('./pizza-slide.php');
+                $rollIcon = "";
+                $rollImage = "./img/main-page/pizza1.svg";
+                $rollLikes = "272";
+                $rollName = "Четыре сезона";
+                $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $rollWeight = "540 г.";
+                $rollPrice = "69 руб.";
+                include('./roll-slide.php');
                 ?>
                 <?php
-                $pizzaIcon = "";
-                $pizzaImage = "./img/main-page/pizza1.svg";
-                $pizzaLikes = "272";
-                $pizzaName = "Четыре сезона";
-                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
-                $pizzaWeight = "540 г.";
-                $pizzaPrice = "69 руб.";
-                include('./pizza-slide.php');
+                $rollIcon = "";
+                $rollImage = "./img/main-page/pizza1.svg";
+                $rollLikes = "272";
+                $rollName = "Четыре сезона";
+                $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $rollWeight = "540 г.";
+                $rollPrice = "69 руб.";
+                include('./roll-slide.php');
                 ?>
                 <?php
-                $pizzaIcon = "";
-                $pizzaImage = "./img/main-page/pizza1.svg";
-                $pizzaLikes = "272";
-                $pizzaName = "Четыре сезона";
-                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
-                $pizzaWeight = "540 г.";
-                $pizzaPrice = "69 руб.";
-                include('./pizza-slide.php');
+                $rollIcon = "";
+                $rollImage = "./img/main-page/pizza1.svg";
+                $rollLikes = "272";
+                $rollName = "Четыре сезона";
+                $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $rollWeight = "540 г.";
+                $rollPrice = "69 руб.";
+                include('./roll-slide.php');
                 ?>
             </div>
         </div>

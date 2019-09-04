@@ -89,4 +89,92 @@
 .recommended__pizzas {
     margin-top: 28px;
     margin-bottom: 200px;
+    overflow: scroll;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1280px) {
+    .pizza-card__img {
+        height: 520px;
+    }
+
+    .pizza-img {
+        /* border: 1px solid; */
+        /* box-sizing: border-box; */
+    }
+
+    .pizza-info__sizes {
+        margin: 20px 0 0;
+    }
+
+    .pizza-info__price {
+        margin: 34px 0 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .pizza-card {
+        flex-wrap: wrap;
+    }
+
+    .pizza-card__img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .pizza-page__pizza-card {
+        margin: 30px 0 0;
+    }
+
+    .pizza-img, .pizza-card__img {
+        width: 335px;
+        height: 335px;
+    }
+
+    .pizza-card__img {
+        margin: 50px auto 0;
+    }
+
+    .pizza-card {
+        position: relative;
+    }
+
+    .pizza-info__heading {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pizza-page__pizza-card {
+        margin: 5px 0 0;
+    }
+
+    .pizza-info__heading {
+        top: 11px;
+        left: 0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+
+    .pizza-card__img {
+        margin: 62px 0 0;
+    }
+
+    .pizza-card__pizza-info {
+        margin: 4px 0 0;
+    }
+
+    .pizza-info__sizes {
+        margin: 43px 0 0;
+    }
+
+    .pizza-info__price {
+        margin: 46px 0 0;
+    }
+
+    .pizza-page__recommended {
+    margin: 51px 0 0;
+}
 }

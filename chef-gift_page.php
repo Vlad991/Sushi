@@ -101,6 +101,8 @@
         <div class="my-order__submit"><button type="button" class="button  button_order">ОФОРМИТЬ ЗАКАЗ</button></div>
     </form>
 
+    <?php include('./chef-gift.php'); ?>
+
     <!-- Footer -->
     <?php include('./footer.php'); ?>
 

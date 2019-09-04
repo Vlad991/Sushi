@@ -142,6 +142,11 @@
     position: relative;
 }
 
+.branches__item:hover {
+    cursor: pointer;
+    color: #7f7f7f;
+}
+
 .branches__item_active::after {
     content: "";
     display: block;
@@ -150,6 +155,10 @@
     background: #F81242;
     margin-top: 7px;
     position: absolute;
+}
+
+.branches__item_active:hover {
+    color: #000;
 }
 
 .pizza-slider__pizza-slides {

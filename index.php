@@ -99,134 +99,86 @@
                     <li class="branches__item">РЕКОМЕНДУЕМЫЕ</li>
                 </ul>
                 <div class="pizza-slider__pizza-slides pizza-slides">
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img pizza-slide__img_hit">
-                            <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">272</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img">
-                            <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">199</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img">
-                            <img src="img/main-page/pizza2.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">154</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img">
-                            <img src="img/main-page/pizza3.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">321</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img">
-                            <img src="img/main-page/pizza4.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">180</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img">
-                            <img src="img/main-page/pizza5.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">140</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img pizza-slide__img_pepper">
-                            <img src="img/main-page/pizza6.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">150</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
-                    <div class="pizza-slides__item pizza-slide">
-                        <div class="pizza-slide__img">
-                            <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                            <div class="pizza-slide__likes">199</div>
-                        </div>
-                        <div class="pizza-slide__heading">Четыре сезона</div>
-                        <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                            шампиньоны, моцарелла, томаты и орегано<br>
-                            540 г.
-                        </div>
-                        <div class="pizza-slide__footer layout">
-                            <div class="pizza-slide__price">69 руб.</div>
-                            <button class="pizza-slide__button button  button_to-cage">СКОРЕЕ В КОРЗИНУ!</button>
-                            <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                        </div>
-                    </div>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza3.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza4.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza5.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza6.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
                 </div>
             </div>
         </div>

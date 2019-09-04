@@ -13,7 +13,7 @@ if ($pizzaIcon=="hit") {
 
 <a href="./pizza_assorti.php" class="pizza-slides__item pizza-slide pizza-slide_2">
     <div class="pizza-slide__img <?= $pizzaIcon ?>">
-        <img src="<?= $pizzaImage ?>" alt="Slide Image" class="pizza-img">
+        <img src="<?= $pizzaImage ?>" alt="Slide Image" class="pizza-slide-img">
         <div class="pizza-slide__likes"><?= $pizzaLikes ?></div>
     </div>
     <div class="pizza-slide__heading"><?= $pizzaName ?></div>

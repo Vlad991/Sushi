@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/pizza-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pizza-page/pizza.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza-card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza_assorti.php" afterDir="false" />
+    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="Add pizza-page and pizza-card">
+      <change afterPath="$PROJECT_DIR$/chef-gift.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chef-gift_page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/psd/010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/radio_and_checkbox/radio.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers.php" beforeDir="false" afterPath="$PROJECT_DIR$/burgers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chef-gift.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/chef-gift.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/my-order.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/drinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/psd/.04.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/psd/.06.jpg.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pizza-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-slide-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-slide-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza_assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_assorti.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roll-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/roll-slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salads.php" beforeDir="false" afterPath="$PROJECT_DIR$/salads.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wok.php" beforeDir="false" afterPath="$PROJECT_DIR$/wok.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +106,7 @@
       <workItem from="1567178737304" duration="57859000" />
       <workItem from="1567510241172" duration="16000" />
       <workItem from="1567510299911" duration="540000" />
-      <workItem from="1567511643283" duration="30519000" />
+      <workItem from="1567511643283" duration="42000000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -384,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567540639155</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Add pizza-page and pizza-card">
+      <created>1567580238322</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1567580238322</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -428,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add promotions adaptability (014)" />
     <MESSAGE value="Add payment and delivery (015)" />
     <MESSAGE value="Add payment and delivery adaptability (057, 058)" />
     <MESSAGE value="Add 404 + adaptability (046, 047)" />
@@ -453,6 +456,7 @@
     <MESSAGE value="Add pizza slides php" />
     <MESSAGE value="Add assorti" />
     <MESSAGE value="Add rolls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add rolls" />
+    <MESSAGE value="Add pizza-page and pizza-card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pizza-page and pizza-card" />
   </component>
 </project>

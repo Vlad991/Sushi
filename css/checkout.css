@@ -2,6 +2,9 @@
 }
 
 .checkout {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .checkout__heading {
@@ -33,17 +36,15 @@
     letter-spacing: 0.5px;
 }
 
-/*.blank-input::after {*/
-/*    content: "*";*/
-/*    display: inline-block;*/
-/*    color: #F81242;*/
-/*}*/
-
 .blank__text {
     font-size: 18px;
     color: #5F5F5F;
     letter-spacing: 0.55px;
     margin: 24px 0 0;
+}
+
+.blank__auth {
+    color: #1473E6;
 }
 
 .blank__receiver-text {
@@ -64,7 +65,7 @@
 }
 
 .blank__radio1 {
-    width: 358px;
+    width: 420px;
     margin: 70px 0 0;
 }
 
@@ -77,10 +78,124 @@
 }
 
 .radio__item {
-    margin: 0 28px 0 0;
+    cursor: pointer;
+    position: relative;
+    min-width: 200px;
 }
 
-.radio__item[type="radio"] {
+.radio__item:hover .radio__label::before {
+    border: 3px solid #FB879F;
+}
+
+.radio__input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.radio__label {
+    margin: 0 0 0 40px;
+    cursor: pointer;
+}
+
+.radio__label:hover {
+    color: #FB879F;
+}
+
+.radio__label::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 3px solid #A4B0BE;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.radio__label::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #F81242;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: url("../img/radio_and_checkbox/radio.svg") no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}
+
+.radio__input:checked + .radio__label::after {
+    opacity: 1;
+}
+
+.checkbox__item {
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox__item:hover .checkbox__label::before {
+    border: 3px solid #FB879F;
+}
+
+.checkbox__input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.checkbox__label {
+    margin: 0 0 0 40px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.checkbox__label:hover {
+    color: #7f7f7f;
+}
+
+.checkbox__label::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 3px solid #A4B0BE;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.checkbox__label::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #F81242;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url("../img/radio_and_checkbox/check.svg") #F81242 no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}
+
+.checkbox__input:checked + .checkbox__label::after {
+    opacity: 1;
 }
 
 .blank__address {
@@ -120,7 +235,7 @@
 
 .blank__radio2 {
     margin: 28px 0 0;
-    width: 397px;
+    width: 420px;
 }
 
 .blank__payment {
@@ -132,31 +247,107 @@
 
 .blank__radio3 {
     margin: 27px 0 0;
+    height: 117px;
 }
 
 .blank__comment {
+    display: block;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0.5px;
+    margin: 52px 0 0;
 }
 
 .blank__comment-input {
+    margin: 9px 0 0;
+    height: 90px;
+    width: 630px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    resize: none;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
+    padding: 13px 14px;
+    letter-spacing: 0.5px;
+    outline: none;
 }
 
 .blank__bonus {
+    margin: 26px 0 200px 0;
 }
 
 .checkout__order-icon {
+    margin: 132px 0 0;
 }
 
 .order-icon {
+    width: 630px;
+    background: #F3F4F6;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 31px;
+    padding-top: 0.01%;
+    height: 613px;
 }
 
 .order-icon__heading {
+    margin: 29px 0 0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 .order-icon__back {
+    position: absolute;
+    top: 31px;
+    right: 25px;
 }
 
 .order-icon__orders {
+    margin: 27px 0 0;
+    justify-content: space-between;
+}
+
+.order__description_icon {
+    width: 315px;
+}
+
+.order__price_icon {
+    margin: 0 0 0 80px;
+}
+
+.order_icon {
+    justify-content: space-between;
+    position: relative;
+}
+
+.order__price-descr {
+    font-size: 14px;
+    color: #717171;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
 }
 
 .checkout__submit {
+    float: right;
+    margin: 50px 0 200px 0;
+    width: 190px;
+}
+
+@media screen and (max-width: 1280px) {
+    .checkout__order-icon {
+        margin: 0 0 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .order__price-descr {
+        left: 180px;
+    }
+}
+
+@media screen and (max-width: 640px){
+
 }

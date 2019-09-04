@@ -13,7 +13,7 @@
 
 <a href="./pizza_assorti.php" class="pizza-slides__item pizza-slide">
     <div class="pizza-slide__img <?= $rollIcon ?>">
-        <img src="<?= $rollImage ?>" alt="Slide Image" class="pizza-img">
+        <img src="<?= $rollImage ?>" alt="Slide Image" class="pizza-slide-img">
         <div class="pizza-slide__likes"><?= $rollLikes ?></div>
     </div>
     <div class="pizza-slide__heading"><?= $rollName ?></div>
