@@ -56,7 +56,7 @@
                 <li class="sprite__item"><a href="https://vk.com/love_sushi_pizza_tiraspol" class="sprite__link sprite__link_vk"></a></li>
                 <li class="sprite__item"><a href="https://www.facebook.com/Love.Sushi.Tiraspol/" class="sprite__link sprite__link_fb"></a></li>
                 <li class="sprite__item"><a href="https://ok.ru/profile513270930606" class="sprite__link sprite__link_od"></a></li>
-                <li class="sprite__item"><a href="" class="sprite__link sprite__link_inst"></a></li>
+                <li class="sprite__item"><a href="https://instagram.com/love_sushi_pizza_tiraspol?r=nametag" class="sprite__link sprite__link_inst"></a></li>
             </ul>
             <div class="footer__download download layout">
                 <div class="download__title">Скачать приложение:</div>

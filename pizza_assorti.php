@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!--  <link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/pizza-department.css">
+    <link rel="stylesheet" href="css/pizza-page.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<div class="container">
+
+    <!-- Header -->
+    <?php include('./header.php'); ?>
+
+    <!-- Navigation -->
+    <?php include('./navigation.php'); ?>
+
+    <!-- Location -->
+    <?php
+    $location1 = "Главная";
+    $location2 = "Пицца";
+    include('./location.php');
+    ?>
+
+    <section class="container__pizza-page pizza-page container__fixed container__fixed_adaptive">
+        <?php
+        $pizzaIcon = "pepper";
+        $pizzaImage = "./img/pizza-page/pizza.svg";
+        $pizzaLikes = "272";
+        $pizzaName = "Пицца Ассорти";
+        $pizzaDescription = "Красный соус, Моцарелла, Болгарский перец, Помидор, Копченая куриная грудка, Охотничьи колбаски, Бекон, Огурец соленый, Грибы, Лук. Зелень (петрушка) по просьбе клиента!!! ";
+        $pizzaWeight = "540 г.";
+        $pizzaPrice = "85 руб.";
+        include('./pizza-card.php');
+        ?>
+        <div class="pizza-page__recommended recommended">
+            <div class="recommended__heading">Рекомендуем</div>
+            <div class=" recommended__pizzas pizzas">
+                <?php
+                $pizzaIcon = "";
+                $pizzaImage = "./img/main-page/pizza1.svg";
+                $pizzaLikes = "272";
+                $pizzaName = "Четыре сезона";
+                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $pizzaWeight = "540 г.";
+                $pizzaPrice = "69 руб.";
+                include('./pizza-slide.php');
+                ?>
+                <?php
+                $pizzaIcon = "";
+                $pizzaImage = "./img/main-page/pizza1.svg";
+                $pizzaLikes = "272";
+                $pizzaName = "Четыре сезона";
+                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $pizzaWeight = "540 г.";
+                $pizzaPrice = "69 руб.";
+                include('./pizza-slide.php');
+                ?>
+                <?php
+                $pizzaIcon = "";
+                $pizzaImage = "./img/main-page/pizza1.svg";
+                $pizzaLikes = "272";
+                $pizzaName = "Четыре сезона";
+                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $pizzaWeight = "540 г.";
+                $pizzaPrice = "69 руб.";
+                include('./pizza-slide.php');
+                ?>
+                <?php
+                $pizzaIcon = "";
+                $pizzaImage = "./img/main-page/pizza1.svg";
+                $pizzaLikes = "272";
+                $pizzaName = "Четыре сезона";
+                $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                $pizzaWeight = "540 г.";
+                $pizzaPrice = "69 руб.";
+                include('./pizza-slide.php');
+                ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <?php include('./footer.php'); ?>
+
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

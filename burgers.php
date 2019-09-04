@@ -42,400 +42,97 @@
     ?>
 
     <div class="container__pizza-department pizza-department container__fixed container__fixed_adaptive">
-        <div class="pizza-department__heading">Пицца</div>
-        <ul class="pizza-department__sort-pizza sort-pizza layout">
-            <li class="sort-pizza__item">Сортировать:</li>
-            <li class="sort-pizza__item">Все</li>
-            <li class="sort-pizza__item sort-pizza__item_active">Новинка</li>
-            <li class="sort-pizza__item">Острое</li>
-            <li class="sort-pizza__item">Вегетарианское</li>
-            <li class="sort-pizza__item">Хит</li>
+        <div class="pizza-department__heading">Блюда на гриле</div>
+        <ul class="pizza-department__sort-pizza sort-pizza">
+            <li class="sort-pizza__item sort-pizza__item_no-hover">Сортировать:</li>
+            <li class="sort-pizza__item sort-pizza__item_active">Все</li>
+            <li class="sort-pizza__item">Мясные блюда</li>
+            <li class="sort-pizza__item">Бургеры</li>
+            <li class="sort-pizza__item">Закуски</li>
         </ul>
         <div class="pizza-department__pizzas pizzas">
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
-            <div class="pizzas__item pizza-slide pizza-slide_2">
-                <div class="pizza-slide__img">
-                    <img src="img/main-page/pizza1.svg" alt="Slide Image" class="pizza-img">
-                    <div class="pizza-slide__likes">272</div>
-                </div>
-                <div class="pizza-slide__heading">Четыре сезона</div>
-                <div class="pizza-slide__text">Ветчина, пикантная пепперони, томатный соус, кубики брынзы,
-                    шампиньоны, моцарелла, томаты и орегано<br>
-                    540 г.
-                </div>
-                <div class="pizza-slide__sizes sizes layout">
-                    <div class="sizes__text">Размер:</div>
-                    <ul class="sizes__size-list size-list layout">
-                        <li class="size-list__item size-list__item_active">25 см.</li>
-                        <li class="size-list__item">30 см.</li>
-                        <li class="size-list__item">35 см.</li>
-                    </ul>
-                </div>
-                <div class="pizza-slide__footer layout">
-                    <div class="pizza-slide__price">69 руб.</div>
-                    <button class="pizza-slide__button button button_to-cage">В КОРЗИНУ</button>
-                    <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
-                </div>
-            </div>
+            <?php
+            $rollIcon = "new";
+            $rollImage = "./img/main-page/roll1.svg";
+            $rollLikes = "272";
+            $rollName = "Балковский";
+            $rollDescription = "Снежный краб, Креветка, Огурец, икра Масаго, Японский майонез.";
+            $rollWeight = "220 г.";
+            $rollPrice = "79 руб.";
+            include('./roll-slide.php');
+            ?>
+            <?php
+            $pizzaIcon = "hit";
+            $pizzaImage = "./img/main-page/pizza1.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaPrice = "69 руб.";
+            include('./pizza-slide.php');
+            ?>
+            <?php
+            $pizzaIcon = "20";
+            $pizzaImage = "./img/main-page/pizza2.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaPrice = "69 руб.";
+            include('./pizza-slide.php');
+            ?>
+            <?php
+            $pizzaIcon = "pepper";
+            $pizzaImage = "./img/main-page/pizza6.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaOldPrice = "678 руб.";
+            $pizzaPrice = "569 руб.";
+            include('./pizza-slide-3.php');
+            ?>
+            <?php
+            $pizzaIcon = "";
+            $pizzaImage = "./img/main-page/pizza4.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaPrice = "69 руб.";
+            include('./pizza-slide.php');
+            ?>
+            <?php
+            $pizzaIcon = "";
+            $pizzaImage = "./img/main-page/pizza5.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaPrice = "69 руб.";
+            include('./pizza-slide.php');
+            ?>
+            <?php
+            $pizzaIcon = "";
+            $pizzaImage = "./img/main-page/pizza6.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaOldPrice = "678 руб.";
+            $pizzaPrice = "569 руб.";
+            include('./pizza-slide-3.php');
+            ?>
+            <?php
+            $pizzaIcon = "";
+            $pizzaImage = "./img/main-page/pizza1.svg";
+            $pizzaLikes = "272";
+            $pizzaName = "Четыре сезона";
+            $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+            $pizzaWeight = "540 г.";
+            $pizzaPrice = "69 руб.";
+            include('./pizza-slide-2.php');
+            ?>
         </div>
         <ul class="pizza-department__pagination pagination layout">
             <li class="pagination__item">
