@@ -1,4 +1,4 @@
-
+window.onload = function () {
     var doc = document;
 
     var menuIcon = doc.getElementById("menu-icon");
@@ -36,3 +36,12 @@
     };
 
     navMenuIcon.addEventListener('click', doNavMenu, false);
+
+    var goButton = doc.getElementById("goToPersonalAccount");
+
+    function goToAccount() {
+        window.location.href = "/personal_account.php";
+    }
+
+    goButton.addEventListener("click", goToAccount, false);
+}

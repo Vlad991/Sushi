@@ -36,8 +36,8 @@
                     <div class="number__title">Номер мобильного телефона</div>
                     <input type="text" class="number__input field">
                 </div>
-                <button class="authorization__sms-button button">ПОЛУЧИТЬ КОД ПО SMS</button>
-                <a href="#" class="authorization__footer">У меня есть пароль</a>
+                <button type="button" id="goToPersonalAccount" class="authorization__sms-button button">ПОЛУЧИТЬ КОД ПО SMS</button>
+                <a href="./404.php" class="authorization__footer">У меня есть пароль</a>
             </form>
             <form action="" class="authorization authorization_phone-password">
                 <div class="authorization__header">Авторизация</div>
@@ -48,7 +48,7 @@
                 <div class="authorization__password password">
                     <div class="password__title">Пароль:</div>
                     <input type="password" class="password__input field">
-                    <a href="#" class="password__forgot">Забыли пароль?</a>
+                    <a href="./404.php" class="password__forgot">Забыли пароль?</a>
                 </div>
                 <button class="authorization__enter-button button">Войти</button>
             </form>

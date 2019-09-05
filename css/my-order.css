@@ -231,7 +231,7 @@
 
 @media screen and (max-width: 800px) {
     .my-order {
-        display: none;
+        /* display: none; */
         min-height: 861px;
     }
 
