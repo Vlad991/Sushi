@@ -31,69 +31,71 @@
     </div>
 </nav>
 
-<nav id="nav-menu" class="container__adaptive-navigation adaptive-navigation">
-    <div class="container__fixed_adaptive">
-        <ul class="adaptive-navigation layout">
-            <li class="adaptive-navigation__item">
-                <a href="./novelty.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav1.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Новинки</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./assorti.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav2.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Ассорти</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./premium.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav3.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Премиум</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./rolls.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav4.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Роллы</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./sushi.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav5.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Суши</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./pizza.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav6.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Пицца</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./wok.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav7.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Wok</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./burgers.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav8.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Бургер и гриль</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./salads.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav9.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Салаты</div>
-                </a>
-            </li>
-            <li class="adaptive-navigation__item">
-                <a href="./drinks.php" class="adaptive-navigation__link">
-                    <img src="img/adaptive-navigation/nav10.svg" alt="" class="adaptive-navigation__img">
-                    <div class="adaptive-navigation__title">Не забыть</div>
-                </a>
-            </li>
-        </ul>
+<nav id="nav-menu" class="container__adaptive-navigation hide">
+    <div class="adaptive-navigation">
+        <div class="container__fixed_adaptive">
+            <ul class="adaptive-navigation layout">
+                <li class="adaptive-navigation__item">
+                    <a href="./novelty.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav1.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Новинки</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./assorti.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav2.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Ассорти</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./premium.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav3.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Премиум</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./rolls.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav4.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Роллы</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./sushi.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav5.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Суши</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./pizza.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav6.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Пицца</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./wok.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav7.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Wok</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./burgers.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav8.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Бургер и гриль</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./salads.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav9.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Салаты</div>
+                    </a>
+                </li>
+                <li class="adaptive-navigation__item">
+                    <a href="./drinks.php" class="adaptive-navigation__link">
+                        <img src="img/adaptive-navigation/nav10.svg" alt="" class="adaptive-navigation__img">
+                        <div class="adaptive-navigation__title">Не забыть</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
