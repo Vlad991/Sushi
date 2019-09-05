@@ -1,20 +1,16 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <title>Доставка еды — заказать пиццу и суши с доставкой на дом, недорого | Love-Sushi</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <base href="./index.html">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/pizza-department.css">
-
-    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
@@ -147,7 +143,7 @@
 
 </div>
 
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+
 <script src="js/main.js"></script>
 </body>
 

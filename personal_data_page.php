@@ -1,24 +1,19 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>404</title>
-    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <title>Доставка еды — заказать пиццу и суши с доставкой на дом, недорого | Love-Sushi</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="./index.html">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="img/header/logo.svg">
-    <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/personal_account.css">
-
-    <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/personal_account.css">
 </head>
 
 <body>
-
 <div class="container">
 
     <!-- Header -->

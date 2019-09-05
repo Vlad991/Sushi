@@ -1,3 +1,9 @@
+<?php
+    if ($location3 == null) {
+        $location3 = "Главная";
+    }
+?>
+
 <div class="location container__location">
     <div class="container__fixed">
         <span class="location__main"><?= $location1 ?></span>
@@ -8,6 +14,6 @@
 
 <div class="container__contacts-location contacts-location">
     <div class="container__fixed container__fixed_adaptive">
-        <a href="index.php" class="contacts-location__link">Главная</a>
+        <a href="index.php" class="contacts-location__link"><?= $location3 ?></a>
     </div>
 </div>

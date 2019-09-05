@@ -1,30 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <title>Доставка еды — заказать пиццу и суши с доставкой на дом, недорого | Love-Sushi</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="./index.html">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!--  <link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="./css/main.css">
-
-    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-<!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
-<![endif]-->
-
-<!-- Add your site or application content here -->
-
 <div class="container">
 
     <!-- Header -->
@@ -40,12 +28,16 @@
     include('./location.php');
     ?>
 
+    <div class="container__about about container__fixed container__fixed_adaptive" style="height: 1000px">
+        <div class="container__heading">Товары со скидкой</div>
+    </div>
+
     <!-- Footer -->
     <?php include('./footer.php'); ?>
 
 </div>
 
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+
 <script src="js/main.js"></script>
 </body>
 
