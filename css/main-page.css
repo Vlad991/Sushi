@@ -387,8 +387,8 @@
 
     .description__button {
         position: absolute;
-        top: 343px;
-        left: 34%;
+        top: 304px;
+        left: 35%;
     }
 
     .slider__controls {
@@ -460,8 +460,8 @@
 
 @media screen and (max-width: 639px) {
     .description__button {
-        top: 396px;
-        left: 21%;
+        top: 311px;
+        left: 34%;
     }
 
     .main-page__pizza-slider {

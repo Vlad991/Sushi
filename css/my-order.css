@@ -294,6 +294,7 @@
 
     .enter-promo {
         width: 200px;
+        height: 30px;
     }
 
     .my-order__submit {
