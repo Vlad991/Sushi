@@ -37,3 +37,4 @@
 
     navMenuIcon.addEventListener('click', doNavMenu, false);
 
+    document.addEventListener("DOMContentLoaded", hideNavMenu);

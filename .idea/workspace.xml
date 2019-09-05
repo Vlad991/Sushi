@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="Add pizza-page and pizza-card">
-      <change afterPath="$PROJECT_DIR$/chef-gift.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chef-gift_page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/010.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/radio_and_checkbox/radio.svg" afterDir="false" />
+    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/personal_account.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery_address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/psd/029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal_data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal_data_page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/chef-gift.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/chef-gift.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/my-order.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pizza-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza_assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_assorti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roll-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/roll-slide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt/bem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/bem.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +98,8 @@
       <workItem from="1567178737304" duration="57859000" />
       <workItem from="1567510241172" duration="16000" />
       <workItem from="1567510299911" duration="540000" />
-      <workItem from="1567511643283" duration="42000000" />
+      <workItem from="1567511643283" duration="44797000" />
+      <workItem from="1567689482684" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Add header (0107) without fonts and fixed position">
       <created>1564165998995</created>
@@ -388,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567580238322</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add order checkout">
+      <created>1567614648751</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1567614648751</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -432,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add payment and delivery (015)" />
     <MESSAGE value="Add payment and delivery adaptability (057, 058)" />
     <MESSAGE value="Add 404 + adaptability (046, 047)" />
     <MESSAGE value="Add bonuses (044)" />
@@ -457,6 +456,7 @@
     <MESSAGE value="Add assorti" />
     <MESSAGE value="Add rolls" />
     <MESSAGE value="Add pizza-page and pizza-card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pizza-page and pizza-card" />
+    <MESSAGE value="Add order checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add order checkout" />
   </component>
 </project>

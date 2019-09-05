@@ -1,0 +1,157 @@
+.container__personal-account {
+    margin-bottom: 200px;
+}
+
+.personal-account {
+}
+
+.personal-account__heading {
+}
+
+.personal-account__body {
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 0 0;
+}
+
+.personal-account__acc-menu {
+}
+
+.acc-menu {
+}
+
+.acc-menu__item {
+    cursor: pointer;
+    margin-bottom: 13px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.acc-menu__link {
+    display: none;
+}
+
+.acc-menu__item:hover {
+    color: #FB879F;
+}
+
+.acc-menu__item_active {
+    color: #F81242;
+}
+
+.personal-account__info-data {
+}
+
+.info-data {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.personal-account__info-data_address {
+    display: none;
+}
+
+.personal-account__info-data_names {
+    padding-right: 330px;
+    /* display: none; */
+}
+
+.info-data__text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 19px 0;
+}
+
+.info-data__label {
+}
+
+.info-data__label_star::after {
+    content: "*";
+    color: #F81242;
+    display: inline-block;
+    margin: 0 0 0 1px;
+}
+
+.info-data__input {
+    width: 300px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #A4B0BE;
+    font-size: 18px;
+    margin: 8px 0 0;
+    padding: 4px 14px;
+}
+
+.info-data__button {
+    margin: 31px 0 0;
+    width: 191px;
+}
+
+.personal-account__info-data_names {
+    margin: 0 auto 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .personal-account__info-data_names {
+        padding: 0;
+    }
+
+    .info-data {
+        width: 626px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .info-data {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .personal-account__info-data {
+        display: none;
+    }
+
+    .acc-menu {
+        width: 100%;
+    }
+
+    .acc-menu__item {
+        border-top: 1px solid #CED6E0;
+        margin: 0;
+        height: 47px;
+        box-sizing: border-box;
+        width: 100%;
+        line-height: 47px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .acc-menu__item_active {
+        color: #000;
+    }
+
+    .acc-menu__item::after {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 9px;
+        right: 18px;
+        margin: 7px 0 0 0;
+        content: url("../img/payment_and_delivery/arrow.svg");
+        transform: rotate(-90deg);
+    }
+
+    .acc-menu__item:last-child {
+        border-bottom: 1px solid #CED6E0;
+    }
+
+    .container__personal-account {
+        margin-bottom: 100px;
+    }
+}

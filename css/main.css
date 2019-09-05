@@ -240,7 +240,7 @@ input:focus {
 }
 
 .adaptive-navigation {
-    display: none;
+    /* display: none; */
 }
 
 .container__sticky {
@@ -1312,6 +1312,14 @@ input:focus {
         height: 386px;
     }
 
+    .pizza-slide_2 {
+        height: 440px;
+    }
+
+    .pizza-slide_3 {
+        min-height: 516px;
+    }
+
     .pizza-slide-img {
         width: 226px;
     }
@@ -1330,12 +1338,13 @@ input:focus {
     }
 
     .pizza-slide__sizes {
-        margin: 0;
+        width: 200px;
+        margin: 7px auto;
     }
 
     .sizes__text {
-    display: none;
-}
+        display: none;
+    }
 
     .pizza-slide__price {
         font-size: 18px;
@@ -1345,7 +1354,7 @@ input:focus {
         width: 100%;
         padding: 0 9px;
         box-sizing: border-box;
-        margin: 7px 0;
+        margin: 16px 0;
     }
 
     .pizza-slide:hover .button_to-cage {

@@ -314,4 +314,21 @@ container
                                             order__sum
                 checkout__submit
 
+    container__personal-account
+        personal-account
+            container__fixed container__fixed_adaptive
+                personal-account__heading
+                personal-account__body
+                    personal-account__acc-menu
+                        acc-menu
+                            acc-menu__item acc-menu__item_active
+                    personal-account__info-data
+                        info-data
+                          info-data__text
+                            info-data__label info-data__label_star
+                            info-data__input
+                            info-data__button
+                        info-data
+                            ...
+
 

@@ -3,7 +3,7 @@
         <div class="logo header__logo layout">
             <a href="./index.php" class="logo__href-img"><img src="img/header/logo.svg" alt="Sushi And Pizza!" class="logo__img"></a>
             <div class="logo__title">
-                <div class="logo__heading">LOVE <img src="img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"> SUSHI</div>
+                <a href="./index.php" class="logo__heading">LOVE <img src="img/header/logo46.svg" alt="Sushi And Pizza!" class="small-logo__img"> SUSHI</a>
                 <div class="logo__subheading">Мы делаем жизнь вкуснее!</div>
             </div>
         </div>
