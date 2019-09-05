@@ -406,6 +406,7 @@
     .pizza-slides {
         flex-wrap: nowrap;
         overflow: scroll;
+        min-height: 400px;
     }
 
     .reviews {

@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers.php" beforeDir="false" afterPath="$PROJECT_DIR$/burgers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rolls.php" beforeDir="false" afterPath="$PROJECT_DIR$/rolls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salads.php" beforeDir="false" afterPath="$PROJECT_DIR$/salads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wok.php" beforeDir="false" afterPath="$PROJECT_DIR$/wok.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -397,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567703494104</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Fix bugs">
+      <created>1567705081128</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1567705081128</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -441,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add bonuses (044)" />
     <MESSAGE value="Add bonuses adaptability (045)" />
     <MESSAGE value="Add main-page templates" />
     <MESSAGE value="Add slider and info-slider to main-page" />
@@ -466,6 +476,7 @@
     <MESSAGE value="Add order checkout" />
     <MESSAGE value="Add personal account" />
     <MESSAGE value="Clean all files heads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean all files heads" />
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
   </component>
 </project>
