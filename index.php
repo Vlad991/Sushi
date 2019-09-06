@@ -24,8 +24,8 @@
 
     <div class="container__main-page main-page">
         <div class="container__fixed container__fixed_adaptive">
-            <div class="main-page__slider slider">
-                <div class="slider__slide slide layout">
+            <div id="mainSlider" class="main-page__slider slider">
+                <div class="slider__slide current slide layout">
                     <div class="slide__description description">
                         <div class="description__heading">Сет Мини в подарок на день рождения!</div>
                         <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
@@ -37,10 +37,16 @@
                     </div>
                     <img src="img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                 </div>
-                <ul class="slider__controls controls layout">
-                    <li class="controls__circle">
-                        <div class="circle"></div>
-                    </li>
+                <div class="slider__slide slide layout">
+                    <img src="" alt="Slide 1" class="slide__img" style="max-height: 367px;background: rgba(0, 0, 0, 0.5);height: 367px;width: 100%;font-size: 30px; text-align: center;">
+                </div>
+                <div class="slider__slide slide layout">
+                    <img src="" alt="Slide 2" class="slide__img" style="max-height: 367px;background: rgba(0, 0, 0, 0.5);height: 367px;width: 100%;font-size: 30px; text-align: center;">
+                </div>
+                <div class="slider__slide slide layout">
+                    <img src="" alt="Slide 3" class="slide__img" style="max-height: 367px;background: rgba(0, 0, 0, 0.5);height: 367px;width: 100%;font-size: 30px; text-align: center;">
+                </div>
+                <ul id="controls" class="slider__controls controls layout">
                     <li class="controls__circle">
                         <div class="circle circle_active"></div>
                     </li>
@@ -50,7 +56,12 @@
                     <li class="controls__circle">
                         <div class="circle"></div>
                     </li>
+                    <li class="controls__circle">
+                        <div class="circle"></div>
+                    </li>
                 </ul>
+                <div id="prev" class="slider__prev"></div>
+                <div id="next" class="slider__next"></div>
             </div>
         </div>
         <div class="main-page__info-list info-list">
@@ -256,6 +267,10 @@
 </div>
 
 
+<!--  jQuery  -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="js/main-slider.js"></script>
 <script src="js/main.js"></script>
 </body>
 
