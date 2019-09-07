@@ -47,7 +47,7 @@
                             <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
                         </div>
                     </div>
-                    <img src="img/main-page/slide.svg" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
+                    <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
                 <div class="slider__slide slide layout">
                     <div class="slide__description description">
@@ -59,7 +59,7 @@
                             <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
                         </div>
                     </div>
-                    <img src="img/main-page/slide.svg" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
+                    <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
                 <div class="slider__slide slide layout">
                     <div class="slide__description description">
@@ -71,7 +71,7 @@
                             <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
                         </div>
                     </div>
-                    <img src="img/main-page/slide.svg" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
+                    <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
                 <ul id="controls" class="slider__controls controls layout">
                     <li class="controls__circle">

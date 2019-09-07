@@ -45,14 +45,20 @@ window.onload = function () {
     //
     // goButton.addEventListener("click", goToAccount, false);
 
+    $("#goToPersonalAccount").click(function () {
+        window.location.href = "./personal_account.php";
+    });
+
+    $(".button_slider").click(function () {
+        window.location.href = "./my_order.php";
+    });
+
     $("#searchIconOpen").click(function () {
         $("#searchBlock").removeClass("hide");
-        console.log("1")
     });
 
     $('body').click(function (event) {
         var target = $(event.target);
-        console.log("2");
         if (!$("#searchBlock").hasClass("hide")) {
             if (!target.is("#searchBlock div") && !target.is("#searchIconOpen") && !target.is("#searchBlockInput") && !target.is("#searchBlockForm")) {
                 $("#searchBlock").addClass("hide");
