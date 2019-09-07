@@ -34,7 +34,7 @@
         <img src="img/404/404.svg" alt="404" class="page404__img404">
         <img src="img/404/404-adaptive.svg" alt="404" class="page404__img404_adaptive">
         <p class="page404__text">Нам очень жаль,<br class="page404__br"> но страница, которую Вы ищете не найдена.<br class="page404__br"> Но не огорчайтесь, в нашем меню<br class="page404__br"> еще много вкусной еды!</p>
-        <a href="authorization.php" class="page404__return-button button button_return">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+        <a href="./index.php" class="page404__return-button button button_return">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
     </div>
 
     <!-- Footer -->

@@ -97,6 +97,252 @@
                     <li class="branches__item">НОВИНКИ</li>
                     <li class="branches__item">РЕКОМЕНДУЕМЫЕ</li>
                 </ul>
+                <div class="pizza-slider__pizza-slides pizza-slides active-tab">
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza3.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza4.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza5.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza6.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                </div>
+                <div class="pizza-slider__pizza-slides pizza-slides">
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza3.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza4.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza5.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza6.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                </div>
+                <div class="pizza-slider__pizza-slides pizza-slides">
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza3.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza4.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza5.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "hit";
+                    $rollImage = "./img/main-page/pizza6.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza2.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                    <?php
+                    $rollIcon = "";
+                    $rollImage = "./img/main-page/pizza1.svg";
+                    $rollLikes = "272";
+                    $rollName = "Четыре сезона";
+                    $rollDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
+                    $rollWeight = "540 г.";
+                    $rollPrice = "69 руб.";
+                    include('./roll-slide.php');
+                    ?>
+                </div>
                 <div class="pizza-slider__pizza-slides pizza-slides">
                     <?php
                     $rollIcon = "hit";
@@ -184,55 +430,191 @@
         <div class="main-page__reviews reviews">
             <div class="container__fixed container__fixed_adaptive">
                 <div class="reviews__heading">Отзывы о нас</div>
-                <div class="reviews__review-slider review-slider layout">
-                    <div class="review-slider__slide">
-                        <div class="review-slider__name">Александра</div>
-                        <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
-                            остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
-                            вам и побольше клиентов!
+                <div id="reviewSlider" class="reviews__review-slider review-slider layout">
+                    <div class="default-slide active-slide">
+                        <div class="review-slider__slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                вам и побольше клиентов!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
                         </div>
-                        <div class="review-slider__mark layout">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Виктория</div>
+                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
+                        </div>
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                быстро :)<br>
+                                Теперь только к Вам. Довольна вся семья :)
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
                         </div>
                     </div>
-                    <div class="review-slider__slide hide-info-slide">
-                        <div class="review-slider__name">Виктория</div>
-                        <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
-                            оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
-                            вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                    <div class="default-slide">
+                        <div class="review-slider__slide">
+                            <div class="review-slider__name">Виктория</div>
+                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
                         </div>
-                        <div class="review-slider__mark layout">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                вам и побольше клиентов!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
+                        </div>
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                быстро :)<br>
+                                Теперь только к Вам. Довольна вся семья :)
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
                         </div>
                     </div>
-                    <div class="review-slider__slide hide-info-slide">
-                        <div class="review-slider__name">Александра</div>
-                        <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
-                            быстро :)<br>
-                            Теперь только к Вам. Довольна вся семья :)
+                    <div class="default-slide">
+                        <div class="review-slider__slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                вам и побольше клиентов!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
                         </div>
-                        <div class="review-slider__mark layout">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                быстро :)<br>
+                                Теперь только к Вам. Довольна вся семья :)
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
+                        </div>
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Виктория</div>
+                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="default-slide">
+                        <div class="review-slider__slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                быстро :)<br>
+                                Теперь только к Вам. Довольна вся семья :)
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
+                        </div>
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Александра</div>
+                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                вам и побольше клиентов!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
+                        </div>
+                        <div class="review-slider__slide hide-info-slide">
+                            <div class="review-slider__name">Виктория</div>
+                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                            </div>
+                            <div class="review-slider__mark layout">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <ul class="reviews__review-controls review-controls layout">
-                    <li class="review-controls__circle"></li>
-                    <li class="review-controls__circle"></li>
-                    <li class="review-controls__circle"></li>
+                <div id="prevReview" class="slider__prev"></div>
+                <div id="nextReview" class="slider__next"></div>
+                <ul id="reviewControls" class="reviews__review-controls review-controls layout">
                     <li class="review-controls__circle review-controls__circle_active"></li>
+                    <li class="review-controls__circle"></li>
+                    <li class="review-controls__circle"></li>
+                    <li class="review-controls__circle"></li>
                 </ul>
                 <button class="reviews__button button  button_review">ОСТАВИТЬ ОТЗЫВ</button>
             </div>
@@ -270,8 +652,9 @@
 <!--  jQuery  -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-<script src="js/main-slider.js"></script>
 <script src="js/main.js"></script>
+<script src="js/main-slider.js"></script>
+<script src="js/review-slider.js"></script>
 </body>
 
 </html>

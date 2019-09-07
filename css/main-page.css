@@ -95,7 +95,13 @@
     width: 300px;
 }
 
-.slider__prev:hover {
+.slider__prev:hover::after {
+    content: url("../img/main-page/arrow.png");
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    transform: rotate(180deg);
 }
 
 .slider__next {
@@ -105,6 +111,14 @@
     right: 0;
     height: 367px;
     width: 300px;
+}
+
+.slider__next:hover::after {
+    content: url("../img/main-page/arrow.png");
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 200px;
 }
 
 .main-page__info-list {
@@ -216,6 +230,7 @@
     padding: 46px 0;
     background: #F3F4F6;
     box-sizing: border-box;
+    position: relative;
 }
 
 .reviews__heading {
@@ -232,6 +247,16 @@
 
 .review-slider__slide {
     width: 410px;
+}
+
+.default-slide {
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.active-slide {
+    display: flex;
 }
 
 .review-slider__name {

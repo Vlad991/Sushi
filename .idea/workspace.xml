@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/main-page/slide2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/slide3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/slide4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/about-us-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main-page/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main-page/play-button.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/about-us-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/about-us-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-slider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -441,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567715364983</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Add main slider and hover transitions">
+      <created>1567794249605</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1567794249605</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -485,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add bonuses adaptability (045)" />
     <MESSAGE value="Add main-page templates" />
     <MESSAGE value="Add slider and info-slider to main-page" />
     <MESSAGE value="Add main-page (04)" />
@@ -510,6 +514,7 @@
     <MESSAGE value="Add personal account" />
     <MESSAGE value="Clean all files heads" />
     <MESSAGE value="Fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+    <MESSAGE value="Add main slider and hover transitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add main slider and hover transitions" />
   </component>
 </project>
