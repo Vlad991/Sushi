@@ -3,29 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonuses.php" beforeDir="false" afterPath="$PROJECT_DIR$/bonuses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/brands.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chef-gift_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/chef-gift_page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment_and_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment_and_delivery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_account.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_data_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_data_page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza_assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_assorti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promotions.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/search-block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specials.php" beforeDir="false" afterPath="$PROJECT_DIR$/specials.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vouchers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vouchers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,13 +99,6 @@
       <workItem from="1567783566600" duration="3490000" />
       <workItem from="1567787095164" duration="104000" />
       <workItem from="1567787230965" duration="2247000" />
-    </task>
-    <task id="LOCAL-00002" summary="Add final header and sticky menu (0107)">
-      <created>1564308523818</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564308523818</updated>
     </task>
     <task id="LOCAL-00003" summary="Add authorization (0107, 0108, 0109, 0110, 0111)">
       <created>1564318012595</created>
@@ -464,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567861590886</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Add search-block appearance">
+      <created>1567870332477</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1567870332477</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -508,7 +487,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add slider and info-slider to main-page" />
     <MESSAGE value="Add main-page (04)" />
     <MESSAGE value="Add main-page adaptive (05)" />
     <MESSAGE value="Add pizza-department (06)" />
@@ -533,6 +511,7 @@
     <MESSAGE value="Fix bugs" />
     <MESSAGE value="Add main slider and hover transitions" />
     <MESSAGE value="Add tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tabs" />
+    <MESSAGE value="Add search-block appearance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search-block appearance" />
   </component>
 </project>

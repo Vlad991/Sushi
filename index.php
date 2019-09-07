@@ -38,13 +38,40 @@
                     <img src="img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                 </div>
                 <div class="slider__slide slide layout">
-                    <img src="" alt="Slide 1" class="slide__img" style="max-height: 367px;background: rgba(0, 0, 0, 0.5);height: 367px;width: 100%;font-size: 30px; text-align: center;">
+                    <div class="slide__description description">
+                        <div class="description__heading">Slide 2 Heading</div>
+                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                            рождения (3 дня до, в день рождения и 3 дня после).
+                        </div>
+                        <div class="description__button">
+                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                        </div>
+                    </div>
+                    <img src="img/main-page/slide.svg" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
                 <div class="slider__slide slide layout">
-                    <img src="" alt="Slide 2" class="slide__img" style="max-height: 367px;background: rgba(0, 0, 0, 0.5);height: 367px;width: 100%;font-size: 30px; text-align: center;">
+                    <div class="slide__description description">
+                        <div class="description__heading">Slide 3 Heading</div>
+                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                            рождения (3 дня до, в день рождения и 3 дня после).
+                        </div>
+                        <div class="description__button">
+                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                        </div>
+                    </div>
+                    <img src="img/main-page/slide.svg" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
                 <div class="slider__slide slide layout">
-                    <img src="" alt="Slide 3" class="slide__img" style="max-height: 367px;background: rgba(0, 0, 0, 0.5);height: 367px;width: 100%;font-size: 30px; text-align: center;">
+                    <div class="slide__description description">
+                        <div class="description__heading">Slide 4 Heading</div>
+                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                            рождения (3 дня до, в день рождения и 3 дня после).
+                        </div>
+                        <div class="description__button">
+                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                        </div>
+                    </div>
+                    <img src="img/main-page/slide.svg" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
                 <ul id="controls" class="slider__controls controls layout">
                     <li class="controls__circle">
