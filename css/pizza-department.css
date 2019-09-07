@@ -32,11 +32,11 @@
     margin-bottom: 10px;
 }
 
-.sort-pizza__item:hover {
+.sort-pizza__link:hover {
     color: #7f7f7f;
 }
 
-.sort-pizza__item_active {
+.sort-pizza__item_active .sort-pizza__link {
     color: #F81242;
     border-bottom: 2px dotted #F81242;
 }
@@ -52,10 +52,11 @@
 
 .pizza-department__pizzas {
     margin: 33px 0;
+    display: none;
 }
 
 .pizzas {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
 }
 
@@ -101,6 +102,10 @@
 .pagination__link_active:hover {
     background: #F81242;
     border: 1px solid #F81242;
+}
+
+.active-tab {
+    display: flex;
 }
 
 @media screen and (max-width: 480px) {

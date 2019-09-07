@@ -186,7 +186,11 @@
     position: relative;
 }
 
-.branches__item:hover {
+.branches__link {
+    font-family: "PF Din Text Comp Pro Bold", sans-serif;
+}
+
+.branches__link:hover {
     cursor: pointer;
     color: #7f7f7f;
 }
@@ -201,19 +205,24 @@
     position: absolute;
 }
 
-.branches__item_active:hover {
+.branches__item_active .branches__link:hover {
     color: #000;
 }
 
 .pizza-slider__pizza-slides {
     margin: 31px 0 0 0;
+    display: none;
 }
 
 .pizza-slides {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     /* justify-content: space-around; */
     /* align-content: space-between; */
+}
+
+.active-tab {
+    display: flex;
 }
 
 .pizza-slides__item {

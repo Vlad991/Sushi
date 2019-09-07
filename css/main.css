@@ -1586,6 +1586,18 @@ header, footer {
     background: url(../img/footer/play-market-d.svg) no-repeat top center;
 }
 
+
+
+.faded {
+    opacity: 0;
+    transition: all 150ms ease;
+}
+
+.faded.in {
+    opacity: 1;
+    transition: all 150ms ease;
+}
+
 @media screen and (max-width: 1280px) {
     .main__item {
         margin-left: 88px;

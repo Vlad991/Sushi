@@ -29,13 +29,13 @@
     include('./location.php');
     ?>
 
-    <section class="container__pizza-department pizza-department container__fixed container__fixed_adaptive">
-        <div class="pizza-department__heading">Премиум блюда в Тирасполе</div>
-        <ul class="pizza-department__sort-pizza sort-pizza">
+    <section id="pizzaTab" class="container__pizza-department pizza-department container__fixed container__fixed_adaptive">
+        <div class="pizza-department__heading">Премиум</div>
+        <ul id="pizzaTabNav" class="pizza-department__sort-pizza sort-pizza">
             <li class="sort-pizza__item sort-pizza__item_no-hover">Сортировать:</li>
-            <li class="sort-pizza__item sort-pizza__item_active">Все</li>
+            <li class="sort-pizza__item sort-pizza__item_active"><a class="sort-pizza__link" href="#all">Все</a></li>
         </ul>
-        <div class="pizza-department__pizzas pizzas pizzas_novelty">
+        <div id="all" class="pizza-department__pizzas pizzas pizzas_novelty faded in active-tab">
             <?php
             $rollIcon = "new";
             $rollImage = "./img/main-page/roll1.svg";
@@ -144,7 +144,11 @@
 </div>
 
 
+<!--  jQuery  -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
 <script src="js/main.js"></script>
+<script src="js/departments-tab.js"></script>
 </body>
 
 </html>
