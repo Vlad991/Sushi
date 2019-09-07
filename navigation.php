@@ -19,7 +19,7 @@
             </ul>
         </div>
         <div class="enter navigation__enter layout">
-            <div class="search">Поиск</div>
+            <div id="searchIconOpen" class="search">Поиск</div>
             <a href="./authorization.php" class="login">Войти</a>
             <a href="./my_order.php" class="basket layout">
                 <div class="basket__img-wrap">
@@ -30,6 +30,10 @@
         </div>
     </div>
 </nav>
+
+<div id="searchBlock" class="hide">
+    <?php include("./search-block.php"); ?>
+</div>
 
 <nav id="nav-menu" class="container__adaptive-navigation hide">
     <div class="adaptive-navigation">

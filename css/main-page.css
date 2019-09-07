@@ -186,13 +186,16 @@
     position: relative;
 }
 
+
 .branches__link {
     font-family: "PF Din Text Comp Pro Bold", sans-serif;
+    transition: all 300ms ease;
 }
 
 .branches__link:hover {
     cursor: pointer;
     color: #7f7f7f;
+    transition: all 300ms ease;
 }
 
 .branches__item_active::after {
