@@ -51,7 +51,7 @@
                                 <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
                             </div>
                         </div>
-                        <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
+                        <img src="./img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                     </div>
                 </div>
                 <div class="slider__slide">
@@ -65,7 +65,7 @@
                                 <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
                             </div>
                         </div>
-                        <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
+                        <img src="./img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                     </div>
                 </div>
                 <div class="slider__slide">
@@ -79,23 +79,9 @@
                                 <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
                             </div>
                         </div>
-                        <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
+                        <img src="./img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                     </div>
                 </div>
-<!--                <ul id="controls" class="slider__controls controls layout">-->
-<!--                    <li class="controls__circle">-->
-<!--                        <div class="circle circle_active"></div>-->
-<!--                    </li>-->
-<!--                    <li class="controls__circle">-->
-<!--                        <div class="circle"></div>-->
-<!--                    </li>-->
-<!--                    <li class="controls__circle">-->
-<!--                        <div class="circle"></div>-->
-<!--                    </li>-->
-<!--                    <li class="controls__circle">-->
-<!--                        <div class="circle"></div>-->
-<!--                    </li>-->
-<!--                </ul>-->
             </div>
         </div>
         <div class="main-page__info-list info-list">
@@ -464,192 +450,192 @@
         <div class="main-page__reviews reviews">
             <div class="container__fixed container__fixed_adaptive">
                 <div class="reviews__heading">Отзывы о нас</div>
-                <div id="reviewSlider" class="reviews__review-slider review-slider layout">
-                    <div class="default-slide active-slide">
-                        <div class="review-slider__slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
-                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
-                                вам и побольше клиентов!
+                <div id="reviewSlider" class="reviews__review-slider review-slider">
+                    <div class="hide">
+                        <div class="layout">
+                            <div class="review-slider__slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                    остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                    вам и побольше клиентов!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Виктория</div>
+                                <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                    оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                    вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Виктория</div>
-                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
-                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
-                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
-                                быстро :)<br>
-                                Теперь только к Вам. Довольна вся семья :)
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="default-slide">
-                        <div class="review-slider__slide">
-                            <div class="review-slider__name">Виктория</div>
-                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
-                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
-                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
-                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
-                                вам и побольше клиентов!
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
-                                быстро :)<br>
-                                Теперь только к Вам. Довольна вся семья :)
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                    быстро :)<br>
+                                    Теперь только к Вам. Довольна вся семья :)
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="default-slide">
-                        <div class="review-slider__slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
-                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
-                                вам и побольше клиентов!
+                    <div class="hide">
+                        <div class="layout">
+                            <div class="review-slider__slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                    остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                    вам и побольше клиентов!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Виктория</div>
+                                <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                    оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                    вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
-                                быстро :)<br>
-                                Теперь только к Вам. Довольна вся семья :)
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                            </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Виктория</div>
-                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
-                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
-                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                    быстро :)<br>
+                                    Теперь только к Вам. Довольна вся семья :)
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="default-slide">
-                        <div class="review-slider__slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
-                                быстро :)<br>
-                                Теперь только к Вам. Довольна вся семья :)
+                    <div class="hide">
+                        <div class="layout">
+                            <div class="review-slider__slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                    остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                    вам и побольше клиентов!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Виктория</div>
+                                <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                    оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                    вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
+                            </div>
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                    быстро :)<br>
+                                    Теперь только к Вам. Довольна вся семья :)
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
                         </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Александра</div>
-                            <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
-                                остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
-                                вам и побольше клиентов!
+                    </div>
+                    <div class="hide">
+                        <div class="layout">
+                            <div class="review-slider__slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Всё хорошо в этом магазине, вкусная еда, заказывали роллы,
+                                    остались очень довольны. Удобный сайт, онлайн-заказ производится очень быстро)<br> Развития
+                                    вам и побольше клиентов!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Виктория</div>
+                                <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
+                                    оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
+                                    вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
-                        </div>
-                        <div class="review-slider__slide hide-info-slide">
-                            <div class="review-slider__name">Виктория</div>
-                            <div class="review-slider__text">Впервые воспользовалась вашими услугами и осталась довольна,
-                                оперативное принятие заказа, вежливость персонала, быстрая доставка и в особенности,
-                                вкуснейшая еда.<br> Молодцы! Пожелание- увеличивайте ассортимент !!!!!!!!!!
-                            </div>
-                            <div class="review-slider__mark layout">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
-                                <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                            <div class="review-slider__slide hide-info-slide">
+                                <div class="review-slider__name">Александра</div>
+                                <div class="review-slider__text">Спасибо большое за пиццы! Все нереально вкусно и главное
+                                    быстро :)<br>
+                                    Теперь только к Вам. Довольна вся семья :)
+                                </div>
+                                <div class="review-slider__mark layout">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                    <img src="img/main-page/star.svg" alt="*" class="mark__star">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="prevReview" class="slider__prev"></div>
-                <div id="nextReview" class="slider__next"></div>
-                <ul id="reviewControls" class="reviews__review-controls review-controls layout">
-                    <li class="review-controls__circle review-controls__circle_active"></li>
-                    <li class="review-controls__circle"></li>
-                    <li class="review-controls__circle"></li>
-                    <li class="review-controls__circle"></li>
-                </ul>
                 <button class="reviews__button button  button_review">ОСТАВИТЬ ОТЗЫВ</button>
             </div>
         </div>
@@ -689,7 +675,7 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/main.js"></script>
 <!--<script src="js/main-slider.js"></script>-->
-<script src="js/main-slick-slider.js"></script>
+<script src="js/main-slider.js"></script>
 <script src="js/review-slider.js"></script>
 <script src="js/main-tab.js"></script>
 </body>
