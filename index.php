@@ -9,6 +9,7 @@
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/main-page.css">
 </head>
@@ -25,70 +26,76 @@
     <div class="container__main-page main-page">
         <div class="container__fixed container__fixed_adaptive">
             <div id="mainSlider" class="main-page__slider slider">
-                <div class="slider__slide current slide layout">
-                    <div class="slide__description description">
-                        <div class="description__heading">Сет Мини в подарок на день рождения!</div>
-                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
-                            рождения (3 дня до, в день рождения и 3 дня после).
+                <div class="slider__slide">
+                    <div class="slide layout">
+                        <div class="slide__description description">
+                            <div class="description__heading">Сет Мини в подарок на день рождения!</div>
+                            <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                                рождения (3 дня до, в день рождения и 3 дня после).
+                            </div>
+                            <div class="description__button">
+                                <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                            </div>
                         </div>
-                        <div class="description__button">
-                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
-                        </div>
+                        <img src="img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                     </div>
-                    <img src="img/main-page/slide1.svg" alt="Slide Image" class="slide__img">
                 </div>
-                <div class="slider__slide slide layout">
-                    <div class="slide__description description">
-                        <div class="description__heading">Slide 2 Heading</div>
-                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
-                            рождения (3 дня до, в день рождения и 3 дня после).
+                <div class="slider__slide">
+                    <div class="slide layout">
+                        <div class="slide__description description">
+                            <div class="description__heading">Slide 2 Heading</div>
+                            <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                                рождения (3 дня до, в день рождения и 3 дня после).
+                            </div>
+                            <div class="description__button">
+                                <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                            </div>
                         </div>
-                        <div class="description__button">
-                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
-                        </div>
+                        <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                     </div>
-                    <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
-                <div class="slider__slide slide layout">
-                    <div class="slide__description description">
-                        <div class="description__heading">Slide 3 Heading</div>
-                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
-                            рождения (3 дня до, в день рождения и 3 дня после).
+                <div class="slider__slide">
+                    <div class="slide layout">
+                        <div class="slide__description description">
+                            <div class="description__heading">Slide 3 Heading</div>
+                            <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                                рождения (3 дня до, в день рождения и 3 дня после).
+                            </div>
+                            <div class="description__button">
+                                <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                            </div>
                         </div>
-                        <div class="description__button">
-                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
-                        </div>
+                        <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                     </div>
-                    <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
-                <div class="slider__slide slide layout">
-                    <div class="slide__description description">
-                        <div class="description__heading">Slide 4 Heading</div>
-                        <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
-                            рождения (3 дня до, в день рождения и 3 дня после).
+                <div class="slider__slide">
+                    <div class="slide layout">
+                        <div class="slide__description description">
+                            <div class="description__heading">Slide 4 Heading</div>
+                            <div class="description__text">Предложение действует всю неделю, на которую выпал Ваш день
+                                рождения (3 дня до, в день рождения и 3 дня после).
+                            </div>
+                            <div class="description__button">
+                                <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
+                            </div>
                         </div>
-                        <div class="description__button">
-                            <button class="button  button_slider">СКОРЕЕ В КОРЗИНУ!</button>
-                        </div>
+                        <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                     </div>
-                    <img src="" alt="Slide Image" class="slide__img" style="width: 590px;height: 367px;background: gray;">
                 </div>
-                <ul id="controls" class="slider__controls controls layout">
-                    <li class="controls__circle">
-                        <div class="circle circle_active"></div>
-                    </li>
-                    <li class="controls__circle">
-                        <div class="circle"></div>
-                    </li>
-                    <li class="controls__circle">
-                        <div class="circle"></div>
-                    </li>
-                    <li class="controls__circle">
-                        <div class="circle"></div>
-                    </li>
-                </ul>
-                <div id="prev" class="slider__prev"></div>
-                <div id="next" class="slider__next"></div>
+<!--                <ul id="controls" class="slider__controls controls layout">-->
+<!--                    <li class="controls__circle">-->
+<!--                        <div class="circle circle_active"></div>-->
+<!--                    </li>-->
+<!--                    <li class="controls__circle">-->
+<!--                        <div class="circle"></div>-->
+<!--                    </li>-->
+<!--                    <li class="controls__circle">-->
+<!--                        <div class="circle"></div>-->
+<!--                    </li>-->
+<!--                    <li class="controls__circle">-->
+<!--                        <div class="circle"></div>-->
+<!--                    </li>-->
+<!--                </ul>-->
             </div>
         </div>
         <div class="main-page__info-list info-list">
@@ -679,8 +686,10 @@
 <!--  jQuery  -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/main-slider.js"></script>
+<!--<script src="js/main-slider.js"></script>-->
+<script src="js/main-slick-slider.js"></script>
 <script src="js/review-slider.js"></script>
 <script src="js/main-tab.js"></script>
 </body>

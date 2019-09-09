@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="Fix bugs">
+    <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/main-page/l-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main-page/r-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main-slick-slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main-page/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main-page/play-button.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,13 +104,9 @@
       <workItem from="1567783566600" duration="3490000" />
       <workItem from="1567787095164" duration="104000" />
       <workItem from="1567787230965" duration="2247000" />
-    </task>
-    <task id="LOCAL-00004" summary="Add original fonts">
-      <created>1564324596003</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564324596003</updated>
+      <workItem from="1567875668887" duration="83000" />
+      <workItem from="1568035206644" duration="29000" />
+      <workItem from="1568037997893" duration="4295000" />
     </task>
     <task id="LOCAL-00005" summary="Add promotions without footer (02, 03, 013)">
       <created>1564335449650</created>
@@ -444,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567871468651</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Fix bugs">
+      <created>1567872117568</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1567872117568</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
