@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
     $('.slider').slick({
-        autoplay: false,
+        autoplay: true,
         dots: true,
-        autoplaySpeed: 5000
+        autoplaySpeed: 2000,
     });
 
 });
