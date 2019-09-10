@@ -37,14 +37,6 @@ window.onload = function () {
 
     navMenuIcon.addEventListener('click', doNavMenu, false);
 
-    // var goButton = doc.getElementById("#goToPersonalAccount");
-    //
-    // function goToAccount() {
-    //     window.location.href = "/personal_account.php";
-    // }
-    //
-    // goButton.addEventListener("click", goToAccount, false);
-
     $("#goToPersonalAccount").click(function () {
         window.location.href = "./personal_account.php";
     });

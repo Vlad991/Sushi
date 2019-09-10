@@ -11,7 +11,7 @@ if ($pizzaIcon=="hit") {
 }
 ?>
 
-<a href="./pizza_assorti.php" class="pizza-slides__item pizza-slide pizza-slide_3">
+<div class="pizza-slides__item pizza-slide pizza-slide_3">
     <div class="pizza-slide__img <?= $pizzaIcon ?>">
         <img src="<?= $pizzaImage ?>" alt="Slide Image" class="pizza-slide-img">
         <div class="pizza-slide__likes"><?= $pizzaLikes ?></div>
@@ -22,7 +22,7 @@ if ($pizzaIcon=="hit") {
     <div class="pizza-slide__ingredients">Добавить ингредиенты</div>
     <div class="pizza-slide__sizes sizes layout">
         <div class="sizes__text">Размер:</div>
-        <ul class="sizes__size-list size-list layout">
+        <ul id="pizzaSizes" class="sizes__size-list size-list layout">
             <li class="size-list__item size-list__item_active">25 см.</li>
             <li class="size-list__item">30 см.</li>
             <li class="size-list__item">35 см.</li>
@@ -33,4 +33,4 @@ if ($pizzaIcon=="hit") {
         <button class="pizza-slide__button button  button_to-cage">В КОРЗИНУ</button>
         <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
     </div>
-</a>
+</div>

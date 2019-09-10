@@ -1096,10 +1096,12 @@ header, footer {
 /*....................................Pizza Slide......................................................*/
 
 .pizza-slide {
+    display: block;
     width: 322px;
     height: 559px;
     border: 1px solid #F3F4F6;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .pizza-slide_2 {

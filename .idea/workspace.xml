@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/pizza-slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/review-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/review-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pizza-department.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-department.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pizza-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/modernizr-3.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novelty.php" beforeDir="false" afterPath="$PROJECT_DIR$/novelty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-card.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-slide-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-slide-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza_assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_assorti.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roll-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/roll-slide.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,14 +113,10 @@
       <workItem from="1567787230965" duration="2247000" />
       <workItem from="1567875668887" duration="83000" />
       <workItem from="1568035206644" duration="29000" />
-      <workItem from="1568037997893" duration="8952000" />
-    </task>
-    <task id="LOCAL-00007" summary="Add contacts">
-      <created>1564345841903</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1564345841903</updated>
+      <workItem from="1568037997893" duration="9427000" />
+      <workItem from="1568050314630" duration="1307000" />
+      <workItem from="1568115756755" duration="362000" />
+      <workItem from="1568138085303" duration="3417000" />
     </task>
     <task id="LOCAL-00008" summary="Add 404 template (not final) (046)">
       <created>1564346284182</created>
@@ -447,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568046366696</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="fix bugs">
+      <created>1568047011631</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1568047011631</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -491,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add pizza-department (06)" />
     <MESSAGE value="Add my_order (015)" />
     <MESSAGE value="Add my_order adaptive (017)" />
     <MESSAGE value="Add chef-gift (019, 020)" />
@@ -516,6 +529,7 @@
     <MESSAGE value="Fix bugs" />
     <MESSAGE value="Add slick slider" />
     <MESSAGE value="Add slick review-slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add slick review-slider" />
+    <MESSAGE value="fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
   </component>
 </project>

@@ -11,7 +11,7 @@
     }
 ?>
 
-<a href="./pizza_assorti.php" class="pizza-slides__item pizza-slide">
+<div class="pizza-slides__item pizza-slide">
     <div class="pizza-slide__img <?= $rollIcon ?>">
         <img src="<?= $rollImage ?>" alt="Slide Image" class="pizza-slide-img">
         <div class="pizza-slide__likes"><?= $rollLikes ?></div>
@@ -24,4 +24,4 @@
         <button class="pizza-slide__button button  button_to-cage">В КОРЗИНУ</button>
         <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
     </div>
-</a>
+</div>
