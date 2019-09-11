@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/card_rainbow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/personal-account-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_history.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/personal_account.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/personal_account.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery_address.php" beforeDir="false" afterPath="$PROJECT_DIR$/delivery_address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_account.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,14 +111,7 @@
       <workItem from="1568050314630" duration="1307000" />
       <workItem from="1568115756755" duration="362000" />
       <workItem from="1568138085303" duration="3773000" />
-      <workItem from="1568207186174" duration="3829000" />
-    </task>
-    <task id="LOCAL-00010" summary="Add navigation-menu adaptability (0101)">
-      <created>1564409036651</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564409036651</updated>
+      <workItem from="1568207186174" duration="7404000" />
     </task>
     <task id="LOCAL-00011" summary="Add footer adaptability">
       <created>1564412188941</created>
@@ -450,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568142255331</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Add checkout adaptability">
+      <created>1568215975534</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1568215975534</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -494,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add my_order adaptive (017)" />
     <MESSAGE value="Add chef-gift (019, 020)" />
     <MESSAGE value="Add chef-gift adaptive (021)" />
     <MESSAGE value="Add checkout not final" />
@@ -519,6 +524,7 @@
     <MESSAGE value="Add slick review-slider" />
     <MESSAGE value="Add sizes js" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="Add checkout adaptability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add checkout adaptability" />
   </component>
 </project>

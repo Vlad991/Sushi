@@ -1593,9 +1593,11 @@ header, footer {
 .faded {
     opacity: 0;
     transition: all 150ms ease;
+    display: none;
 }
 
 .faded.in {
+    display: flex;
     opacity: 1;
     transition: all 150ms ease;
 }

@@ -1,4 +1,4 @@
-<div class="personal-account__info-data_address info-data hide">
+<div class="personal-account__info-data_address info-data">
     <div class="info-data__text">
         <label for="" class="info-data__label info-data__label_star">Город</label>
         <input type="text" class="info-data__input" value="Тирасполь">

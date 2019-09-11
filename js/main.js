@@ -37,13 +37,13 @@ window.onload = function () {
 
     navMenuIcon.addEventListener('click', doNavMenu, false);
 
-    $("#goToPersonalAccount").click(function () {
-        window.location.href = "./personal_account.php";
-    });
+    // $("#goToPersonalAccount").click(function () {
+    //     window.location.href = "./personal_account.php";
+    // });
 
-    $(".button_slider").click(function () {
-        window.location.href = "./my_order.php";
-    });
+    // $(".button_slider").click(function () {
+    //     window.location.href = "./my_order.php";
+    // });
 
     $("#searchIconOpen").click(function () {
         $("#searchBlock").removeClass("hide");

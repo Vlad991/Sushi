@@ -28,24 +28,36 @@
     $location2 = "Партнеры";
     include('./location.php');
     ?>
-    
+
     <section class="container__personal-account personal-account container__fixed container__fixed_adaptive">
         <div class="personal-account__heading container__heading">Личный кабинет</div>
-        <div class="personal-account__body">
-            <ul class="personal-account__acc-menu acc-menu">
-                <li class="acc-menu__item">История заказов</li>
-                <li class="acc-menu__item">Бонусные баллы</li>
-                <li class="acc-menu__item acc-menu__item_active">Личные данные</li>
-                <li class="acc-menu__item">Адреса доставки</li>
-                <li class="acc-menu__item">Карта Радуга</li>
-                <li class="acc-menu__item">Пароль</li>
-                <li class="acc-menu__item">Выйти</li>
+        <div id="personalAccountTab" class="personal-account__body">
+            <ul id="personalAccountTabNav" class="personal-account__acc-menu acc-menu">
+                <li class="acc-menu__item"><a class="acc-menu__link" href="#1">История заказов</a></li>
+                <li class="acc-menu__item"><a class="acc-menu__link" href="#2">Бонусные баллы</a></li>
+                <li class="acc-menu__item acc-menu__item_active"><a class="acc-menu__link" href="#3">Личные данные</a></li>
+                <li class="acc-menu__item"><a class="acc-menu__link" href="#4">Адреса доставки</a></li>
+                <li class="acc-menu__item"><a class="acc-menu__link" href="#5">Карта Радуга</a></li>
+                <li class="acc-menu__item"><a class="acc-menu__link" href="#6">Пароль</a></li>
+                <li class="acc-menu__item"><a class="acc-menu__link" href="./index.php">Выйти</a></li>
             </ul>
-            <div class="personal-account__info-data">
-                <?php include("personal_data.php") ?>
+            <div id="1" class="personal-account__info-data faded">
+                <?php include("./order_history.php") ?>
             </div>
-            <div class="personal-account__info-data">
-                <?php include("delivery_address.php") ?>
+            <div id="2" class="personal-account__info-data faded">
+                <?php include("./delivery_address.php") ?>
+            </div>
+            <div id="3" class="personal-account__info-data faded in active-tab">
+                <?php include("./personal_data.php") ?>
+            </div>
+            <div id="4" class="personal-account__info-data faded">
+                <?php include("./delivery_address.php") ?>
+            </div>
+            <div id="5" class="personal-account__info-data faded">
+                <?php include("./card_rainbow.php") ?>
+            </div>
+            <div id="6" class="personal-account__info-data faded">
+                <?php include("./delivery_address.php") ?>
             </div>
         </div>
     </section>
@@ -60,6 +72,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script src="js/main.js"></script>
+<script src="js/personal-account-tab.js"></script>
 </body>
 
 </html>
