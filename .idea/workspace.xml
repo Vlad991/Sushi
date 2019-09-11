@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/assorti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers.php" beforeDir="false" afterPath="$PROJECT_DIR$/burgers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/drinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premium.php" beforeDir="false" afterPath="$PROJECT_DIR$/premium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rolls.php" beforeDir="false" afterPath="$PROJECT_DIR$/rolls.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salads.php" beforeDir="false" afterPath="$PROJECT_DIR$/salads.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wok.php" beforeDir="false" afterPath="$PROJECT_DIR$/wok.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,14 +104,8 @@
       <workItem from="1568037997893" duration="9427000" />
       <workItem from="1568050314630" duration="1307000" />
       <workItem from="1568115756755" duration="362000" />
-      <workItem from="1568138085303" duration="3571000" />
-    </task>
-    <task id="LOCAL-00009" summary="Add header adaptability (0, 0100)">
-      <created>1564401060125</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1564401060125</updated>
+      <workItem from="1568138085303" duration="3773000" />
+      <workItem from="1568207186174" duration="3829000" />
     </task>
     <task id="LOCAL-00010" summary="Add navigation-menu adaptability (0101)">
       <created>1564409036651</created>
@@ -455,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568142077321</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="fix bugs">
+      <created>1568142255331</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1568142255331</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView">
@@ -522,8 +517,8 @@
     <MESSAGE value="Fix bugs" />
     <MESSAGE value="Add slick slider" />
     <MESSAGE value="Add slick review-slider" />
-    <MESSAGE value="fix bugs" />
     <MESSAGE value="Add sizes js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sizes js" />
+    <MESSAGE value="fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
   </component>
 </project>

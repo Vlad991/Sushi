@@ -31,7 +31,7 @@
     ?>
 
     <form class="container__checkout checkout container__fixed container__fixed_adaptive">
-        <div style="height: 1350px">
+        <div class="checkout_first">
             <div class="checkout__heading">Оформление заказа</div>
             <div class="checkout__blank blank">
                 <div class="blank__text"><a href="./authorization.php" class="blank__auth">Авторизуйтесь</a> на сайте, и
@@ -114,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="checkout_second">
             <div class="checkout__order-icon order-icon">
                 <div class="order-icon__heading">Мой заказ:</div>
                 <a href="./my_order.php" class="order-icon__back">Вернуться в корзину</a>
@@ -153,6 +153,20 @@
                         </div>
                     </li>
                 </ul>
+                <div class="order-icon__result">
+                    <div class="layout result_div">
+                        <div class="order-icon__result-title">Сумма заказа:</div>
+                        <div class="order-icon__result-value">464 руб.</div>
+                    </div>
+                    <div class="layout result_div">
+                        <div class="order-icon__result-title">Доставка:</div>
+                        <div class="order-icon__result-value">Бесплатно</div>
+                    </div>
+                    <div class="layout result_div">
+                        <div class="order-icon__result-title">Итого к оплате:</div>
+                        <div class="order-icon__result-value">464 руб.</div>
+                    </div>
+                </div>
             </div>
             <button type="button" class="button checkout__submit">ОФОРМИТЬ ЗАКАЗ</button>
         </div>
@@ -165,7 +179,8 @@
 
 
 <!--  jQuery  -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script src="js/main.js"></script>
 </body>
