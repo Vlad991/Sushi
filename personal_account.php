@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/personal_account.css">
+    <link rel="stylesheet" href="./css/my-order.css">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
             <ul id="personalAccountTabNav" class="personal-account__acc-menu acc-menu">
                 <li class="acc-menu__item"><a class="acc-menu__link" href="#1">История заказов</a></li>
                 <li class="acc-menu__item"><a class="acc-menu__link" href="#2">Бонусные баллы</a></li>
-                <li class="acc-menu__item acc-menu__item_active"><a class="acc-menu__link" href="#3">Личные данные</a></li>
+                <li class="acc-menu__item"><a class="acc-menu__link" href="#3">Личные данные</a></li>
                 <li class="acc-menu__item"><a class="acc-menu__link" href="#4">Адреса доставки</a></li>
                 <li class="acc-menu__item"><a class="acc-menu__link" href="#5">Карта Радуга</a></li>
                 <li class="acc-menu__item"><a class="acc-menu__link" href="#6">Пароль</a></li>
@@ -47,7 +48,7 @@
             <div id="2" class="personal-account__info-data faded">
                 <?php include("./delivery_address.php") ?>
             </div>
-            <div id="3" class="personal-account__info-data faded in active-tab">
+            <div id="3" class="personal-account__info-data faded">
                 <?php include("./personal_data.php") ?>
             </div>
             <div id="4" class="personal-account__info-data faded">

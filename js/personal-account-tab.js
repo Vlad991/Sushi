@@ -6,6 +6,9 @@ $(document).ready(function () {
         var href = $(this).attr('href');
         console.log(href);
         $('#personalAccountTab .personal-account__info-data').removeClass('active-tab').removeClass("in");
+        if ($(window).width() < 641) {
+            $("#personalAccountTabNav").addClass("hide");
+        }
         $(href).parent("li").addClass('active-tab');
         setTimeout(function () {
             $(href).addClass('in');

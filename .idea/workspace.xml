@@ -4,6 +4,9 @@
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/personal-account-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-account-tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_history.php" beforeDir="false" afterPath="$PROJECT_DIR$/order_history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_account.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,14 +108,7 @@
       <workItem from="1568115756755" duration="362000" />
       <workItem from="1568138085303" duration="3773000" />
       <workItem from="1568207186174" duration="8246000" />
-      <workItem from="1568393771070" duration="8140000" />
-    </task>
-    <task id="LOCAL-00015" summary="Add payment and delivery (015)">
-      <created>1564500130983</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1564500130983</updated>
+      <workItem from="1568393771070" duration="10642000" />
     </task>
     <task id="LOCAL-00016" summary="Add payment and delivery adaptability (057, 058)">
       <created>1564519180011</created>
@@ -450,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568401590548</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Make nav-menu (adaptive) fixed">
+      <created>1568401977612</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1568401977613</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -494,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add header.php" />
     <MESSAGE value="Add search-block.php" />
     <MESSAGE value="Add navigation.php" />
     <MESSAGE value="Add location.php" />
@@ -519,6 +521,7 @@
     <MESSAGE value="Add ingredients" />
     <MESSAGE value="Add ingredients adaptability" />
     <MESSAGE value="Add anchor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add anchor" />
+    <MESSAGE value="Make nav-menu (adaptive) fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make nav-menu (adaptive) fixed" />
   </component>
 </project>

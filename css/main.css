@@ -749,6 +749,7 @@ header, footer {
 
     .adaptive-navigation {
         flex-wrap: wrap;
+        height: 454px;
     }
 
     .adaptive-navigation__item {
