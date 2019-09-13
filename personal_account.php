@@ -58,7 +58,7 @@
                 <?php include("./card_rainbow.php") ?>
             </div>
             <div id="6" class="personal-account__info-data faded">
-                <?php include("./delivery_address.php") ?>
+                <?php include("./password.php") ?>
             </div>
         </div>
     </section>

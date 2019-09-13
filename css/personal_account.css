@@ -93,9 +93,7 @@
     margin: 0 auto 100px;
 }
 
-.acc-menu__link {
-
-}
+.acc-menu__link {width: 100%;}
 
 .acc-menu__link:hover {
     color: #FB879F;

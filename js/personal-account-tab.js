@@ -16,4 +16,8 @@ $(document).ready(function () {
         return false;
     });
 
+    $('.personal-account__heading').click(function () {
+        window.location.reload();
+    });
+
 });

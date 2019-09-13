@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/password.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/personal_account.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/personal_account.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/personal-account-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-account-tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_history.php" beforeDir="false" afterPath="$PROJECT_DIR$/order_history.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_account.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,14 +108,7 @@
       <workItem from="1568115756755" duration="362000" />
       <workItem from="1568138085303" duration="3773000" />
       <workItem from="1568207186174" duration="8246000" />
-      <workItem from="1568393771070" duration="10642000" />
-    </task>
-    <task id="LOCAL-00016" summary="Add payment and delivery adaptability (057, 058)">
-      <created>1564519180011</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1564519180011</updated>
+      <workItem from="1568393771070" duration="11336000" />
     </task>
     <task id="LOCAL-00017" summary="Add 404 + adaptability (046, 047)">
       <created>1564565152654</created>
@@ -453,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568401977613</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Fix bugs">
+      <created>1568404854787</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1568404854788</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView">
@@ -511,7 +511,6 @@
     <MESSAGE value="Add main slider and hover transitions" />
     <MESSAGE value="Add tabs" />
     <MESSAGE value="Add search-block appearance" />
-    <MESSAGE value="Fix bugs" />
     <MESSAGE value="Add slick slider" />
     <MESSAGE value="Add slick review-slider" />
     <MESSAGE value="Add sizes js" />
@@ -522,6 +521,7 @@
     <MESSAGE value="Add ingredients adaptability" />
     <MESSAGE value="Add anchor" />
     <MESSAGE value="Make nav-menu (adaptive) fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make nav-menu (adaptive) fixed" />
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
   </component>
 </project>
