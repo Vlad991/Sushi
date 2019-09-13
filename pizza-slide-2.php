@@ -20,6 +20,98 @@ if ($pizzaIcon=="hit") {
     <div class="pizza-slide__text"><?= $pizzaDescription ?><br><?= $pizzaWeight ?>
     </div>
     <div class="pizza-slide__ingredients">Добавить ингредиенты</div>
+    <ul class="pizza-info__ingred-list ingred-list hide">
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Маслины, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">5 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Ветчина, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">10 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Салями, 20 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">20 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Грудка кур. копченая, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">10 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Дор блю, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">15 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Моцарелла, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">18 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Пармезан, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">15 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Грибы, 30 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">5 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Перец острый, 10 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">5 руб.</div>
+        </li>
+        <li class="ingred-list__item">
+            <div class="ingred-list__ingredient">Перец сладкий, 20 гр.</div>
+            <ul class="ingred-list__quantity-list quantity-list layout">
+                <li class="quantity-list__item quantity-list__item_active"><img src="./img/main-page/x.svg" alt="x" style="margin-bottom: 3px"></li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">1</li>
+                <li class="quantity-list__item layout"><img src="./img/main-page/x.svg" alt="x">2</li>
+            </ul>
+            <div class="ingred-list__price">5 руб.</div>
+        </li>
+    </ul>
     <div class="pizza-slide__sizes sizes layout">
         <div class="sizes__text">Размер:</div>
         <ul id="pizzaSizes" class="sizes__size-list size-list layout">

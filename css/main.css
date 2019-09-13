@@ -1098,10 +1098,10 @@ header, footer {
 .pizza-slide {
     display: block;
     width: 322px;
-    height: 559px;
+    min-height: 559px;
     border: 1px solid #F3F4F6;
     box-sizing: border-box;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .pizza-slide_2 {
@@ -1275,6 +1275,61 @@ header, footer {
     background: #fff;
 }
 
+
+.pizza-info__ingred-list {margin: 30px 0 0;}
+
+.ingred-list {
+    width: 500px;
+}
+
+.pizza-slide .ingred-list {
+    width: 287px;
+    margin: 0 auto;
+}
+
+.ingred-list__item {display: flex;margin-bottom: 20px;}
+
+.ingred-list__ingredient {width: 222px;line-height: 26px;}
+
+.ingred-list__quantity-list {
+}
+
+.quantity-list {
+    background: #CED6E0;
+    border-radius: 6px;
+    width: 76px;
+    height: 24px;
+    border: 1px solid #CED6E0;
+}
+
+.quantity-list__item {
+    height: 100%;
+    width: 60px;
+    padding: 0 6px;
+    text-align: center;
+    line-height: 29px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #CED6E0;
+    font-family: "PF Din Text Comp Pro Regular", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.quantity-list__item:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.quantity-list__item_active {
+    background: #fff;
+}
+
+.quantity-list__item_active:hover {
+    background: #fff;
+}
+
+.ingred-list__price {width: 70px;text-align: right;line-height: 26px;}
+
 .pizza-slide__footer {
     margin: 18px auto;
     width: 274px;
@@ -1393,6 +1448,10 @@ header, footer {
     .button_cage {
         display: block;
         width: 77px;
+    }
+
+    .ingred-list {
+        width: 335px;
     }
 }
 
@@ -1587,7 +1646,6 @@ header, footer {
 .download__play-market:hover {
     background: url(../img/footer/play-market-d.svg) no-repeat top center;
 }
-
 
 
 .faded {
