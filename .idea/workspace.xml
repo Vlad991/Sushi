@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/main-page/x.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/.04.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/psd/.06.jpg.icloud" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/psd/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/psd/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pizza-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pizza-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-card.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roll-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/roll-slide.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,14 +105,7 @@
       <workItem from="1568115756755" duration="362000" />
       <workItem from="1568138085303" duration="3773000" />
       <workItem from="1568207186174" duration="8246000" />
-      <workItem from="1568393771070" duration="5117000" />
-    </task>
-    <task id="LOCAL-00012" summary="Add authorization adaptability (0102, 0103, 0104, 0105, 0106)">
-      <created>1564413131819</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1564413131819</updated>
+      <workItem from="1568393771070" duration="5515000" />
     </task>
     <task id="LOCAL-00013" summary="Add contacts adaptability (012-1)">
       <created>1564416170997</created>
@@ -460,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568220969928</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Add ingredients">
+      <created>1568398949006</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1568398949007</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView">
@@ -504,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add chef-gift adaptive (021)" />
     <MESSAGE value="Add checkout not final" />
     <MESSAGE value="Make php and add footer.php" />
     <MESSAGE value="Add header.php" />
@@ -529,6 +518,7 @@
     <MESSAGE value="fix bugs" />
     <MESSAGE value="Add checkout adaptability" />
     <MESSAGE value="Add personal account tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add personal account tabs" />
+    <MESSAGE value="Add ingredients" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ingredients" />
   </component>
 </project>

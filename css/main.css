@@ -1276,7 +1276,9 @@ header, footer {
 }
 
 
-.pizza-info__ingred-list {margin: 30px 0 0;}
+.pizza-info__ingred-list {
+    margin: 30px 0 0;
+}
 
 .ingred-list {
     width: 500px;
@@ -1287,9 +1289,15 @@ header, footer {
     margin: 0 auto;
 }
 
-.ingred-list__item {display: flex;margin-bottom: 20px;}
+.ingred-list__item {
+    display: flex;
+    margin-bottom: 20px;
+}
 
-.ingred-list__ingredient {width: 222px;line-height: 26px;}
+.ingred-list__ingredient {
+    width: 222px;
+    line-height: 26px;
+}
 
 .ingred-list__quantity-list {
 }
@@ -1328,7 +1336,11 @@ header, footer {
     background: #fff;
 }
 
-.ingred-list__price {width: 70px;text-align: right;line-height: 26px;}
+.ingred-list__price {
+    width: 70px;
+    text-align: right;
+    line-height: 26px;
+}
 
 .pizza-slide__footer {
     margin: 18px auto;
@@ -1393,7 +1405,8 @@ header, footer {
 
     .pizza-slide {
         width: 230px;
-        height: 400px;
+        /* height: 400px; */
+        min-height: 400px;
     }
 
     .pizza-slide_2 {
@@ -1452,6 +1465,14 @@ header, footer {
 
     .ingred-list {
         width: 335px;
+    }
+
+    .pizza-slide .ingred-list {
+        width: 213px;
+    }
+
+    .pizza-slide .ingred-list .ingred-list__ingredient {
+        width: 150px;
     }
 }
 
