@@ -57,4 +57,14 @@ window.onload = function () {
             }
         }
     });
+
+    function scrollToAnchor(aid){
+        var id = "#" + aid;
+        var aTag = $(id);
+        $('html, body').animate({scrollTop: aTag.offset().top},'slow');
+    }
+
+    $("#anchor").click(function () {
+        scrollToAnchor("headAnchor");
+    });
 }

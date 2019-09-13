@@ -1,4 +1,4 @@
-<header class="header container__header">
+<header id="headAnchor" class="header container__header">
     <div class="container__fixed layout">
         <div class="logo header__logo layout">
             <a href="./index.php" class="logo__href-img"><img src="img/header/logo.svg" alt="Sushi And Pizza!" class="logo__img"></a>
@@ -37,3 +37,5 @@
         <?php include('./search-block.php'); ?>
     </div>
 </header>
+
+<div id="anchor" class="anchor"><img src="./img/anchor.svg" alt="^" class="anchor__img"></div>
