@@ -95,19 +95,33 @@ header, footer {
     display: none;
 }
 
-.anchor {position: fixed;bottom: 70px;right: 15px;z-index: 10000;width: 50px;height: 50px;padding: 5px;box-sizing: border-box;border-radius: 10px;background: rgba(0, 0, 0, 0.4);}
+.anchor {
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    z-index: 10000;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
 
-.anchor__img {width: 100%;}
+.anchor__img {
+    width: 100%;
+}
 
 @media screen and (max-width: 959px) {
     .container__fixed_adaptive {
-        max-width: 700px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .container__fixed_adaptive {
-        max-width: 590px;
+        /* max-width: 590px; */
     }
 
     .container__heading {
@@ -119,7 +133,7 @@ header, footer {
 
 @media screen and (max-width: 480px) {
     .container__fixed_adaptive {
-        max-width: 333px;
+        /* max-width: 333px; */
     }
 }
 
@@ -263,6 +277,7 @@ header, footer {
 }
 
 .container__sticky {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 50;
@@ -601,10 +616,11 @@ header, footer {
     .navigation {
         width: 100%;
         height: 60px;
-        background: #F3F4F6;
         padding: 0 20px;
         box-sizing: border-box;
         z-index: 100;
+        background: #f81242;
+        border: none;
     }
 
     .navigation__nav-menu-icon {
@@ -627,6 +643,7 @@ header, footer {
         line-height: 63px;
         margin-left: 10px;
         letter-spacing: 1.2px;
+        color: #fff;
     }
 
     .search {
@@ -639,6 +656,7 @@ header, footer {
 
     .login {
         line-height: 60px;
+        color: #fff;
     }
 
     .basket {
@@ -648,10 +666,13 @@ header, footer {
 
     .basket__img-wrap::before {
         right: -18px;
+        background: #fff;
+        color: #000;
     }
 
     .basket__amount {
         margin-left: 11px;
+        color: #fff;
     }
 }
 
@@ -1101,11 +1122,19 @@ header, footer {
 
 /*....................................Pizza Slide......................................................*/
 
+.pizza-slides__item {
+    position: relative;
+    min-height: 685px;
+    min-width: 322px;
+    margin: 0 auto;
+}
+
 .pizza-slide {
     display: block;
     width: 322px;
     min-height: 559px;
     border: 1px solid #F3F4F6;
+    background: #fff;
     box-sizing: border-box;
     /* cursor: pointer; */
 }
@@ -1116,6 +1145,9 @@ header, footer {
 
 .pizza-slide_3 {
     min-height: 682px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .pizza-slide:hover {
@@ -1197,8 +1229,8 @@ header, footer {
 
 .pizza-slide__likes {
     position: absolute;
-    bottom: 13px;
-    right: 16px;
+    top: 20px;
+    right: 20px;
 }
 
 .pizza-slide__likes:before {
@@ -1220,7 +1252,7 @@ header, footer {
     letter-spacing: 0.5px;
     color: #707070;
     width: 274px;
-    min-height: 92px;
+    min-height: 70px;
     margin: 5px auto;
 }
 
@@ -1233,7 +1265,7 @@ header, footer {
 }
 
 .pizza-slide__sizes {
-    margin: 22px auto 30px;
+    margin: 22px auto;
 }
 
 .sizes {
@@ -1349,7 +1381,7 @@ header, footer {
 }
 
 .pizza-slide__footer {
-    margin: 18px auto;
+    margin: 22px auto;
     width: 274px;
     height: 44px;
 }
@@ -1358,12 +1390,16 @@ header, footer {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
     font-size: 22px;
     letter-spacing: 0.5px;
-    margin: auto 0;
+    margin: auto 23px;
 }
 
 .pizza-slide__price_new {
     color: #F81242;
     margin-left: 7px;
+}
+
+.pizza-slide__price-and-weight {
+    font-size: 22px;
 }
 
 .pizza-slide__price_old {
@@ -1385,7 +1421,7 @@ header, footer {
 
 .button_to-cage {
     display: none;
-    width: 150px;
+    width: 100%;
 }
 
 .button_cage {
@@ -1409,6 +1445,12 @@ header, footer {
 
 @media screen and (max-width: 479px) {
 
+    .pizza-slides__item {
+        min-width: 230px;
+        min-height: 561px;
+        margin: 0 auto;
+    }
+
     .pizza-slide {
         width: 230px;
         /* height: 400px; */
@@ -1416,7 +1458,7 @@ header, footer {
     }
 
     .pizza-slide_2 {
-        height: 440px;
+        height: 455px;
     }
 
     .pizza-slide_3 {

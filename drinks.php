@@ -26,6 +26,7 @@
     <?php
     $location1 = "Главная";
     $location2 = "Не забыть";
+    $location3 = null;
     include('./location.php');
     ?>
 

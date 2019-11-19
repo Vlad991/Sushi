@@ -25,6 +25,7 @@
     <?php
     $location1 = "Главная";
     $location2 = "Товары со скидкой";
+    $location3 = null;
     include('./location.php');
     ?>
 

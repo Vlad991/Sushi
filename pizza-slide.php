@@ -16,6 +16,10 @@ if ($pizzaIcon=="hit") {
         <img src="<?= $pizzaImage ?>" alt="Slide Image" class="pizza-slide-img">
         <div class="pizza-slide__likes"><?= $pizzaLikes ?></div>
     </div>
+    <div class="pizza-slide__price-and-weight layout">
+        <div class="pizza-slide__price"><?= $pizzaPrice ?></div>
+        <div class="pizza-slide__price"><?= $pizzaWeight ?></div>
+    </div>
     <div class="pizza-slide__heading"><?= $pizzaName ?></div>
     <div class="pizza-slide__text"><?= $pizzaDescription ?><br><?= $pizzaWeight ?>
     </div>
@@ -28,7 +32,6 @@ if ($pizzaIcon=="hit") {
         </ul>
     </div>
     <div class="pizza-slide__footer layout">
-        <div class="pizza-slide__price"><?= $pizzaPrice ?></div>
         <button class="pizza-slide__button button  button_to-cage">В КОРЗИНУ</button>
         <button class="button  button_cage"><img src="img/main-page/cage.svg" alt="Cage"></button>
     </div>

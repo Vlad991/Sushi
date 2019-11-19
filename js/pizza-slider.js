@@ -8,7 +8,9 @@ $(document).ready(function () {
     $(".pizza-slide,.pizza-card").on("click", ".pizza-info__ingredients, .pizza-slide__ingredients", function () {
         if ($(this).next().hasClass("hide")) {
             $(this).next().removeClass("hide");
+            $(this).parent(".pizza-slide").css("z-index", 45);
         } else {
+            $(this).parent(".pizza-slide").css("z-index", 1);
             $(this).next().addClass("hide");
         }
     });

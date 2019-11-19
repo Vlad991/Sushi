@@ -6,6 +6,7 @@
     <title>Доставка еды — заказать пиццу и суши с доставкой на дом, недорого | Love-Sushi</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='freelancehunt' content='402b530efface27' />
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 

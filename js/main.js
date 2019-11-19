@@ -1,33 +1,33 @@
 window.onload = function () {
-    var doc = document;
+    let doc = document;
 
-    var menuIcon = doc.getElementById("menu-icon");
-    var closeHidingMenuElement = doc.getElementById("close-hiding-menu");
-    var hidingMenu = doc.getElementById("hiding-menu");
+    let menuIcon = doc.getElementById("menu-icon");
+    let closeHidingMenuElement = doc.getElementById("close-hiding-menu");
+    let hidingMenu = doc.getElementById("hiding-menu");
 
-    var showMenu = function () {
+    let showMenu = function () {
         hidingMenu.style.display = "block";
     };
 
-    var hideMenu = function () {
+    let hideMenu = function () {
         hidingMenu.style.display = "none";
     };
 
     menuIcon.addEventListener('click', showMenu, false);
     closeHidingMenuElement.addEventListener('click', hideMenu, false);
 
-    var navMenuIcon = doc.getElementById("nav-menu-icon");
-    var navMenu = doc.getElementById("nav-menu");
+    let navMenuIcon = doc.getElementById("nav-menu-icon");
+    let navMenu = doc.getElementById("nav-menu");
 
-    var showNavMenu = function () {
+    let showNavMenu = function () {
         navMenu.style.display = "block";
     };
 
-    var hideNavMenu = function () {
+    let hideNavMenu = function () {
         navMenu.style.display = "none";
     };
 
-    var doNavMenu = function () {
+    let doNavMenu = function () {
         if (getComputedStyle(navMenu).display == "none") {
             showNavMenu();
         } else {
@@ -37,20 +37,12 @@ window.onload = function () {
 
     navMenuIcon.addEventListener('click', doNavMenu, false);
 
-    // $("#goToPersonalAccount").click(function () {
-    //     window.location.href = "./personal_account.php";
-    // });
-
-    // $(".button_slider").click(function () {
-    //     window.location.href = "./my_order.php";
-    // });
-
     $("#searchIconOpen").click(function () {
         $("#searchBlock").removeClass("hide");
     });
 
     $('body').click(function (event) {
-        var target = $(event.target);
+        let target = $(event.target);
         if (!$("#searchBlock").hasClass("hide")) {
             if (!target.is("#searchBlock div") && !target.is("#searchIconOpen") && !target.is("#searchBlockInput") && !target.is("#searchBlockForm")) {
                 $("#searchBlock").addClass("hide");
@@ -59,8 +51,8 @@ window.onload = function () {
     });
 
     function scrollToAnchor(aid){
-        var id = "#" + aid;
-        var aTag = $(id);
+        let id = "#" + aid;
+        let aTag = $(id);
         $('html, body').animate({scrollTop: aTag.offset().top},'slow');
     }
 

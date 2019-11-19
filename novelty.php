@@ -26,6 +26,7 @@
     <?php
     $location1 = "Главная";
     $location2 = "Новинки";
+    $location3 = null;
     include('./location.php');
     ?>
 
@@ -38,7 +39,7 @@
         <div id="all" class="pizza-department__pizzas pizzas pizzas_novelty faded in active-tab">
             <?php
             $rollIcon = "new";
-            $rollImage = "./img/main-page/roll1.svg";
+            $rollImage = "./img/main-page/roll2.jpg";
             $rollLikes = "272";
             $rollName = "Балковский";
             $rollDescription = "Снежный краб, Креветка, Огурец, икра Масаго, Японский майонез.";
@@ -48,7 +49,7 @@
             ?>
             <?php
             $pizzaIcon = "hit";
-            $pizzaImage = "./img/main-page/pizza1.svg";
+            $pizzaImage = "./img/main-page/pizza7.jpg";
             $pizzaLikes = "272";
             $pizzaName = "Четыре сезона";
             $pizzaDescription = "Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано";
