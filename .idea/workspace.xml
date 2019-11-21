@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/my_order/refresh.png.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-bonuses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/personal_account.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/personal_account.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pizza-department.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-department.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pizza-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_history.php" beforeDir="false" afterPath="$PROJECT_DIR$/order_history.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_account.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roll-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/roll-slide.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +35,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -130,13 +123,7 @@
       <workItem from="1574260569213" duration="9499000" />
       <workItem from="1574284364268" duration="2397000" />
       <workItem from="1574344758117" duration="3404000" />
-    </task>
-    <task id="LOCAL-00019" summary="Add bonuses adaptability (045)">
-      <created>1564582309554</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1564582309555</updated>
+      <workItem from="1574351299204" duration="554000" />
     </task>
     <task id="LOCAL-00020" summary="Add main-page templates">
       <created>1567110415161</created>
@@ -474,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574194381388</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Fix bugs">
+      <created>1574351335796</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1574351335797</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView">
@@ -541,8 +535,8 @@
     <MESSAGE value="Add ingredients adaptability" />
     <MESSAGE value="Add anchor" />
     <MESSAGE value="Make nav-menu (adaptive) fixed" />
-    <MESSAGE value="Fix bugs" />
     <MESSAGE value="Fix new bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix new bugs" />
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
   </component>
 </project>
