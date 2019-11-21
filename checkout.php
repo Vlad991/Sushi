@@ -42,7 +42,7 @@
                 <input type="text" id="receiverName" class="blank__receiver-name blank-input" placeholder="Имя*">
                 <input type="text" id="receiverPhone" class="blank__receiver-phone blank-input"
                        placeholder="Контактный телефон*">
-                <div class="blank__radio1 radio">
+                <div id="checkoutAddressRadio" class="blank__radio1 radio">
                     <div class="radio__item">
                         <input id="delivery" type="radio" name="delivery" class="radio__input" checked>
                         <label class="radio__label" for="delivery">Доставка</label>
@@ -52,7 +52,17 @@
                         <label class="radio__label" for="takeYourself">Забрать самому</label>
                     </div>
                 </div>
-                <div class="blank__address address">
+                <div id="checkoutFilials" class="blank__fillials">
+                    <div class="radio__item">
+                        <input id="firstAddress" type="radio" name="fillial" class="radio__input" checked>
+                        <label class="radio__label" for="firstAddress">г. Тирасполь, ул. 1 Мая, 2</label>
+                    </div>
+                    <div class="radio__item">
+                        <input id="secondAddress" type="radio" name="fillial" class="radio__input" checked>
+                        <label class="radio__label" for="secondAddress">г. Тирасполь, ул. 1 Мая, 2</label>
+                    </div>
+                </div>
+                <div id="checkoutAddress" class="blank__address address">
                     <input type="text" class="address__item blank-input" placeholder="Город*">
                     <input type="text" class="address__item blank-input" placeholder="Улица*">
                     <input type="text" class="address__item blank-input" placeholder="Дом*">
@@ -119,41 +129,6 @@
             <div class="checkout__order-icon order-icon">
                 <div class="order-icon__heading">Мой заказ:</div>
                 <a href="./my_order.php" class="order-icon__back">Вернуться в корзину</a>
-                <ul class="order-icon__orders orders">
-                    <li class="orders__item order order_icon">
-                        <img src="img/my_order/pizza1.svg" alt="Pizza" class="order__img">
-                        <div class="order__description order__description_icon">
-                            <div class="order__heading">Гавайская</div>
-                            <div class="order__text">Куриное филе, сливочный соус, ананасы консерв., моцарелла.</div>
-                        </div>
-                        <div>
-                            <div class="order__price order__price_icon">69 руб.</div>
-                            <div class="order__price-descr">1 шт. х 69 руб.</div>
-                        </div>
-                    </li>
-                    <li class="orders__item order order_icon">
-                        <img src="img/my_order/pizza1.svg" alt="Pizza" class="order__img">
-                        <div class="order__description order__description_icon">
-                            <div class="order__heading">Гавайская</div>
-                            <div class="order__text">Куриное филе, сливочный соус, ананасы консерв., моцарелла.</div>
-                        </div>
-                        <div>
-                            <div class="order__price order__price_icon">69 руб.</div>
-                            <div class="order__price-descr">1 шт. х 69 руб.</div>
-                        </div>
-                    </li>
-                    <li class="orders__item order order_icon">
-                        <img src="img/my_order/pizza1.svg" alt="Pizza" class="order__img">
-                        <div class="order__description order__description_icon">
-                            <div class="order__heading">Гавайская</div>
-                            <div class="order__text">Куриное филе, сливочный соус, ананасы консерв., моцарелла.</div>
-                        </div>
-                        <div>
-                            <div class="order__price order__price_icon">69 руб.</div>
-                            <div class="order__price-descr">1 шт. х 69 руб.</div>
-                        </div>
-                    </li>
-                </ul>
                 <div class="order-icon__result">
                     <div class="layout result_div">
                         <div class="order-icon__result-title">Сумма заказа:</div>
@@ -184,6 +159,7 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script src="js/main.js"></script>
+<script src="js/checkout.js"></script>
 </body>
 
 </html>

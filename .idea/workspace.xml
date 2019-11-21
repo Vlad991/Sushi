@@ -2,54 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c924283-0791-4c84-8ac7-6be068e3cb8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/main-page/.menu-roll.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/.roll3.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/.roll5.jpg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/pizza7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/roll2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-page/roll4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/my_order/refresh.png.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-bonuses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/assorti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonuses.php" beforeDir="false" afterPath="$PROJECT_DIR$/bonuses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/brands.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers.php" beforeDir="false" afterPath="$PROJECT_DIR$/burgers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chef-gift_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/chef-gift_page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/personal_account.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/personal_account.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pizza-department.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-department.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/drinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/personal-account-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-account-tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pizza-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pizza-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novelty.php" beforeDir="false" afterPath="$PROJECT_DIR$/novelty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment_and_delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/payment_and_delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pizza-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pizza-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_history.php" beforeDir="false" afterPath="$PROJECT_DIR$/order_history.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_account.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_data_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/personal_data_page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide-3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza-slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza_assorti.php" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_assorti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premium.php" beforeDir="false" afterPath="$PROJECT_DIR$/premium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promotions.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roll-slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/roll-slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rolls.php" beforeDir="false" afterPath="$PROJECT_DIR$/rolls.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salads.php" beforeDir="false" afterPath="$PROJECT_DIR$/salads.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specials.php" beforeDir="false" afterPath="$PROJECT_DIR$/specials.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushi.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vouchers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vouchers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wok.php" beforeDir="false" afterPath="$PROJECT_DIR$/wok.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,14 +124,12 @@
       <workItem from="1568719364432" duration="94000" />
       <workItem from="1568740951948" duration="843000" />
       <workItem from="1568812048313" duration="1077000" />
-      <workItem from="1574178345819" duration="7014000" />
-    </task>
-    <task id="LOCAL-00018" summary="Add bonuses (044)">
-      <created>1564574757020</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1564574757020</updated>
+      <workItem from="1574178345819" duration="7785000" />
+      <workItem from="1574237582832" duration="3000" />
+      <workItem from="1574243721322" duration="13000" />
+      <workItem from="1574260569213" duration="9499000" />
+      <workItem from="1574284364268" duration="2397000" />
+      <workItem from="1574344758117" duration="3404000" />
     </task>
     <task id="LOCAL-00019" summary="Add bonuses adaptability (045)">
       <created>1564582309554</created>
@@ -504,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568405366772</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Fix new bugs">
+      <created>1574194381387</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1574194381388</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TodoView">
@@ -548,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add search-block.php" />
     <MESSAGE value="Add navigation.php" />
     <MESSAGE value="Add location.php" />
     <MESSAGE value="Change button and delete button_red" />
@@ -573,6 +542,7 @@
     <MESSAGE value="Add anchor" />
     <MESSAGE value="Make nav-menu (adaptive) fixed" />
     <MESSAGE value="Fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+    <MESSAGE value="Fix new bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix new bugs" />
   </component>
 </project>

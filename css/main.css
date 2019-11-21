@@ -1126,17 +1126,21 @@ header, footer {
     position: relative;
     min-height: 685px;
     min-width: 322px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .pizza-slide {
     display: block;
     width: 322px;
-    min-height: 559px;
+    min-height: 400px;
     border: 1px solid #F3F4F6;
     background: #fff;
     box-sizing: border-box;
     /* cursor: pointer; */
+}
+
+.pizza-slide_roll {
+    height: 575px;
 }
 
 .pizza-slide_2 {
@@ -1455,6 +1459,10 @@ header, footer {
         width: 230px;
         /* height: 400px; */
         min-height: 400px;
+    }
+
+    .pizza-slide_roll {
+        height: 420px;
     }
 
     .pizza-slide_2 {

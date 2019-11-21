@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/personal_account.css">
-    <link rel="stylesheet" href="./css/my-order.css">
+<!--    <link rel="stylesheet" href="./css/my-order.css">-->
 </head>
 
 <body>
@@ -33,6 +33,7 @@
 
     <section class="container__personal-account personal-account container__fixed container__fixed_adaptive">
         <div class="personal-account__heading container__heading">Личный кабинет</div>
+        <a href="./personal_account.php" class="personal-account__return"><  Назад</a>
         <div id="personalAccountTab" class="personal-account__body">
             <ul id="personalAccountTabNav" class="personal-account__acc-menu acc-menu">
                 <li class="acc-menu__item"><a class="acc-menu__link" href="#1">История заказов</a></li>
@@ -47,7 +48,7 @@
                 <?php include("./order_history.php") ?>
             </div>
             <div id="2" class="personal-account__info-data faded">
-                <?php include("./delivery_address.php") ?>
+                <?php include("./my-bonuses.php") ?>
             </div>
             <div id="3" class="personal-account__info-data faded">
                 <?php include("./personal_data.php") ?>

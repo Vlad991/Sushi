@@ -89,7 +89,7 @@
 .recommended__pizzas {
     margin-top: 28px;
     margin-bottom: 200px;
-    overflow: scroll;
+    /* overflow: scroll; */
     flex-wrap: wrap;
 }
 

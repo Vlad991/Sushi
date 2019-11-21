@@ -11,7 +11,7 @@
     }
 ?>
 
-<div class="pizza-slides__item pizza-slide" style="height: 400px">
+<div class="pizza-slides__item pizza-slide pizza-slide_roll">
     <div class="pizza-slide__img <?= $rollIcon ?>">
         <img src="<?= $rollImage ?>" alt="Slide Image" class="pizza-slide-img">
         <div class="pizza-slide__likes"><?= $rollLikes ?></div>

@@ -2,16 +2,14 @@
 }
 
 .checkout {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .checkout_first {
-    height: 1350px;
 }
 
-.checkout_second {}
+.checkout_second {
+    padding: 0.01%;
+}
 
 .checkout__heading {
     font-family: "PF Din Text Comp Pro Medium", sans-serif;
@@ -71,7 +69,7 @@
 }
 
 .blank__radio1 {
-    width: 420px;
+    width: 466px;
     margin: 70px 0 0;
 }
 
@@ -86,7 +84,7 @@
 .radio__item {
     cursor: pointer;
     position: relative;
-    min-width: 200px;
+    min-width: 230px;
 }
 
 .radio__item:hover .radio__label::before {
@@ -219,7 +217,7 @@
 }
 
 .blank__intercom-and-call {
-    width: 362px;
+    width: 380px;
     font-size: 18px;
     margin: 10px 0 0;
 }
@@ -241,7 +239,7 @@
 
 .blank__radio2 {
     margin: 28px 0 0;
-    width: 420px;
+    width: 464px;
 }
 
 .blank__payment {
@@ -280,10 +278,12 @@
 }
 
 .blank__bonus {
-    margin: 26px 0 200px 0;
+    margin: 26px 0 0 0;
 }
 
-.checkout__order-icon {}
+.checkout__order-icon {
+    margin: 50px 0 30px 0;
+}
 
 .order-icon {
     width: 630px;
@@ -293,7 +293,7 @@
     box-sizing: border-box;
     padding: 0 31px;
     padding-top: 0.01%;
-    height: 613px;
+    height: 200px;
 }
 
 .order-icon__heading {
@@ -344,7 +344,6 @@
     justify-content: space-between;
     width: 190px;
     line-height: 32px;
-    float: right;
     margin: 30px 0 0;
 }
 
@@ -361,20 +360,23 @@
 }
 
 .checkout__submit {
-    float: right;
     margin: 50px 0 200px 0;
     width: 190px;
 }
 
+
+.blank__fillials {
+    display: none;
+    margin: 73px 0;
+}
+
 @media screen and (max-width: 1280px) {
     .checkout__order-icon {
-        margin: 0 0 0;
     }
 }
 
 @media screen and (max-width: 960px) {
     .order-icon {
-        height: 725px;
     }
 
     .order-icon__result {
@@ -389,13 +391,12 @@
 
 @media screen and (max-width: 640px) {
     .checkout_first {
-    width: 100%;
-}
+        width: 100%;
+    }
 
     .checkout_second {
-    width: 100%;
-    margin: 130px 0 0;
-}
+        width: 100%;
+    }
 
     .blank {
         width: 100%;
@@ -421,7 +422,7 @@
     }
 
     .radio {
-        width: 100%;
+        width: 335px;
     }
 
     .blank__radio3 {
@@ -439,7 +440,7 @@
     }
 
     .blank__intercom-and-call {
-        width: 100%;
+        width: 335px;
     }
 
     .blank__comment {
@@ -447,7 +448,6 @@
     }
 
     .checkout__order-icon {
-        margin: 270px 0 0;
     }
 
     .checkout__submit {
@@ -461,6 +461,5 @@
     }
 
     .checkout__order-icon {
-        margin: 132px 0 0;
     }
 }

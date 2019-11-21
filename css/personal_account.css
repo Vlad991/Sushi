@@ -93,14 +93,193 @@
     margin: 0 auto 100px;
 }
 
-.acc-menu__link {width: 100%;}
+.acc-menu__link {
+    width: 100%;
+}
 
 .acc-menu__link:hover {
-    color: #FB879F;
+    color: #F81242;
 }
 
 .active-tab {
     display: flex;
+}
+
+.container__order-history {
+}
+
+.order-history {
+    width: 960px;
+}
+
+.order-history__orders {
+}
+
+.orders {
+}
+
+.orders__item {
+    margin-bottom: 51px;
+}
+
+.order {
+}
+
+.order__header {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.order__number {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+}
+
+.order__status {
+}
+
+.order__repeat {
+    cursor: pointer;
+}
+
+.order__repeat:after {
+    content: url("../img/my_order/refresh.png.svg");
+    margin: 0 0 0 6px;
+}
+
+.order__order-element {
+    border-top: 1px solid #CED6E0;
+    height: 120px;
+}
+
+.order-element__img {
+}
+
+.order-element__description {
+    width: 770px;
+    padding: 30px 0 0 0;
+}
+
+.order-element__heading {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+}
+
+.order-element__text {
+    font-size: 18px;
+    color: #5F5F5F;
+}
+
+.order-element__price {
+    height: 103px;
+}
+
+.order-element__price-one {
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+}
+
+.order-element__quantity {
+    margin-top: 7px;
+    font-size: 14px;
+    color: #717171;
+}
+
+.order__footer {
+}
+
+.order__order-list {
+}
+
+.order-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-list__item {
+    display: flex;
+    width: 50%;
+}
+
+.order-list__name {
+    width: 150px;
+}
+
+.order-list__value {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 20px;
+}
+
+.container__my-bonuses {
+}
+
+.my-bonuses {
+    width: 900px;
+    display: flex;
+    font-size: 18px;
+}
+
+.my-bonuses__rang {
+}
+
+.rang {
+    width: 50%;
+}
+
+.rang__heading {
+}
+
+.rang__value {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 36px;
+}
+
+.my-bonuses__bonuses {
+}
+
+.bonuses {
+    width: 50%;
+}
+
+.bonuses__value {
+    font-family: "PF Din Text Comp Pro Medium", sans-serif;
+    font-size: 36px;
+}
+
+.bonuses__heading {
+}
+
+.my-bonuses__b-history {
+    margin-top: 70px;
+}
+
+.b-history {
+    width: 100%;
+}
+
+.b-history__heading {
+    margin-bottom: 12px;
+}
+
+.b-history__table {
+    border-top: 1px solid #CED6E0;
+    width: 100%;
+    padding-top: 12px;
+}
+
+.b-history__line {
+    height: 25px;
+}
+
+.personal-account__return {
+    display: none;
+    margin-top: 15px;
+    background: #f3f4f6;
+    width: 47px;
+    /* border: 1px solid #999; */
+    border-radius: 5px;
+    line-height: 20px;
+    color: #717171;
 }
 
 @media screen and (max-width: 1280px) {
@@ -111,17 +290,75 @@
     .info-data {
         width: 626px;
     }
+
+    .order-history {
+        width: 720px;
+    }
+
+    .order-element__description {
+        width: 500px;
+    }
+
+    .order-list__name {
+        width: 95px;
+    }
+
+    .my-bonuses {
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 960px) {
     .info-data {
         width: 300px;
     }
+
+    .order-history {
+        width: 430px;
+    }
+
+    .order-element__description {
+        width: 260px;
+    }
+
+    .order__header {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .order-element__heading {
+        font-size: 16px;
+    }
+
+    .order-element__text {
+        font-size: 14px;
+    }
+
+    .order-element__price {
+        font-size: 16px;
+    }
+
+    .order-list__name {
+        font-size: 14px;
+        width: 69px;
+    }
+
+    .order-list__value {
+        font-size: 14px;
+    }
+
+    .my-bonuses {
+        width: 455px;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .personal-account__info-data {
         display: none;
+    }
+
+    .personal-account__return {
+        display: block;
     }
 
     .acc-menu {
@@ -161,5 +398,24 @@
 
     .container__personal-account {
         margin-bottom: 100px;
+    }
+
+    .my-bonuses {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .order-history {
+        width: 330px;
+    }
+
+    .order-element__description {
+        width: 192px;
+        padding-top: 20px;
+    }
+
+    .order-list__item {
+        width: 100%;
     }
 }
