@@ -9,9 +9,8 @@
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/pizza-department.css">
-    <link rel="stylesheet" href="./css/pizza-page.css">
+    <!-- Styles -->
+    <?php include('./styles.php'); ?>
 </head>
 
 <body>

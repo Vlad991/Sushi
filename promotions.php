@@ -9,8 +9,8 @@
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/promotions.css">
+    <!-- Styles -->
+    <?php include('./styles.php'); ?>
 </head>
 
 <body>
@@ -34,8 +34,8 @@
         <div class="container__fixed container__fixed_adaptive">
             <header class="promotions__header">Акции</header>
             <div class="promotions__slider">
-                <nav class="slider layout">
-                    <a href="./404.php" class="slide">
+                <nav class="slider_promotions layout">
+                    <a href="./404.php" class="slide_promotions">
                         <div class="slide__header slide__header_1">
                             <div class="slide__heading">Сет Мини именинникам<br> в подарок!</div>
                         </div>
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="./404.php" class="slide">
+                    <a href="./404.php" class="slide_promotions">
                         <div class="slide__header slide__header_2">
                             <div class="slide__heading slide__heading_black">Счастливые часы!</div>
                         </div>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="./404.php" class="slide">
+                    <a href="./404.php" class="slide_promotions">
                         <div class="slide__header slide__header_3">
                             <div class="slide__heading"></div>
                         </div>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="./404.php" class="slide">
+                    <a href="./404.php" class="slide_promotions">
                         <div class="slide__header slide__header_3">
                             <div class="slide__heading"></div>
                         </div>
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="./404.php" class="slide">
+                    <a href="./404.php" class="slide_promotions">
                         <div class="slide__header slide__header_1">
                             <div class="slide__heading">Сет Мини именинникам<br> в подарок!</div>
                         </div>
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="./404.php" class="slide">
+                    <a href="./404.php" class="slide_promotions">
                         <div class="slide__header slide__header_2">
                             <div class="slide__heading slide__heading_black">Счастливые часы!</div>
                         </div>

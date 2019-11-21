@@ -9,8 +9,8 @@
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/payment_and_delivery.css">
+    <!-- Styles -->
+    <?php include('./styles.php'); ?>
 </head>
 
 <body>
@@ -35,10 +35,10 @@
             <h1 class="container__heading">Оплата и доставка</h1>
             <div class="payment-and-delivery__info-text info-text">
                 <p class="info-text__info-paragraph">Ждем Ваших заказов с 10:30 до 23:00 без выходных: </p>
-                <ul class="info-text__info-list info-list">
-                    <li class="info-list__item">По телефону: 0 (777) 7-22-44</li>
-                    <li class="info-list__item">С помощью нашего официального сайта</li>
-                    <li class="info-list__item">С помощью мобильного приложения</li>
+                <ul class="info-text__info-list info-list_payment">
+                    <li class="info-list__item_payment">По телефону: 0 (777) 7-22-44</li>
+                    <li class="info-list__item_payment">С помощью нашего официального сайта</li>
+                    <li class="info-list__item_payment">С помощью мобильного приложения</li>
                 </ul>
                 <p class="info-text__info-paragraph">Доставка блюд из нашего меню осуществляется собственной службой доставки. Мы можем Вам гарантировать предельно быструю и качественную доставку до двери вашего дома и офиса.</p>
                 <p class="info-text__info-paragraph">Доставка осуществляется с 11:00 до 23:30 без выходных.</p>
@@ -248,14 +248,14 @@
                 <p class="info-text__info-paragraph">Так же Вы можете самостоятельно забрать свой заказ в указанное выше время по адресу г. Тирасполь, ул. 1 мая 2, корпус Е (возле парома).</p>
                 <h2 class="info-text__heading">Как можно оплатить заказ?</h2>
                 <h2 class="info-text__heading info-text__heading_cash">Наличными</h2>
-                <ul class="info-text__info-list info-list">
-                    <li class="info-list__item">При получении заказа</li>
+                <ul class="info-text__info-list info-list_payment">
+                    <li class="info-list__item_payment">При получении заказа</li>
                 </ul>
                 <h2 class="info-text__heading info-text__heading_cash">Безналичный расчет</h2>
-                <ul class="info-text__info-list info-list">
-                    <li class="info-list__item">При заказе через наш сайт доступна Онлайн оплата картой "Радуга"</li>
-                    <li class="info-list__item">С помощью Мобильного платежа в APB- онлайн (для Вас генерируется код или ​QR-код, после чего необходимо подтвердить оплату) </li>
-                    <li class="info-list__item">Системой «Колибри» - это компактное устройство для приёма пластиковых карт. (Производится с помощью карты "Радуга" по приезду курьера)</li>
+                <ul class="info-text__info-list info-list_payment">
+                    <li class="info-list__item_payment">При заказе через наш сайт доступна Онлайн оплата картой "Радуга"</li>
+                    <li class="info-list__item_payment">С помощью Мобильного платежа в APB- онлайн (для Вас генерируется код или ​QR-код, после чего необходимо подтвердить оплату) </li>
+                    <li class="info-list__item_payment">Системой «Колибри» - это компактное устройство для приёма пластиковых карт. (Производится с помощью карты "Радуга" по приезду курьера)</li>
                 </ul>
                 <p class="info-text__info-paragraph">Привяжите свою карту «Радуга» в личном кабинете нашего сайта или приложения. При оформлении заказа оплата будет автоматически списываться с вашего счета. Ваш заказ будет укомплектован всем необходимым: соевый соус, васаби, маринованный имбирь (в зависимости от количества роллов), одноразовые палочки и салфетки (в зависимости от количества персон)</p>
             </div>

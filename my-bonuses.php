@@ -4,7 +4,7 @@
             <div class="rang__heading">Мой ранг:</div>
             <div class="rang__value">2</div>
         </div>
-        <div class="my-bonuses__bonuses bonuses">
+        <div class="my-bonuses__bonuses bonuses_personal">
             <div class="bonuses__heading">Доступно бонусных баллов:</div>
             <div class="bonuses__value">956</div>
         </div>

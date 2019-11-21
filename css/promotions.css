@@ -15,11 +15,11 @@
 .promotions__slider {
 }
 
-.slider {
+.slider_promotions {
     flex-wrap: wrap;
 }
 
-.slide {
+.slide_promotions {
     display: block;
     width: 430px;
     height: 560px;

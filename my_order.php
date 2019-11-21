@@ -9,9 +9,8 @@
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/my-order.css">
-    <link rel="stylesheet" href="./css/chef-gift.css">
+    <!-- Styles -->
+    <?php include('./styles.php'); ?>
 </head>
 
 <body>
@@ -33,8 +32,8 @@
 
     <form class="container__my-order my-order container__fixed container__fixed_adaptive">
         <div class="my-order__heading">Мой заказ</div>
-        <ul class="my-order__orders orders">
-            <li class="orders__item order">
+        <ul class="my-order__orders order_mys">
+            <li class="orders__item order_my">
                 <img src="img/my_order/pizza1.svg" alt="Pizza" class="order__img">
                 <div class="order__description">
                     <div class="order__heading">Гавайская</div>
@@ -48,7 +47,7 @@
                 <div class="order__price">69 руб.</div>
                 <img src="img/my_order/cross.svg" alt="x" class="order__cancel">
             </li>
-            <li class="orders__item order">
+            <li class="orders__item order_my">
                 <img src="img/my_order/pizza2.svg" alt="Pizza" class="order__img">
                 <div class="order__description">
                     <div class="order__heading">Пицца Ассорти</div>
@@ -63,7 +62,7 @@
                 <div class="order__price">170 руб.</div>
                 <img src="img/my_order/cross.svg" alt="x" class="order__cancel">
             </li>
-            <li class="orders__item order">
+            <li class="orders__item order_my">
                 <img src="img/my_order/pizza3.svg" alt="Pizza" class="order__img">
                 <div class="order__description">
                     <div class="order__heading">Пицца Греческая</div>

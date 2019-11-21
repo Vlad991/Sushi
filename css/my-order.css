@@ -22,7 +22,7 @@
 
 .orders__item {}
 
-.order {
+.order_my {
     height: 121px;
     border-top: 1px solid #CED6E0;
     box-sizing: border-box;

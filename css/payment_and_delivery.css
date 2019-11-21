@@ -28,10 +28,10 @@
 .info-text__info-list {
 }
 
-.info-list {
+.info-list_payment {
 }
 
-.info-list__item {
+.info-list__item_payment {
     font-family: "PF Din Text Comp Pro Regular", sans-serif;
     font-size: 18px;
     color: #707070;

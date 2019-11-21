@@ -10,9 +10,8 @@
     <base href="./index.html">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/main-page.css">
+    <!-- Styles -->
+    <?php include('./styles.php'); ?>
 </head>
 
 <body>

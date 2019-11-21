@@ -122,9 +122,6 @@
     margin-bottom: 51px;
 }
 
-.order {
-}
-
 .order__header {
     font-size: 18px;
     margin-bottom: 20px;
@@ -237,7 +234,7 @@
 .my-bonuses__bonuses {
 }
 
-.bonuses {
+.bonuses_personal {
     width: 50%;
 }
 
